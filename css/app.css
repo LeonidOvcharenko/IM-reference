@@ -515,11 +515,13 @@ a:visited {
 
 a {
 	color: #3B5FB5;
+	border-bottom: 1px solid rgba(59, 95, 181, 0.5);
 }
 
 a:hover,
 a:focus {
 	color: #739BFD;
+	border-bottom: 1px solid rgba(30, 53, 208, 0.2);
 }
 
 /* -------------------- */
@@ -568,6 +570,7 @@ a:focus {
 		position: absolute;
 		right: 0;
 		top: 40px;
+		background: white;
 		background-color: rgba(255,255,255,0.8);
 	}
 	.dropdown--item {
@@ -624,6 +627,64 @@ a:focus {
 		display: block;
 	}
 
+
+.reference {
+	background: white;
+	background-color: rgba(255,255,255,0.9);
+	width: 30em;
+	border-radius: 1em;
+	padding: 1em 1.2em;
+	margin: 0 auto;
+}
+	.reference--title {
+		font-size: 20px;
+		line-height: 24px;
+		border-bottom: 1px dashed #888;
+		padding-bottom: 10px;
+		margin-bottom: 12px;
+	}
+	.reference--definition {
+		margin-bottom: 1em;
+		font-style: italic;
+		display: block;
+	}
+	.reference--description {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	.reference--formula {
+		font-size: 160%;
+	}
+	.reference--list {
+		margin-left: 0;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		list-style: none;
+	}
+		.reference--list li {
+			margin-bottom: 0.5em;
+			padding-left: 2em;
+		}
+		.reference--list li:before {
+			content: '';
+			display: inline-block;
+		}
+	.reference--illustration {
+		background-color: white;
+		padding: 8px;
+		border: 1px solid #ccc;
+		border-radius: 8px;
+	}
+	.reference--tags {
+		margin-top: 1.6em;
+		font-size: 14px;
+		line-height: 14px;
+		margin-bottom: 0;
+		border-top: 1px solid #ccc;
+		padding-top: 1em;
+	}
+	.reference--tag {
+	}
 
 
 /* -------------------- */

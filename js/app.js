@@ -1,6 +1,9 @@
 $(function(){
 	var MQ = MathQuill.getInterface(2);
-	MQ.StaticMath($('#test')[0]);
+	$('.formula').each(function(i, el){
+		MQ.StaticMath($(el)[0]);
+	});
+	
 	
 	$('.dropdown--list').children('li').addClass('dropdown--item')
 	$('.dropdown--button').on('click', function(){
