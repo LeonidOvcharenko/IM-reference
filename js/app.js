@@ -24,20 +24,31 @@ $(function(){
 		$(el).children('h2').addClass('reference--title');
 		$(el).children('header').addClass('reference--definition');
 		$(el).children('p').addClass('reference--description');
-		$(el).children('ul').addClass('reference--list');
-		$(el).children('figure').addClass('reference--illustration');
+		$(el).children('ul, ol').addClass('reference--list');
+		$(el).find('figure').addClass('reference--illustration');
 		$(el).children(':not(h2)').find('.formula').addClass('reference--formula');
+		$(el).find('a').addClass('reference--link');
+		
 		var tags = $(el).attr('data-tags');
 		if (tags) {
-			tags = $.map(tags.split(';'), function(el, i){
-				return '<a href="#" class="reference--tag">'+el+'</a>';
-			});
-			$('<footer>').addClass('reference--tags').html(tags.join(', ')).appendTo($(el))
+			$(el).children('h2').attr('title', tags.replace(/;/g, '; '));
+		}
+		
+		var categories = $(el).attr('data-categories');
+		if (categories) {
+			categories = $.map(categories.split(';'), function(el, i){
+				return '<a href="#" class="reference--category">'+el+'</a>';
+			}).join(', ');
+			$('<footer>').addClass('reference--categories').html(categories).appendTo($(el));
 		}
 	});
-	$('.reference--tag').on('click', function(e){
+	$('.reference--link').on('click', function(e){
 		e.preventDefault();
-		console.log($(this).text())
+		console.log("GOTO", $(this).attr('href'));
+	});
+	$('.reference--category').on('click', function(e){
+		e.preventDefault();
+		console.log($(this).text());
 	});
 	
 	// make categories

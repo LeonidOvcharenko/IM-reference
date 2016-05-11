@@ -634,8 +634,11 @@ a:focus {
 	width: 30em;
 	border-radius: 1em;
 	padding: 1em 1.2em;
-	margin: 0 auto;
+	margin: 0 auto 1em;
 }
+	.reference_hidden {
+		display: none;
+	}
 	.reference--title {
 		font-size: 20px;
 		line-height: 24px;
@@ -643,6 +646,9 @@ a:focus {
 		padding-bottom: 10px;
 		margin-bottom: 12px;
 	}
+		.reference--title .formula {
+			vertical-align: top;
+		}
 	.reference--definition {
 		margin-bottom: 1em;
 		font-style: italic;
@@ -653,19 +659,24 @@ a:focus {
 		margin-bottom: 1em;
 	}
 	.reference--formula {
-		font-size: 160%;
+		font-size: 140%;
 	}
 	.reference--list {
-		margin-left: 0;
+		margin-left: 2em;
 		margin-top: 1em;
 		margin-bottom: 1em;
+	}
+	ul.reference--list {
+		margin-left: 0;
 		list-style: none;
 	}
 		.reference--list li {
 			margin-bottom: 0.5em;
+		}
+		ul.reference--list li {
 			padding-left: 2em;
 		}
-		.reference--list li:before {
+		ul.reference--list li:before {
 			content: '';
 			display: inline-block;
 		}
@@ -675,7 +686,7 @@ a:focus {
 		border: 1px solid #ccc;
 		border-radius: 8px;
 	}
-	.reference--tags {
+	.reference--categories {
 		margin-top: 1.6em;
 		font-size: 14px;
 		line-height: 14px;
@@ -683,9 +694,12 @@ a:focus {
 		border-top: 1px solid #ccc;
 		padding-top: 1em;
 	}
-	.reference--tag {
+	.reference--category {
 	}
-
+	
+.text_center {
+	text-align: center;
+}
 
 /* -------------------- */
 /* Media Queries */
@@ -739,4 +753,17 @@ a:focus {
 	td {
 		border-color: #eaeaea !important; /* Make sure color schemes don't affect to print */
 	}
+}
+
+/* -------------------- */
+/* Fixes */
+/* -------------------- */
+.mq-math-mode .mq-text-mode.mq-hasCursor {
+	box-shadow: none;
+	padding: 0;
+	margin: 0;
+	min-width: 1px;
+}
+.mq-math-mode .mq-empty {
+	background: none;
 }
