@@ -528,10 +528,32 @@ a:focus {
 /* Layout */
 /* -------------------- */
 
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 100%; /*set to desired width*/
+	height: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.content {
+	position: absolute;
+	bottom: 0;
+	top: 40px;
+	width: 100%;
+	padding-top: 1em;
+	overflow: auto;
+	background: rgba(255,255,255,0.6);
+}
+
 .header {
 	background-color: white;
 	background-color: rgba(255,255,255,0.9);
-	border-bottom: 1px solid #777;
+	height: 40px;
 }
 	.header:after {
 		content: '';
@@ -540,7 +562,7 @@ a:focus {
 		clear: both;
 	}
 	.header--title {
-		font-size: 24px;
+		font-size: 10px;
 		line-height: 40px;
 		height: 40px;
 		white-space: nowrap;
@@ -562,6 +584,8 @@ a:focus {
 		line-height: 26px;
 		padding: 7px 12px;
 		text-align: center;
+		margin-left: 3px;
+		border-radius: 8px;
 	}
 	.dropdown--list {
 		display: none;
@@ -570,8 +594,10 @@ a:focus {
 		position: absolute;
 		right: 0;
 		top: 40px;
+		z-index: 999;
 		background: white;
 		background-color: rgba(255,255,255,0.8);
+		width: 320px;
 	}
 	.dropdown--item {
 		cursor: pointer;
@@ -605,6 +631,7 @@ a:focus {
 		top: 0;
 		right: 0;
 		width: 51px;
+		border-radius: 8px;
 	}
 	.search--field {
 		display: none;
@@ -636,7 +663,7 @@ a:focus {
 	padding: 1em 1.2em;
 	margin: 0 auto 1em;
 }
-	.reference_hidden {
+	.reference-hidden {
 		display: none;
 	}
 	.reference--title {
@@ -697,7 +724,7 @@ a:focus {
 	.reference--category {
 	}
 	
-.text_center {
+.text-center {
 	text-align: center;
 }
 
