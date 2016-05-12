@@ -18,6 +18,7 @@ function show_filtered_articles(request){
 	articles = articles.join(',');
 	$('.reference').addClass('reference-hidden');
 	$(articles).removeClass('reference-hidden');
+	$('.content--reference').masonry('layout');
 }
 function search_hints(request, response){
 	if (request.term.length < 2) {
@@ -59,8 +60,8 @@ function init_header(){
 	$('.search--input').autocomplete({
 		minLength: 0,
 		source: search_hints,
-		search: show_filtered_articles,
-		select: show_filtered_articles
+		search: show_fn,
+		select: show_fn
 	});
 }
 
@@ -69,6 +70,7 @@ function show_category(cat){
 	$(".reference--category:contains('"+cat+"')").each(function(i, el){
 		$(el).closest('.reference').removeClass('reference-hidden');
 	});
+	$('.content--reference').masonry('layout');
 	scroll_to_article($('.reference:visible:first'));
 }
 var reference_categories = [];
@@ -124,7 +126,8 @@ function init_reference(){
 	$('.reference--link').on('click', function(e){
 		e.preventDefault();
 		var link = $(this).attr('href');
-		var target = $('#'+reference_tags[link]).removeClass('reference-hidden')
+		var target = $('#'+reference_tags[link]).removeClass('reference-hidden');
+		$('.content--reference').masonry('layout');
 		scroll_to_article(target);
 	});
 	$('.reference--category').on('click', function(e){
@@ -137,5 +140,9 @@ $(function(){
 	init_reference();
 	init_header();
 	
-	// make categories
+	$('.content--reference').masonry({
+		itemSelector: '.reference',
+		columnWidth: '.reference',
+		fitWidth: true
+	});
 });

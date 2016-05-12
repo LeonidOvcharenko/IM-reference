@@ -545,15 +545,22 @@ html, body {
 	bottom: 0;
 	top: 40px;
 	width: 100%;
-	padding-top: 1em;
 	overflow: auto;
 	background: rgba(255,255,255,0.6);
 }
+	.content--reference {
+		position: relative;
+		margin: 1em auto;
+	}
 
 .header {
 	background-color: white;
 	background-color: rgba(255,255,255,0.9);
 	height: 40px;
+	box-shadow: 0 2px 7px rgba(0,0,0,0.2);
+	position: absolute;
+	width: 100%;
+	z-index: 222;
 }
 	.header:after {
 		content: '';
@@ -661,7 +668,8 @@ html, body {
 	width: 30em;
 	border-radius: 1em;
 	padding: 1em 1.2em;
-	margin: 0 auto 1em;
+	/* margin: 0 auto 1em; */
+	margin: 0 1em 1em 0;
 }
 	.reference-hidden {
 		display: none;
