@@ -49,6 +49,10 @@
 .ui-menu {
 	z-index: 555;
 }
+.ui-autocomplete {
+	max-height: 400px;
+	overflow: auto;
+}
 
 /* Interaction states
 ----------------------------------*/

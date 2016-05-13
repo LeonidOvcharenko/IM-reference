@@ -676,14 +676,14 @@ html, body {
 	.search--field {
 		display: none;
 		height: 40px;
-		max-width: 300px;
+		max-width: 400px;
 		width: 100%;
 	}
 	.search--input,
 	.search--input:focus {
 		border: 0;
 		height: 40px;
-		max-width: 300px;
+		max-width: 400px;
 		width: 100%;
 		box-shadow: inset 3px 2px 5px rgba(0,0,0,0.1);
 	}
@@ -842,9 +842,21 @@ html, body {
 		margin: 0 auto;
 	}
 	.reference {
-		min-width: 100%;
+		width: 25em;
+		min-width: 20em;
+		max-width: 100%;
 		border-radius: 0;
 		margin: 0 0 3px 0;
+	}
+	.reference--formula {
+		font-size: 100%;
+	}
+	.search--field {
+		max-width: 160px;
+	}
+	.search--input,
+	.search--input:focus {
+		max-width: 160px;
 	}
 }
 
