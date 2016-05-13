@@ -122,37 +122,38 @@ function init_reference(){
 		MQ.StaticMath($(el)[0]);
 	});
 	$('#reference > article').addClass('reference').each(function(i, el){
-		$(el).attr('id', 'ref_'+i);
-		$(el).children('h2').addClass('reference--title');
-		$(el).children('header').addClass('reference--definition');
-		$(el).children('p').addClass('reference--description');
-		$(el).children('ul, ol').addClass('reference--list');
-		$(el).find('figure').addClass('reference--illustration');
-		$(el).children(':not(h2)').find('.formula').addClass('reference--formula');
-		$(el).find('a:not(.reference--category):not(.link-external)').addClass('reference--link');
+		var $el = $(el);
+		$el.attr('id', 'ref_'+i);
+		$el.children('h2').addClass('reference--title');
+		$el.children('header').addClass('reference--definition');
+		$el.children('p').addClass('reference--description');
+		$el.children('ul, ol').addClass('reference--list');
+		$el.find('figure').addClass('reference--illustration');
+		$el.children(':not(h2)').find('.formula').addClass('reference--formula');
+		$el.find('a:not(.reference--category):not(.link-external)').addClass('reference--link');
 		
 		var tags = $(el).attr('data-tags');
 		if (tags) {
-			$(el).children('h2').attr('title', tags.replace(/;/g, '; '));
+			$el.children('h2').attr('title', tags.replace(/;/g, '; '));
 		}
 		
 		// fill search dictionary
 		tags = tags.split(';');
-		$(el).attr('data-title', tags[0] || '???');
+		$el.attr('data-title', tags[0] || '???');
 		$.each(tags, function(t, tag){
 			reference_tags[tag] = 'ref_'+i;
 		});
-		var definition = $(el).find('.reference--definition').text();
+		var definition = $el.find('.reference--definition').text();
 		if (definition) { reference_tags[definition] = 'ref_'+i; }
 		
 		// add categories links
-		var categories = $(el).attr('data-categories');
+		var categories = $el.attr('data-categories');
 		if (categories) {
 			categories = categories.split(';');
-			var cat_links = $.map(categories, function(el, i){
-				return '<a href="'+el+'" class="reference--category">'+el+'</a>';
+			var cat_links = $.map(categories, function(cat, i){
+				return '<a href="'+cat+'" class="reference--category">'+cat+'</a>';
 			}).join(', ');
-			$('<footer>').addClass('reference--categories').append(cat_links).appendTo($(el));
+			$('<footer>').addClass('reference--categories').append(cat_links).appendTo($el);
 			$.each(categories, function(j, cat){
 				if (reference_categories.indexOf(cat) == -1) reference_categories.push(cat);
 			});
