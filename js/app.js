@@ -158,6 +158,15 @@ function init_reference(){
 			});
 		}
 	});
+	$('.reference--reset').on('click', function(e){
+		$('.reference').removeClass('reference-hidden');
+		$('.content--reference').masonry('reloadItems').masonry();
+		$('.content--reference').on('layoutComplete', function(){
+			setTimeout(function(){
+				scroll_to_article($('.reference:visible:first'));
+			}, 10);
+		});
+	});
 	$('.reference--link').on('click', function(e){
 		e.preventDefault();
 		var link = $(this).attr('href');
