@@ -595,6 +595,10 @@ html, body {
 		color: #555;
 		text-shadow: 0px 1px 0 #fff;
 	}
+	.header--link {
+		background: transparent!important;
+		display: block;
+	}
 	.header--search {
 		float: right;
 	}
@@ -604,14 +608,20 @@ html, body {
 
 .dropdown {
 }
-	.dropdown--button {
+	.dropdown--button,
+	.dropdown--button:hover,
+	.dropdown--button:focus {
 		cursor: pointer;
 		font-size: 26px;
 		line-height: 26px;
 		padding: 7px 12px;
 		text-align: center;
 		margin-left: 3px;
-		border-radius: 8px;
+		background: transparent;
+		color: #577BD0;
+	}
+	.dropdown--button:hover {
+		color: #739BFD;
 	}
 	.dropdown--list {
 		display: none;
@@ -637,8 +647,10 @@ html, body {
 
 .dropdown-active {
 }
-	.dropdown-active .dropdown--button {
+	.dropdown-active .dropdown--button,
+	.dropdown-active .dropdown--button:hover {
 		background-color: #739BFD;
+		color: #ffffff;
 	}
 
 
@@ -646,7 +658,9 @@ html, body {
 	position: relative;
 	padding-right: 51px;
 }
-	.search--button {
+	.search--button,
+	.search--button:hover,
+	.search--button:focus {
 		cursor: pointer;
 		font-size: 26px;
 		line-height: 26px;
@@ -656,7 +670,8 @@ html, body {
 		top: 0;
 		right: 0;
 		width: 51px;
-		border-radius: 8px;
+		background: transparent;
+		color: #577BD0;
 	}
 	.search--field {
 		display: none;
@@ -668,13 +683,16 @@ html, body {
 	.search--input:focus {
 		border: 0;
 		height: 40px;
-		width: 300px;
+		max-width: 300px;
+		width: 100%;
 	}
 
 .search-active {
 }
-	.search-active .search--button {
+	.search-active .search--button,
+	.search-active .search--button:hover {
 		background-color: #739BFD;
+		color: #ffffff;
 	}
 	.search-active .search--field {
 		display: block;
@@ -687,7 +705,7 @@ html, body {
 	width: 28em;
 	border-radius: 1em;
 	padding: 1em 1.2em;
-	margin: 0 1em 1em 0;
+	margin: 0 0.5em 1em;
 	box-sizing: border-box;
 	border: 3px solid transparent;
 }
@@ -812,6 +830,18 @@ html, body {
 
 @viewport {
 	width: device-width;
+}
+
+/* mobile */
+@media screen and (max-width: 30em) {
+	.content--reference {
+		margin: 0 auto;
+	}
+	.reference {
+		min-width: 100%;
+		border-radius: 0;
+		margin: 0 0 3px 0;
+	}
 }
 
 /* -------------------- */
