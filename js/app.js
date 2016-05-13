@@ -89,7 +89,7 @@ function scroll_to_article(el, hl_after){
 }
 function highlight(el){
 	el.addClass('reference-highlighted');
-	setTimeout(function(){ el.removeClass('reference-highlighted'); }, 3000);
+	setTimeout(function(){ el.removeClass('reference-highlighted'); }, 4500);
 }
 function init_reference(){
 	var MQ = MathQuill.getInterface(2);
@@ -104,7 +104,7 @@ function init_reference(){
 		$(el).children('ul, ol').addClass('reference--list');
 		$(el).find('figure').addClass('reference--illustration');
 		$(el).children(':not(h2)').find('.formula').addClass('reference--formula');
-		$(el).find('a').addClass('reference--link');
+		$(el).find('a:not(.reference--category):not(.link-external)').addClass('reference--link');
 		
 		var tags = $(el).attr('data-tags');
 		if (tags) {
@@ -127,7 +127,7 @@ function init_reference(){
 			var cat_links = $.map(categories, function(el, i){
 				return '<a href="'+el+'" class="reference--category">'+el+'</a>';
 			}).join(', ');
-			$('<footer>').addClass('reference--categories').html(cat_links).appendTo($(el));
+			$('<footer>').addClass('reference--categories').append(cat_links).appendTo($(el));
 			$.each(categories, function(j, cat){
 				if (reference_categories.indexOf(cat) == -1) reference_categories.push(cat);
 			});
