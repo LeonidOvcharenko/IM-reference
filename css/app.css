@@ -602,8 +602,7 @@ html, body {
 		right: 0;
 		top: 40px;
 		z-index: 999;
-		background: white;
-		background-color: rgba(255,255,255,0.8);
+		background: #f7f7f7;
 		width: 320px;
 	}
 	.dropdown--item {
@@ -670,10 +669,46 @@ html, body {
 	padding: 1em 1.2em;
 	/* margin: 0 auto 1em; */
 	margin: 0 1em 1em 0;
+	box-sizing: border-box;
+	border: 3px solid transparent;
 }
 	.reference-hidden {
 		display: none;
 	}
+	.reference-highlighted {
+		border-color: #A0A0A0;
+				animation: selected_blink 1.5s ease 0s infinite normal none;
+		-webkit-animation: selected_blink 1.5s ease 0s infinite normal none;
+		   -moz-animation: selected_blink 1.5s ease 0s infinite normal none;
+			 -o-animation: selected_blink 1.5s ease 0s infinite normal none;
+			-ms-animation: selected_blink 1.5s ease 0s infinite normal none;
+	}
+		@keyframes selected_blink {
+			0% { border-color: #A0A0A0; } 
+			50% { border-color: #E0E0E0; } 
+			100% { border-color: #A0A0A0; } 
+		}
+		@-webkit-keyframes selected_blink {
+			0% { border-color: #A0A0A0; } 
+			50% { border-color: #E0E0E0; } 
+			100% { border-color: #A0A0A0; } 
+		}
+		@-moz-keyframes selected_blink {
+			0% { border-color: #A0A0A0; } 
+			50% { border-color: #E0E0E0; } 
+			100% { border-color: #A0A0A0; } 
+		}
+		@-o-keyframes selected_blink {
+			0% { border-color: #A0A0A0; } 
+			50% { border-color: #E0E0E0; } 
+			100% { border-color: #A0A0A0; } 
+		}
+		@-ms-keyframes selected_blink {
+			0% { border-color: #A0A0A0; } 
+			50% { border-color: #E0E0E0; } 
+			100% { border-color: #A0A0A0; } 
+		}
+	
 	.reference--title {
 		font-size: 20px;
 		line-height: 24px;

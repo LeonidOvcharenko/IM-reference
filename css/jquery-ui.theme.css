@@ -32,6 +32,7 @@
 	border: none;
 	background: #f7f7f7;
 	color: #333333;
+	box-shadow: 0 2px 7px rgba(0,0,0,0.2);
 }
 .ui-widget-content a {
 	color: #333333;
@@ -44,6 +45,9 @@
 }
 .ui-widget-header a {
 	color: #333333;
+}
+.ui-menu {
+	z-index: 555;
 }
 
 /* Interaction states
