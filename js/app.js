@@ -158,6 +158,7 @@ function init_reference(){
 
 $(function(){
 	init_reference();
+	new Vivus('ref_fig_123', {duration: 300});
 	init_header();
 	
 	$('.content--reference').masonry({
