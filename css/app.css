@@ -685,6 +685,7 @@ html, body {
 		height: 40px;
 		max-width: 300px;
 		width: 100%;
+		box-shadow: inset 3px 2px 5px rgba(0,0,0,0.1);
 	}
 
 .search-active {
@@ -745,6 +746,9 @@ html, body {
 			50% { border-color: #E0E0E0; } 
 			100% { border-color: #A0A0A0; } 
 		}
+	.reference-selected {
+		border-color: #739BFD;
+	}
 	
 	.reference--title {
 		font-size: 20px;
