@@ -280,6 +280,33 @@
          transform="matrix(0.4,0,0,0.4,4,0)"
          inkscape:connector-curvature="0" />
     </marker>
+    <symbol
+       id="symbol9681">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#ellipse4270"
+         id="use9679"
+         transform="translate(194.74013,-94.57982)"
+         width="100%"
+         height="100%" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#use4963"
+         id="use9677"
+         transform="translate(194.74013,-94.57982)"
+         width="100%"
+         height="100%" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#use4511"
+         id="use9675"
+         transform="translate(194.74013,-94.57982)"
+         width="100%"
+         height="100%" />
+    </symbol>
   </defs>
   <g
      inkscape:groupmode="layer"
@@ -592,6 +619,34 @@
        pointer-events="none"
        id="ellipse4270"
        class="hl" />
+    <g
+       id="use9686"
+       transform="translate(52.142034,88.137098)">
+      <use
+         height="100%"
+         width="100%"
+         transform="translate(194.74013,-94.57982)"
+         id="use9709"
+         xlink:href="#ellipse4270"
+         y="0"
+         x="0" />
+      <use
+         height="100%"
+         width="100%"
+         transform="translate(194.74013,-94.57982)"
+         id="use9711"
+         xlink:href="#use4963"
+         y="0"
+         x="0" />
+      <use
+         height="100%"
+         width="100%"
+         transform="translate(194.74013,-94.57982)"
+         id="use9713"
+         xlink:href="#use4511"
+         y="0"
+         x="0" />
+    </g>
   </g>
   <view
      viewBox="0 0 250 250"

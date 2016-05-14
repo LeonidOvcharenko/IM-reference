@@ -1,7 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="1200" xmlns:xlink="http://www.w3.org/1999/xlink" class="svgtext">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMinYMin">
   <style>
-    .illustration { display: none; } .illustration:target { display: inline; } .hl:hover { stroke: red; }
+    /*.illustration { display: none; } .illustration:target { display: inline; } .hl:hover { stroke: red; }*/
   </style>
+  <view
+     viewBox="20 40 50 250"
+     id="g-graphics2" />
   <defs>
     <marker id="Arrow1Mstart" orient="auto" overflow="visible">
       <path fill="#333" fill-rule="evenodd" stroke="#333" stroke-width=".4pt" d="M4 0l2-2-7 2 7 2-2-2z"/>

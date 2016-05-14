@@ -1,30 +1,39 @@
-<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" class="svgtext" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1200" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" class="svgtext" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<defs>
-		<pattern id="pattern5805" xlink:href="#g-hatch" patternTransform="matrix(.70711 .70711 -.70711 .70711 430 -403.36)"/>
-		<marker id="Arrow1Mstart" refY="0.0" refX="0.0" orient="auto" overflow="visible">
-			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.4) translate(10)" stroke="#000000" stroke-width="1pt"/>
-		</marker>
-		<pattern id="g-hatch" width="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)" height="4">
-			<line y2="4" x2="0" stroke="#333333"/>
+		<pattern id="pattern5805" xlink:href="#g-hatch-3" patternTransform="matrix(.70711 .70711 -.70711 .70711 67.383 1159)"/>
+		<pattern id="g-hatch-3" width="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)" height="4">
+			<line y2="4" x2="0" stroke="#333"/>
 		</pattern>
+		<marker id="Arrow1Mstart-7" refY="0" refX="0" orient="auto" overflow="visible">
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.4 0 0 .4 4 0)" stroke="#000" stroke-width="1pt"/>
+		</marker>
+		<pattern id="pattern3370" xlink:href="#g-hatch-3" patternTransform="matrix(.70711 .70711 -.70711 .70711 -2.3842e-7 -1600)"/>
 	</defs>
-	<text font-family="Georgia" font-size="80px" stroke="#333333" line-height="125%" y="-103.36218" x="430" fill="url(#pattern5805)">
-		<tspan font-weight="bold" fill="url(#pattern5805)">Штриховка</tspan>
-	</text>
-	<rect fill-opacity="0" transform="scale(1,-1)" height="80" width="300" y="181" x="500"/>
-	<rect fill-opacity="0" height="100" width="390" y="-281" x="560"/>
-	<rect fill-opacity="0" transform="scale(1,-1)" height="110" width="315" stroke="#333333" y="231" x="553.19" stroke-width=".86046"/>
-	<path id="g-relation-0" d="m2.0948-240.82h130" marker-start="url(#Arrow1Mstart)" stroke="#000000" stroke-width="2" fill="none"/>
-	<circle id="g-element-1" stroke-width="1.8182" fill-opacity="0" stroke="#333333" cy="-315.82" cx="20.185" r="9.0909"/>
-	<circle id="g-element-0" stroke-width="3" stroke="#333333" cy="-320.82" cx="-4.8152" r="3.6848" fill="#333333"/>
-	<circle id="g-element-2" stroke-width="1.9048" fill-opacity="0" stroke="#333333" cy="-305.82" cx="60.185" r="19.048"/>
-	<circle id="g-element-3" fill-opacity="0" cx="120.28" stroke="#333333" cy="-295.72" r="28.699" stroke-width="2"/>
-	<circle stroke-width="1.9512" stroke="#333333" pointer-events="none" cy="-285.82" cx="200.18" r="39.024" fill="none"/>
-	<circle stroke-width="2" stroke="#333333" pointer-events="none" cy="-174.82" cx="30.805" r="5" fill="#333333"/>
-	<circle stroke-width="2" stroke="#333333" pointer-events="none" cy="-174.82" cx="140.8" r="5" fill="#333333"/>
-	<path d="m35.805-174.82h88.76" pointer-events="none" stroke="#000000" stroke-miterlimit="10" stroke-width="2" fill="none"/>
-	<path d="m133.56-174.82-12 4 3-4-3-4z" pointer-events="none" stroke="#000000" stroke-miterlimit="10" stroke-width="2" fill="#000000"/>
-	<ellipse rx="90" ry="40" stroke="#333333" pointer-events="none" cy="-174.82" cx="85.805" stroke-width="2" fill="none"/>
-	<path d="m467.5-363.36h-5q-5 0-5 10v40q0 10-5 10h-2.5q-2.5 0 2.5 0h2.5q2.5 0 2.5 10v40q0 10 5 10h5" pointer-events="none" stroke="#333333" stroke-miterlimit="10" stroke-width="2" fill="none"/>
-	<rect transform="scale(-1)" height="94.717" width="320" y="-14" x="-380" fill="url(#g-hatch)"/>
+	<g transform="translate(0,-600)">
+		<text font-family="Georgia" font-size="80px" stroke="#333333" line-height="125%" y="1459.043" x="67.382813" fill="url(#pattern5805)">
+			<tspan font-weight="bold" fill="url(#pattern5805)">Штриховка</tspan>
+		</text>
+		<rect fill-opacity="0" transform="scale(1,-1)" height="80" width="300" y="-1419" x="500"/>
+		<rect fill-opacity="0" height="100" width="390" y="1319" x="560"/>
+		<rect fill-opacity="0" transform="scale(1,-1)" height="110" width="315" stroke="#333" y="-1350.4" x="242.5" stroke-width=".86046"/>
+		<path id="g-relation-0" d="m32.095 1108.2h130" marker-start="url(#Arrow1Mstart-7)" stroke="#000" stroke-width="2" fill="none"/>
+		<text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="1031.8518" x="300.30151" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="1031.8518" x="300.30151" font-family="&apos;Times New Roman&apos;">A<tspan style="baseline-shift:sub" font-size="17.5px" font-family="&apos;Times New Roman&apos;">1</tspan></tspan></text>
+		<text style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="1031.8518" x="340.73975" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="1031.8518" x="340.73975" font-family="&apos;Times New Roman&apos;">A<tspan style="baseline-shift:sub" font-size="17.5px" font-family="&apos;Times New Roman&apos;">2</tspan></tspan></text>
+		<circle id="g-element-1" stroke-width="1.8182" fill-opacity="0" stroke="#333" cy="1033.2" cx="50.185" r="9.0909"/>
+		<circle id="g-element-0" stroke-width="3" stroke="#333" cy="1028.2" cx="25.185" r="3.6848" fill="#333"/>
+		<circle id="g-element-2" stroke-width="1.9048" fill-opacity="0" stroke="#333" cy="1043.2" cx="90.185" r="19.048"/>
+		<circle id="g-element-3" fill-opacity="0" cx="150.28" stroke="#333" cy="1053.3" r="28.699" stroke-width="2"/>
+		<circle stroke-width="1.9512" stroke="#333" pointer-events="none" cy="1063.2" cx="230.18" r="39.024" fill="none"/>
+		<circle stroke-width="2" stroke="#333" pointer-events="none" cy="1174.2" cx="60.805" r="5" fill="#333"/>
+		<circle stroke-width="2" stroke="#333" pointer-events="none" cy="1174.2" cx="170.8" r="5" fill="#333"/>
+		<path d="m65.805 1174.2h88.76" pointer-events="none" stroke="#000" stroke-miterlimit="10" stroke-width="2" fill="none"/>
+		<path d="m163.56 1174.2-12 4 3-4-3-4z" pointer-events="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+		<ellipse rx="90" ry="40" stroke="#333" pointer-events="none" cy="1174.2" cx="115.8" stroke-width="2" fill="none"/>
+		<path d="m156.81 1218.1h-5q-5 0-5 10v40q0 10-5 10h-2.5q-2.5 0 2.5 0h2.5q2.5 0 2.5 10v40q0 10 5 10h5" pointer-events="none" stroke="#333" stroke-miterlimit="10" stroke-width="2" fill="none"/>
+		<rect transform="scale(-1)" height="94.717" width="320" y="-1614" x="-380" fill="url(#pattern3370)"/>
+		<g>
+			<use xlink:href="#g-element-2" transform="translate(69.815 -163.18)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#g-element-0" transform="translate(169.63 -143)" height="100%" width="100%" y="0" x="0"/>
+		</g>
+	</g>
 </svg>
