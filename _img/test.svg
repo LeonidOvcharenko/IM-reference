@@ -1,0 +1,11 @@
+<svg id="ref_fig_123" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="50" width="50" version="1.1">
+	<style>
+		.illustration { display: none; }
+		.illustration:target { display: inline; }
+		.hl:hover { stroke: red; }
+	</style>
+	<g id="g-element" class="illustration">
+				<ellipse cx="12" cy="12" rx="10" ry="10" fill="#ffffff" stroke="#333333" stroke-width="2" class="hl" />
+			</g>
+		<ellipse id="asdf" class="illustration hl" cx="22" cy="22" rx="10" ry="10" fill="#ffffff" stroke="#777333" stroke-width="2" />
+</svg>
