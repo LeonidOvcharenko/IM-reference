@@ -193,7 +193,6 @@ function init_reference(){
 
 $(function(){
 	init_reference();
-	// new Vivus('ref_fig_123', {duration: 300});
 	init_header();
 	
 	$('.content--reference').masonry({
@@ -202,4 +201,6 @@ $(function(){
 		fitWidth: true,
 		transitionDuration: '0.8s'
 	});
+
+	// new Vivus('svg123', {duration: 300});
 });
