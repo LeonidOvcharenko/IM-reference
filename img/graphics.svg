@@ -1,179 +1,346 @@
-<svg id="svg2997" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" viewBox="0 0 400 1200" version="1.1" enable-background="new" preserveAspectRatio="xMidYMin slice" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
-	<style id="style3570" type="text/css">.layer { display: none; }
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" version="1.1" enable-background="new" preserveAspectRatio="xMidYMin slice" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 1200" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<style type="text/css">.layer { display: none; }
 .layer:target { display: inline; }
 .hl:hover { stroke: red; }</style>
-	<defs id="defs2999">
-		<marker id="marker13423" refY="0.0" refX="0.0" overflow="visible" orient="auto">
-			<path id="path13425" stroke-linejoin="round" d="m8.7186 4.0337l-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7355 5.6174 0 8.0354z" fill-rule="evenodd" transform="scale(.6) translate(0)" stroke="#666" stroke-width=".625" fill="#666"/>
+	<defs>
+		<marker id="marker7432" refY="0.0" refX="0.0" overflow="visible" orient="auto">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.4) rotate(180) translate(10)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="Arrow1Mend" refY="0.0" refX="0.0" orient="auto" overflow="visible">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.4) rotate(180) translate(10)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<pattern id="pattern5797" xlink:href="#g-hatch-inv" patternTransform="matrix(1.3062 -1.3062 1.3062 1.3062 158.57 459.01)"/>
+		<pattern id="pattern5795" xlink:href="#g-hatch" patternTransform="matrix(1.3062 1.3062 -1.3062 1.3062 158.57 459.01)"/>
+		<pattern id="pattern5793" xlink:href="#pattern24138" patternTransform="matrix(1.3062 1.3062 -1.3062 1.3062 158.57 459.01)"/>
+		<pattern id="pattern5791" xlink:href="#g-hatch-inv" patternTransform="matrix(1.3062 -1.3062 1.3062 1.3062 158.57 459.01)"/>
+		<pattern id="pattern5789" xlink:href="#pattern5775" patternTransform="matrix(1.3062 -1.3062 1.3062 1.3062 158.57 459.01)"/>
+		<pattern id="pattern5787" xlink:href="#pattern5775" patternTransform="matrix(1.3062 -1.3062 1.3062 1.3062 158.57 459.01)"/>
+		<pattern id="pattern5777" xlink:href="#pattern24138" patternTransform="matrix(1.3062 1.3062 -1.3062 1.3062 158.57 459.01)"/>
+		<pattern id="pattern5775" xlink:href="#g-hatch-inv" patternTransform="matrix(.70711 -.70711 .70711 .70711 0 -.0000031273)"/>
+		<pattern id="pattern5499" xlink:href="#g-hatch" patternTransform="matrix(1.3062 1.3062 -1.3062 1.3062 158.57 459.01)"/>
+		<pattern id="pattern24138" xlink:href="#pattern24134" patternTransform="rotate(45)"/>
+		<pattern id="pattern24134" xlink:href="#g-hatch" patternTransform="rotate(45)"/>
+		<marker id="marker13423" refY="0.0" refX="0.0" orient="auto" overflow="visible">
+			<path stroke-linejoin="round" d="m8.7186 4.0337l-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7355 5.6174 0 8.0354z" fill-rule="evenodd" transform="scale(.6) translate(0)" stroke="#666" stroke-width=".625" fill="#666"/>
 		</marker>
 		<marker id="Arrow1Mstart" refY="0" refX="0" orient="auto" overflow="visible">
-			<path id="path7114" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.4 0 0 .4 4 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.4 0 0 .4 4 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
 		</marker>
+		<pattern id="g-hatch" width="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)" height="4">
+			<line stroke="#333" x2="0" y2="4"/>
+		</pattern>
+		<pattern id="g-hatch-inv" width="4" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)" height="4">
+			<line stroke="#333" x2="0" y2="4"/>
+		</pattern>
 		<pattern id="pattern5805" xlink:href="#g-hatch-3" patternTransform="matrix(.70711 .70711 -.70711 .70711 14.651 1090.7)"/>
 		<pattern id="g-hatch-3" width="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)" height="4">
-			<line id="line3002-3" y2="4" x2="0" stroke="#333"/>
-		</pattern>
-		<pattern id="pattern3370" xlink:href="#g-hatch-3" patternTransform="matrix(.70711 .70711 -.70711 .70711 -2.3842e-7 -1600)"/>
-		<pattern id="pattern3583" xlink:href="#g-hatch-9" patternTransform="matrix(.70711 .70711 -.70711 .70711 -6.114 853.73)"/>
-		<pattern id="pattern13947" xlink:href="#g-hatch-9" patternTransform="matrix(.70711 .70711 -.70711 .70711 -6.114 853.73)"/>
-		<pattern id="g-hatch-9" width="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)" height="4">
-			<line id="line3002-1" y2="4" x2="0" stroke="#333"/>
+			<line stroke="#333" x2="0" y2="4"/>
 		</pattern>
 		<marker id="Arrow1Mstart-4" refY="0" refX="0" orient="auto" overflow="visible">
-			<path id="path7114-4" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.4 0 0 .4 4 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.4 0 0 .4 4 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
 		</marker>
+		<marker id="marker7481" refY="0" refX="0" orient="auto" overflow="visible">
+			<path stroke-linejoin="round" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill-rule="evenodd" transform="scale(.6)" stroke="#333" stroke-width=".625" fill="#333"/>
+		</marker>
+		<marker id="marker14355-0" refY="0" refX="0" orient="auto" overflow="visible">
+			<path stroke-linejoin="round" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill-rule="evenodd" transform="scale(.6)" stroke="#333" stroke-width=".625" fill="#333"/>
+		</marker>
+		<marker id="marker14843-4" refY="0" refX="0" orient="auto" overflow="visible">
+			<path stroke-linejoin="round" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill-rule="evenodd" transform="scale(.6)" stroke="#333" stroke-width=".625" fill="#333"/>
+		</marker>
+		<marker id="marker16644-5" refY="0" refX="0" orient="auto" overflow="visible">
+			<path stroke-linejoin="round" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill-rule="evenodd" transform="scale(.6)" stroke="#333" stroke-width=".625" fill="#333"/>
+		</marker>
+		<marker id="marker12500-3" refY="0" refX="0" overflow="visible" orient="auto">
+			<path stroke-linejoin="round" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill-rule="evenodd" transform="scale(.6)" stroke="#333" stroke-width=".625" fill="#333"/>
+		</marker>
+		<marker id="marker8942" refY="0" refX="0" orient="auto" overflow="visible">
+			<path stroke-linejoin="round" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill-rule="evenodd" transform="scale(.6)" stroke="#333" stroke-width=".625" fill="#333"/>
+		</marker>
+		<marker id="Arrow1Mstart-4-8" refY="0" refX="0" orient="auto" overflow="visible">
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.4 0 0 .4 4 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<clipPath id="clipPath6194" clipPathUnits="userSpaceOnUse">
+			<path fill="none" transform="matrix(-1.1822 0 0 -1.6904 -97.589 1370.1)" stroke="#333" stroke-width="2.6135" d="m318.88 1323.1h-241.22-241.22l120.6-209 120.62-208.85 120.61 208.85z"/>
+		</clipPath>
+		<clipPath id="clipPath6198" clipPathUnits="userSpaceOnUse">
+			<path fill="none" transform="matrix(-1.1822 0 0 -1.6904 -97.589 1370.1)" stroke="#333" stroke-width="2.6135" d="m318.88 1323.1h-241.22-241.22l120.6-209 120.62-208.85 120.61 208.85z"/>
+		</clipPath>
+		<clipPath id="clipPath6202" clipPathUnits="userSpaceOnUse">
+			<path fill="none" transform="matrix(-1.1822 0 0 -1.6904 -97.589 1370.1)" stroke="#333" stroke-width="2.6135" d="m318.88 1323.1h-241.22-241.22l120.6-209 120.62-208.85 120.61 208.85z"/>
+		</clipPath>
+		<clipPath id="clipPath6206" clipPathUnits="userSpaceOnUse">
+			<path fill="none" transform="matrix(-1.1822 0 0 -1.6904 -97.589 1370.1)" stroke="#333" stroke-width="2.6135" d="m318.88 1323.1h-241.22-241.22l120.6-209 120.62-208.85 120.61 208.85z"/>
+		</clipPath>
+		<clipPath id="clipPath6210" clipPathUnits="userSpaceOnUse">
+			<path fill="none" transform="matrix(-1.1822 0 0 -1.6904 -97.589 1370.1)" stroke="#333" stroke-width="2.6135" d="m318.88 1323.1h-241.22-241.22l120.6-209 120.62-208.85 120.61 208.85z"/>
+		</clipPath>
+		<clipPath id="clipPath6214" clipPathUnits="userSpaceOnUse">
+			<path fill="none" transform="matrix(-1.1822 0 0 -1.6904 -97.589 1370.1)" stroke="#333" stroke-width="2.6135" d="m318.88 1323.1h-241.22-241.22l120.6-209 120.62-208.85 120.61 208.85z"/>
+		</clipPath>
+		<clipPath id="clipPath6218" clipPathUnits="userSpaceOnUse">
+			<path fill="none" transform="matrix(-1.1822 0 0 -1.6904 -97.589 1370.1)" stroke="#333" stroke-width="2.6135" d="m318.88 1323.1h-241.22-241.22l120.6-209 120.62-208.85 120.61 208.85z"/>
+		</clipPath>
+		<clipPath id="clipPath6222" clipPathUnits="userSpaceOnUse">
+			<path fill="none" transform="matrix(-1.1822 0 0 -1.6904 -97.589 1370.1)" stroke="#333" stroke-width="2.6135" d="m318.88 1323.1h-241.22-241.22l120.6-209 120.62-208.85 120.61 208.85z"/>
+		</clipPath>
 	</defs>
 	<g id="g-sprites" transform="translate(0,-600)" class="layer">
-		<text id="text" font-family="Georgia" font-size="80px" stroke="#333333" line-height="125%" y="1390.7233" x="14.650643" fill="url(#pattern5805)">
-			<tspan id="tspan6451" font-weight="bold" font-size="45px" fill="url(#pattern5805)">Штриховка</tspan>
+		<text font-family="Georgia" font-size="80px" stroke="#333333" line-height="125%" y="1390.7233" x="14.650643" fill="url(#pattern5805)">
+			<tspan font-weight="bold" font-size="45px" fill="url(#pattern5805)">Штриховка</tspan>
 		</text>
-		<rect id="rect6582" fill-opacity="0" transform="scale(1,-1)" height="80" width="300" y="-1419" x="500"/>
-		<rect id="rect6584" fill-opacity="0" height="100" width="390" y="1319" x="560"/>
-		<text id="text3374" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="631.85181" x="350.8504" font-family="Georgia" fill="#333333"><tspan id="tspan3376" font-size="17.5px" y="631.85181" x="350.8504" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan id="tspan3378" style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></tspan></text>
-		<text id="text3380" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="631.85181" x="375.73975" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan id="tspan3382" font-size="17.5px" y="631.85181" x="375.73975" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan id="tspan3384" style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></tspan></text>
-		<g stroke="#333">
-			<circle id="g-element-1" stroke-width="1.8182" fill-opacity="0" class="hl" cy="620.18" cx="40" r="9.0909"/>
-			<circle id="g-element-0" stroke-width="1.2807" transform="scale(1,-1)" stroke="#333" class="hl" cy="-613" cx="13" r="2.3596" fill="#333"/>
-			<circle id="g-element-2" stroke-width="1.9048" fill-opacity="0" stroke="#333" class="hl" cy="630.18" cx="80" r="19.048"/>
-			<circle id="g-element-3" fill-opacity="0" cx="140.1" class="hl" cy="640.28" r="28.699" stroke-width="2"/>
-			<circle id="ellipse4256" stroke-width="1.9512" class="hl" pointer-events="none" cy="650.18" cx="220" r="39.024" fill="none"/>
-			<path id="path4304" d="m156.81 1218.1h-5q-5 0-5 10v40q0 10-5 10h-2.5q-2.5 0 2.5 0h2.5q2.5 0 2.5 10v40q0 10 5 10h5" pointer-events="none" stroke-miterlimit="10" stroke-width="2" fill="none"/>
-		</g>
-		<g>
-			<rect id="rect4365" transform="scale(-1)" height="94.717" width="320" y="-1614" x="-380" fill="url(#pattern3370)"/>
-			<g>
-				<text id="text3641" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="654.04346" x="299.83765" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan id="tspan3643" font-size="17.5px" y="654.04346" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan id="tspan3645" style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">mn</tspan></tspan></text>
-				<text id="text3647" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="654.1759" x="349.59656" font-family="Georgia" fill="#333333"><tspan id="tspan3649" font-size="17.5px" y="654.1759" x="349.59656" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan id="tspan3651" style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></tspan></text>
-				<text id="text3653" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="631.85181" x="300.30151" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan id="tspan3655" font-size="17.5px" y="631.85181" x="300.30151" font-family="&apos;Times New Roman&apos;" fill="#333333">A</tspan></text>
-			</g>
-		</g>
-		<path id="g-relation-0" d="m97.02 665h-87.168" marker-start="url(#Arrow1Mstart)" stroke="#333" stroke-width="2" class="hl" fill="none"/>
-		<g>
-			<text id="text3647-9" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" font-size="80px" line-height="125%" y="678.95801" x="299.83765" fill="#333333"><tspan id="tspan3649-5" font-size="17.5px" y="678.95801" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan id="tspan3651-5" style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.1</tspan></tspan></text>
-			<text id="text3442" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" font-size="80px" line-height="125%" y="678.95801" x="351.55884" xml:space="preserve" fill="#333333"><tspan id="tspan3444" font-size="17.5px" y="678.95801" x="351.55884" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan id="tspan3446" style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></tspan></text>
-			<text id="text3448" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="703.95801" x="299.83765" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan id="tspan3450" font-size="17.5px" y="703.95801" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan id="tspan3452" style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">(1.1)(1.2)</tspan></tspan></text>
-		</g>
-		<path id="path3454" d="m97.904 690.29h-58.04" marker-start="url(#marker13423)" class="hl" stroke="#666" stroke-width="2" fill="none"/>
-		<path id="path4565" d="m9.8523 723.51v-48.61" marker-start="url(#Arrow1Mstart)" class="hl" stroke="#333" stroke-width="2" fill="none"/>
-		<g>
-			<text id="text13676" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" font-size="80px" line-height="125%" y="727.87726" x="314.0687" xml:space="preserve" fill="#333333"><tspan id="tspan13678" font-size="12.5px" y="727.87726" x="314.0687" font-family="&apos;Times New Roman&apos;" fill="#333333">1.1</tspan></text>
-			<text id="text13682" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" font-size="80px" line-height="125%" y="727.87726" x="336.30472" fill="#333333"><tspan id="tspan13684" font-size="12.5px" y="727.87726" x="336.30472" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></text>
-			<text id="text13686" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" font-size="80px" line-height="125%" y="727.87726" x="358.09601" xml:space="preserve" fill="#333333"><tspan id="tspan13688" font-size="12.5px" y="727.87726" x="358.09601" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></text>
-			<text id="text13690" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" font-size="80px" line-height="125%" y="727.87726" x="300.72711" fill="#333333"><tspan id="tspan13692" font-size="12.5px" y="727.87726" x="300.72711" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></text>
-		</g>
+		<rect fill-opacity="0" transform="scale(1,-1)" height="80" width="300" y="-1419" x="500"/>
+		<rect fill-opacity="0" height="100" width="390" y="1319" x="560"/>
+		<text id="text3374" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="631.85181" x="350.8504" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="631.85181" x="350.8504" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></tspan></text>
+		<text id="text3380" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="631.85181" x="375.73975" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="631.85181" x="375.73975" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></tspan></text>
+		<circle id="g-element-1" stroke-width="2" fill-opacity="0" stroke="#333" cy="620.18" cx="40" r="9.0909" class="hl"/>
+		<circle id="g-element-0" stroke-width="2" transform="scale(1,-1)" stroke="#333" class="hl" cy="-613" cx="13" r="2.3596" fill="#333"/>
+		<circle id="g-element-2" stroke-width="2" fill-opacity="0" stroke="#333" cy="630.18" cx="80" r="19.048" class="hl"/>
+		<circle id="g-element-3" stroke-width="2" fill-opacity="0" stroke="#333" cy="640.28" cx="140.1" r="28.699" class="hl"/>
+		<circle stroke-width="2" stroke="#333" pointer-events="none" cy="650.18" cx="220" r="39.024" class="hl" fill="none"/>
+		<rect transform="scale(-1)" height="94.717" width="320" y="-1614" x="-380" fill="url(#g-hatch)"/>
+		<text id="text3641" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="654.04346" x="299.83765" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="654.04346" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">mn</tspan></tspan></text>
+		<text id="text3647" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="654.1759" x="349.59656" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="654.1759" x="349.59656" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></tspan></text>
+		<text id="text3653" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="631.85181" x="300.30151" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="631.85181" x="300.30151" font-family="&apos;Times New Roman&apos;" fill="#333333">A</tspan></text>
+		<path id="g-relation-0" d="m97.02 665h-87.168" marker-start="url(#Arrow1Mstart)" class="hl" stroke="#333" stroke-width="2" fill="none"/>
+		<text id="text3647-9" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" font-size="80px" line-height="125%" y="678.95801" x="299.83765" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="678.95801" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.1</tspan></tspan></text>
+		<text id="text3442" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" font-size="80px" line-height="125%" y="678.95801" x="351.55884" fill="#333333"><tspan font-size="17.5px" y="678.95801" x="351.55884" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></tspan></text>
+		<text id="text3448" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="703.95801" x="299.83765" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="703.95801" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">(1.1)(1.2)</tspan></tspan></text>
+		<path id="path3454" d="m97.904 690.29h-58.04" marker-start="url(#marker13423)" stroke="#666" stroke-width="2" class="hl" fill="none"/>
+		<path id="path4565" d="m9.8523 723.51v-48.61" marker-start="url(#Arrow1Mstart)" stroke="#333" stroke-width="2" class="hl" fill="none"/>
+		<text id="text13676" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" font-size="80px" line-height="125%" y="727.87726" x="314.0687" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="314.0687" font-family="&apos;Times New Roman&apos;" fill="#333333">1.1</tspan></text>
+		<text id="text13682" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" font-size="80px" line-height="125%" y="727.87726" x="336.30472" xml:space="preserve" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="336.30472" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></text>
+		<text id="text13686" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" font-size="80px" line-height="125%" y="727.87726" x="358.09601" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="358.09601" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></text>
+		<text id="text13690" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" font-size="80px" line-height="125%" y="727.87726" x="300.72711" xml:space="preserve" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="300.72711" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></text>
 		<g id="g13843" transform="translate(0 .000041716)">
-			<rect id="rect13664-2" fill-opacity="0" height="78.302" width="78.302" stroke="#333" y="742.26" x="8.8235" stroke-width="1.6982"/>
-			<path id="path13666-1" d="m87.974 781.41h-80" stroke="#333" stroke-width="2" fill="none"/>
-			<path id="path13668-9" d="m47.974 820.3v-78.89" stroke="#333" stroke-width="2" fill="none"/>
+			<rect fill-opacity="0" height="78.302" width="78.302" stroke="#333" y="742.26" x="8.8235" stroke-width="1.6982"/>
+			<path d="m87.974 781.41h-80" stroke="#333" stroke-width="2" fill="none"/>
+			<path d="m47.974 820.3v-78.89" stroke="#333" stroke-width="2" fill="none"/>
 		</g>
-		<text id="text13887" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="750.56036" x="298.15619" font-family="Georgia" fill="#000000"><tspan id="tspan13889" font-size="17.5px" y="750.56036" x="298.15619" font-family="&apos;Times New Roman&apos;" fill="#333333">t</tspan></text>
-		<text id="text13891" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="728.70221" x="374.68661" font-family="Georgia" fill="#000000"><tspan id="tspan13893" font-size="17.5px" y="728.70221" x="374.68661" font-family="&apos;Times New Roman&apos;" fill="#333333">0</tspan></text>
-		<g>
-			<text id="text13895" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="750.91791" x="312.83621" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan id="tspan13897" font-size="17.5px" y="750.91791" x="312.83621" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan id="tspan13899" style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></tspan></text>
-			<text id="text13901" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="750.91791" x="329.56039" font-family="Georgia" fill="#333333"><tspan id="tspan13903" font-size="17.5px" y="750.91791" x="329.56039" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan id="tspan13905" style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></tspan></text>
-			<text id="text13907" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="750.91791" x="346.28455" font-family="Georgia" fill="#333333"><tspan id="tspan13909" font-size="17.5px" y="750.91791" x="346.28455" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan id="tspan13911" style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">3</tspan></tspan></text>
-			<text id="text13913" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="750.91791" x="363.00873" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan id="tspan13915" font-size="17.5px" y="750.91791" x="363.00873" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan id="tspan13917" style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">4</tspan></tspan></text>
-			<text id="text13919" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="631.85181" x="325.52795" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan id="tspan13921" font-size="17.5px" y="631.85181" x="325.52795" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan id="tspan13923" style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">0</tspan></tspan></text>
-		</g>
+		<text id="text13887" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="750.56036" x="298.15619" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="750.56036" x="298.15619" font-family="&apos;Times New Roman&apos;" fill="#333333">t</tspan></text>
+		<text id="text13891" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="773.58716" x="297.13345" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="773.58716" x="297.13345" font-family="&apos;Times New Roman&apos;" fill="#333333">0</tspan></text>
+		<text id="text13895" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="750.91791" x="312.83621" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="750.91791" x="312.83621" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></tspan></text>
+		<text id="text13901" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="750.91791" x="329.56039" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="750.91791" x="329.56039" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></tspan></text>
+		<text id="text13907" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="750.91791" x="346.28455" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="750.91791" x="346.28455" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">3</tspan></tspan></text>
+		<text id="text13913" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="750.91791" x="363.00873" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="750.91791" x="363.00873" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">4</tspan></tspan></text>
+		<text id="text13919" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="631.85181" x="325.52795" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="631.85181" x="325.52795" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">0</tspan></tspan></text>
+		<text id="text13834" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="773.6897" x="309.26761" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="773.6897" x="309.26761" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></text>
+		<text id="text13838" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="773.6897" x="323.65591" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="773.6897" x="323.65591" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></text>
+		<text id="text13842" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="773.6897" x="339.05392" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="773.6897" x="339.05392" font-family="&apos;Times New Roman&apos;" fill="#333333">3</tspan></text>
+		<text id="text13846" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="773.6897" x="353.18982" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="773.6897" x="353.18982" font-family="&apos;Times New Roman&apos;" fill="#333333">4</tspan></text>
+		<text id="text21248" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="796.68677" x="350.8504" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="796.68677" x="350.8504" font-family="&apos;Times New Roman&apos;" fill="#333333">S&apos;&apos;</tspan></text>
+		<text id="text21260" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="796.68677" x="300.30151" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="796.68677" x="300.30151" font-family="&apos;Times New Roman&apos;" fill="#333333">S</tspan></text>
+		<text id="text21264" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="796.68677" x="325.52795" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="796.68677" x="325.52795" font-family="&apos;Times New Roman&apos;" fill="#333333">S&apos;<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333"/></tspan></text>
+		<text id="text22913" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="773.6897" x="366.01401" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="773.6897" x="366.01401" font-family="&apos;Times New Roman&apos;" fill="#333333">5</tspan></text>
+		<text id="text22917" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="771.92072" x="284.18311" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" font-style="italic" y="771.92072" x="284.18311" font-family="&apos;Times New Roman&apos;" fill="#333333">i</tspan></text>
+		<text id="text8410" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="819.47443" x="300.30151" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="819.47443" x="300.30151" font-family="&apos;Times New Roman&apos;" fill="#333333">I</tspan></text>
+		<text id="text8414" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="819.47443" x="314.19641" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="819.47443" x="314.19641" font-family="&apos;Times New Roman&apos;" fill="#333333">II</tspan></text>
+		<text id="text8418" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="819.47443" x="333.92719" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="819.47443" x="333.92719" font-family="&apos;Times New Roman&apos;" fill="#333333">III</tspan></text>
+		<text id="text8422" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="819.47443" x="361.16122" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="819.47443" x="361.16122" font-family="&apos;Times New Roman&apos;" fill="#333333">IV</tspan></text>
+		<text id="text8426" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="796.96936" x="282.31598" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="796.96936" x="282.31598" font-family="&apos;Times New Roman&apos;" fill="#333333">h</tspan></text>
+		<text id="text8430" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="817.81171" x="282.31598" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="817.81171" x="282.31598" font-family="&apos;Times New Roman&apos;" fill="#333333">a</tspan></text>
+		<path stroke-linejoin="round" d="m21.709 869.45c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.03888-4.3772c0.01876-2.1126 0.09026-5.9882-0.55979-7.7861s-2.4591-2.0541-4.9675-2.556c2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-5.8643 0.44781-8.0179l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886" stroke="#333" stroke-width="1px" fill="none"/>
 	</g>
 	<g id="g-graph" transform="translate(0,-600)" class="layer">
-		<use id="use3522" xlink:href="#g-element-2" transform="translate(153.84 16.035)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use3524" xlink:href="#g-element-0" transform="translate(118.84 31.22)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4511" xlink:href="#text3653" transform="translate(-71.941 206.41)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4540" xlink:href="#text3641" transform="translate(-116.55 56.22)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4626" xlink:href="#text3374" transform="translate(-205.76 -1.456)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4643" xlink:href="#text3380" transform="translate(-116.16 -1.456)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4769" xlink:href="#g-relation-0" transform="translate(142.66 56.22)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-2" transform="translate(153.84 16.035)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(118.84 31.22)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3653" transform="translate(-71.941 206.41)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3641" transform="translate(-116.55 56.22)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3374" transform="translate(-205.76 -1.456)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3380" transform="translate(-116.16 -1.456)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-relation-0" transform="translate(142.66 56.22)" height="100%" width="100%" y="0" x="0"/>
 		<g id="g4955" transform="translate(127.66 -163.78)">
-			<use id="use4669" xlink:href="#g-element-0" transform="translate(8.8523 333.86)" height="100%" width="100%" y="0" x="0"/>
-			<use id="use4669-4" xlink:href="#g-element-0" transform="translate(105.84 333.86)" height="100%" width="100%" y="0" x="0"/>
-			<use id="use4769-1" xlink:href="#g-relation-0" transform="translate(15 281.86)" height="100%" width="100%" y="0" x="0"/>
-			<use id="use4904" xlink:href="#text3374" transform="translate(-337.75 303.88)" height="100%" width="100%" y="0" x="0"/>
-			<use id="use4921" xlink:href="#text3380" transform="translate(-262.68 303.88)" height="100%" width="100%" y="0" x="0"/>
-			<use id="use4938" xlink:href="#text3647" transform="translate(-296.54 313.24)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#g-element-0" transform="translate(8.8523 333.86)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#g-element-0" transform="translate(105.84 333.86)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#g-relation-0" transform="translate(15 281.86)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#text3374" transform="translate(-337.75 303.88)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#text3380" transform="translate(-262.68 303.88)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#text3647" transform="translate(-296.54 313.24)" height="100%" width="100%" y="0" x="0"/>
 		</g>
-		<use id="use4963" xlink:href="#g4955" transform="translate(-.0000039688 104.48)" height="100%" width="100%" y="0" x="0"/>
-		<ellipse id="ellipse4270" rx="73.948" ry="40.093" stroke="#333" class="hl" pointer-events="none" cy="885.35" cx="196.96" stroke-width="2" fill="none"/>
+		<use xlink:href="#g4955" transform="translate(-.0000039688 104.48)" height="100%" width="100%" y="0" x="0"/>
+		<ellipse rx="73.948" ry="40.093" stroke="#333" pointer-events="none" cy="885.35" cx="196.96" stroke-width="2" class="hl" fill="none"/>
 	</g>
 	<g id="g-graph2" class="layer">
-		<use id="use4396" xlink:href="#g-relation-0" transform="translate(73.873 -609.5)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4479" xlink:href="#g-element-0" transform="translate(67.725 -557.5)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4479-8" xlink:href="#g-element-0" transform="translate(164.71 -557.5)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4502" xlink:href="#text3647-9" transform="translate(-228.79 -636.14)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4519" xlink:href="#text3442" transform="translate(-194.34 -636.14)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4536" xlink:href="#text3374" transform="translate(-180.09 -527.32)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4559" xlink:href="#text3374" transform="translate(-31.952 -595.53)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4561" xlink:href="#text3380" transform="translate(-57.345 -536)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4563" xlink:href="#text3380" transform="translate(-235.35 -476.27)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4567" xlink:href="#path4565" transform="translate(300.23 -638.18)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4569" xlink:href="#path4565" transform="translate(119.37 -578.31)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4575" xlink:href="#g-element-0" transform="translate(116.22 -460.98)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4577" xlink:href="#g-element-0" transform="translate(297.09 -579.28)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4577-6" xlink:href="#g-element-0" transform="translate(297.09 -520.85)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4600" xlink:href="#text3448" transform="translate(-205.01 -628.4)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use4602" xlink:href="#path3454" transform="translate(185.53 -634.72)" height="100%" width="100%" y="0" x="0"/>
-		<ellipse id="ellipse4573" rx="73.948" ry="40.093" stroke="#333" pointer-events="none" cy="55.5" cx="129.22" stroke-width="2" class="hl" fill="none"/>
+		<use xlink:href="#g-relation-0" transform="translate(73.873 -609.5)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(67.725 -557.5)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(164.71 -557.5)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3647-9" transform="translate(-228.79 -636.14)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3442" transform="translate(-194.34 -636.14)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3374" transform="translate(-180.09 -527.32)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3374" transform="translate(-31.952 -595.53)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3380" transform="translate(-57.345 -536)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3380" transform="translate(-235.35 -476.27)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#path4565" transform="translate(300.23 -638.18)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#path4565" transform="translate(119.37 -578.31)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(116.22 -460.98)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(297.09 -579.28)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(297.09 -520.85)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3448" transform="translate(-205.01 -628.4)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#path3454" transform="translate(185.53 -634.72)" height="100%" width="100%" y="0" x="0"/>
+		<ellipse rx="73.948" ry="40.093" stroke="#333" class="hl" pointer-events="none" cy="55.5" cx="129.22" stroke-width="2" fill="none"/>
 	</g>
 	<g id="g-matrix" class="layer">
-		<use id="use13670" xlink:href="#text3374" transform="translate(-177.87 -573.4)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13672" xlink:href="#text3647" transform="translate(-144.09 -595.19)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13674" xlink:href="#text3380" transform="translate(-165.44 -534.27)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13694" xlink:href="#text13690" transform="translate(-123.27 -700.02)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13694-7" xlink:href="#text13690" transform="translate(-152.62 -671.12)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13717" xlink:href="#text13686" transform="translate(-142.74 -699.58)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13717-1" xlink:href="#text13686" transform="translate(-210.34 -631.09)" height="100%" width="100%" y="0" x="0"/>
-		<g stroke="#333">
-			<path id="path13742" d="m319 278.88h-240" stroke-width="2" fill="none"/>
-			<path id="path13744" d="m198 399.88v-240" stroke-width="2" fill="none"/>
-			<rect id="rect13762" fill-opacity="0" height="238" width="238" y="160.88" x="80.002" stroke-width="2"/>
-			<path id="path13764" d="m199 218.77h-120" stroke-width="2" fill="none"/>
-			<path id="path13766" d="m138.95 279.67v-119.79" stroke-width="2" fill="none"/>
-		</g>
-		<use id="use13774" xlink:href="#text3442" transform="translate(-197.25 -426.49)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13776" xlink:href="#text3448" transform="matrix(.83623 0 0 .83623 -106.92 -395.35)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13778" xlink:href="#text3647-9" transform="translate(-204 -485.25)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13780" xlink:href="#text3647" transform="matrix(1.6839 0 0 1.6839 -356.37 -873.57)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13782" xlink:href="#text3380" transform="matrix(1.7374 0 0 1.7374 -410.95 -751.83)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13784" xlink:href="#text13686" transform="translate(-104.91 -574)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13786" xlink:href="#text13682" transform="translate(-175.09 -574.17)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13788" xlink:href="#text13676" transform="translate(-213.58 -574.17)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13790" xlink:href="#text13686" transform="translate(-290.83 -385.38)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13792" xlink:href="#text13682" transform="translate(-278.41 -476.18)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13794" xlink:href="#text13676" transform="translate(-255.17 -532.2)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13859" xlink:href="#g13843" transform="translate(152.11 -708.23)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3374" transform="translate(-177.87 -573.4)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3647" transform="translate(-144.09 -595.19)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3380" transform="translate(-165.44 -534.27)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13690" transform="translate(-123.27 -700.02)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13690" transform="translate(-152.62 -671.12)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13686" transform="translate(-142.74 -699.58)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13686" transform="translate(-210.34 -631.09)" height="100%" width="100%" y="0" x="0"/>
+		<path d="m319 278.88h-240" stroke="#333" stroke-width="2" fill="none"/>
+		<path d="m198 399.88v-240" stroke="#333" stroke-width="2" fill="none"/>
+		<rect fill-opacity="0" height="238" width="238" stroke="#333" y="160.88" x="80.002" stroke-width="2"/>
+		<path d="m199 218.77h-120" stroke="#333" stroke-width="2" fill="none"/>
+		<path d="m138.95 279.67v-119.79" stroke="#333" stroke-width="2" fill="none"/>
+		<use xlink:href="#text3442" transform="translate(-197.25 -426.49)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3448" transform="matrix(.83623 0 0 .83623 -106.92 -395.35)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3647-9" transform="translate(-204 -485.25)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3647" transform="matrix(1.6839 0 0 1.6839 -356.37 -873.57)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3380" transform="matrix(1.7374 0 0 1.7374 -410.95 -751.83)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13686" transform="translate(-104.91 -574)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13682" transform="translate(-175.09 -574.17)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13676" transform="translate(-213.58 -574.17)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13686" transform="translate(-290.83 -385.38)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13682" transform="translate(-278.41 -476.18)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13676" transform="translate(-255.17 -532.2)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g13843" transform="translate(152.11 -708.23)" height="100%" width="100%" y="0" x="0"/>
 	</g>
 	<g id="g-r-process" class="layer">
-		<g>
-			<path id="path13877" d="m361.72 215.7h-293.31" marker-start="url(#Arrow1Mstart-4)" class="hl" stroke="#333" stroke-width="2" fill="none"/>
-			<path id="path13879" d="m68.41 23.379v192.32" marker-start="url(#Arrow1Mstart-4)" stroke="#333" stroke-width="2" class="hl" fill="none"/>
-			<rect id="rect13881" transform="scale(-1)" height="22.715" width="275.15" y="-215.69" x="-343.56" stroke-width="0" fill="url(#pattern3583)"/>
+		<path d="m361.72 215.7h-293.31" marker-start="url(#Arrow1Mstart-4)" stroke="#333" fill="none"/>
+		<path d="m68.41 23.379v192.32" marker-start="url(#Arrow1Mstart-4)" stroke="#333" fill="none"/>
+		<rect transform="scale(-1)" height="22.715" width="275.15" y="-215.69" x="-343.56" stroke-width="0" fill="url(#g-hatch)"/>
+		<use xlink:href="#text3653" transform="translate(-252.34 -601.68)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13887" transform="translate(60.147 -514.2)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13895" transform="translate(-215.88 -514.76)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13901" transform="translate(-203.18 -514.76)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13907" transform="translate(-69.762 -514.84)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13913" transform="translate(-55.06 -514.76)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13919" transform="translate(-284.58 -575.5)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3374" transform="translate(-308.82 -435.25)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text13891" transform="translate(-242.98 -536.7)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text3380" transform="translate(-334.72 -552.01)" height="100%" width="100%" y="0" x="0"/>
+		<rect transform="scale(-1)" height="22.715" width="275.15" y="-76.907" x="-343.56" stroke-width="0" fill="url(#g-hatch)"/>
+		<path d="m68.614 214.77s13.166 4.4398 24.805-10.453c31.107-39.802 21.272-118.96 42.545-139.09 13.503-12.776 19.783-10.95 29.262-11.105 27.996-0.45923 84.153 0.35087 84.153 0.35087s16.692-0.15368 28.506 15.821c11.814 15.974 19.563 112.03 39.063 131.53 13.213 13.213 24.879 12.847 24.879 12.847" stroke="#333" stroke-width="2" fill="none"/>
+		<path d="m68.454 53.981h275.11" stroke="#333" fill="none"/>
+		<path d="m68.454 76.407h275.11" stroke="#333" fill="none"/>
+		<path d="m68.454 192.85h275.11" stroke="#333" fill="none"/>
+		<path d="m129.64 75.907v139.79" stroke="#333" stroke-dasharray="4, 4" fill="none"/>
+		<path d="m280.73 75.907v139.79" stroke="#333" stroke-dasharray="4, 4" fill="none"/>
+		<path d="m310.98 193.35v23.033" stroke="#333" stroke-dasharray="4.00000004, 4.00000004" fill="none"/>
+		<path d="m100.62 193.35v23.033" stroke="#333" stroke-dasharray="4.00000004, 4.00000004" fill="none"/>
+	</g>
+	<g id="g-oz-gds" class="layer">
+		<g transform="translate(3.5703 -843.87)">
+			<use xlink:href="#g12744" transform="translate(264.16)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#g12738" transform="translate(133.57)" height="100%" width="100%" y="0" x="0"/>
+			<g id="g12744" transform="translate(-6.9568)">
+				<path d="m66.502-876.46a47.093 47.093 0 0 1 -34.635 -23.804 47.093 47.093 0 0 1 -1.8331 -41.986" marker-start="url(#marker7481)" transform="scale(1,-1)" stroke="#333" fill="none"/>
+				<path fill="none" marker-start="url(#marker14355-0)" transform="matrix(-.5 .86603 .86603 .5 0 0)" stroke="#333" d="m756.34 571.45a47.093 47.093 0 0 1 -34.635 -23.804 47.093 47.093 0 0 1 -1.8331 -41.986"/>
+				<path d="m-842.5 444.92a47.093 47.093 0 0 1 -34.635 -23.804 47.093 47.093 0 0 1 -1.8331 -41.986" marker-start="url(#marker14843-4)" transform="matrix(-.5 -.86603 -.86603 .5 0 0)" stroke="#333" fill="none"/>
+				<use xlink:href="#g-element-0" transform="translate(60.056 263.13)" height="100%" width="100%" y="0" x="0"/>
+				<use xlink:href="#g-element-0" transform="translate(19.323 333.52)" height="100%" width="100%" y="0" x="0"/>
+				<use xlink:href="#g-element-0" transform="translate(100.84 333.69)" height="100%" width="100%" y="0" x="0"/>
+				<use xlink:href="#text13834" transform="translate(-240.74 93.627)" height="100%" width="100%" y="0" x="0"/>
+				<use xlink:href="#text13838" transform="translate(-208.71 192.24)" height="100%" width="100%" y="0" x="0"/>
+				<use xlink:href="#text13842" transform="translate(-317.49 193.06)" height="100%" width="100%" y="0" x="0"/>
+			</g>
+			<g id="g12738" transform="translate(-6.9568)">
+				<use xlink:href="#g-element-0" transform="translate(60.056 310.09)" height="100%" width="100%" y="0" x="0"/>
+				<path d="m73.075 882.3v35.81-35.81z" marker-start="url(#marker16644-5)" stroke="#333" stroke-width=".98056" fill="none"/>
+				<path d="m108.29 943.65-31.137-17.807 31.137 17.807z" marker-start="url(#marker12500-3)" stroke="#333" stroke-width=".96081" fill="none"/>
+				<path d="m37.752 943.36 31.276-18.186-31.276 18.186z" marker-start="url(#marker8942)" stroke="#333" stroke-width=".97312" fill="none"/>
+				<use xlink:href="#text13846" transform="translate(-285.46 168.76)" height="100%" width="100%" y="0" x="0"/>
+			</g>
+			<text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="936.25482" x="128.48947" font-family="Georgia" fill="#000000"><tspan font-size="35px" y="936.25482" x="128.48947" font-family="&apos;Times New Roman&apos;" fill="#333333">=</tspan></text>
+			<text style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="936.25482" x="249.48901" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="35px" y="936.25482" x="249.48901" font-family="&apos;Times New Roman&apos;" fill="#333333">+</tspan></text>
 		</g>
-		<use id="use13925" xlink:href="#text3653" transform="translate(-260.34 -603.68)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13927" xlink:href="#text13887" transform="translate(64.147 -514.2)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13929" xlink:href="#text13895" transform="translate(-215.88 -514.76)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13931" xlink:href="#text13901" transform="translate(-203.18 -514.76)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13933" xlink:href="#text13907" transform="translate(-69.762 -514.84)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13935" xlink:href="#text13913" transform="translate(-55.06 -514.76)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13937" xlink:href="#text13919" transform="translate(-284.58 -575.5)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13939" xlink:href="#text3374" transform="translate(-308.82 -435.25)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13941" xlink:href="#text13891" transform="translate(-320.54 -491.81)" height="100%" width="100%" y="0" x="0"/>
-		<use id="use13943" xlink:href="#text3380" transform="translate(-334.72 -552.01)" height="100%" width="100%" y="0" x="0"/>
-		<rect id="rect13945" transform="scale(-1)" height="22.715" width="275.15" y="-76.907" x="-343.56" stroke-width="0" fill="url(#pattern13947)"/>
-		<g stroke="#333" fill="none">
-			<g>
-				<path id="path13949" d="m68.614 214.77s13.166 4.4398 24.805-10.453c31.107-39.802 21.272-118.96 42.545-139.09 13.503-12.776 19.783-10.95 29.262-11.105 27.996-0.45923 84.153 0.35087 84.153 0.35087s16.692-0.15368 28.506 15.821c11.814 15.974 19.563 112.03 39.063 131.53 13.213 13.213 24.879 12.847 24.879 12.847" stroke-width="2"/>
-				<g>
-					<path id="path13951" d="m68.454 53.981h275.11"/>
-					<path id="path13953" d="m68.454 76.407h275.11"/>
-					<path id="path13955" d="m68.454 192.85h275.11"/>
+		<use xlink:href="#text21260" transform="translate(-238.15 -639.47)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text21264" transform="translate(-124.98 -639.47)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text21248" transform="translate(-24.121 -639.47)" height="100%" width="100%" y="0" x="0"/>
+	</g>
+	<g id="g-spectrum" class="layer">
+		<g id="g23614" transform="translate(13.881 -20.418)">
+			<path d="m336.01 107.43h-292.68" marker-start="url(#Arrow1Mstart-4-8)" stroke="#333" fill="none"/>
+			<use xlink:href="#text22917" transform="translate(46.798 -646.86)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#text22913" transform="translate(-73.802 -650.16)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#text13846" transform="translate(-120.87 -649.92)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#text13842" transform="translate(-170.23 -649.92)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#text13838" transform="translate(-220.47 -649.92)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#text13834" transform="translate(-262.62 -649.92)" height="100%" width="100%" y="0" x="0"/>
+		</g>
+		<path d="m179.26 87.015v96.516" stroke="#333" stroke-dasharray="3.99999999, 3.99999999" fill="none"/>
+		<path id="path22958" d="m57.716 56.807 54.785-32.087 66.763 62.295 63.388-46.12 58.887 27.341" stroke="#000" stroke-width="2" fill="none"/>
+		<path d="m57.546 56.187v31.182" stroke="#333" fill="none"/>
+		<path d="m301.54 184.25v10.936" stroke="#333" fill="none"/>
+		<use xlink:href="#g23614" transform="translate(2e-7,97)" height="100%" width="100%" y="0" x="0"/>
+		<path d="m112.15 151.88v32.103" stroke="#333" fill="none"/>
+		<path d="m112.5 24.721v62.037" stroke="#333" fill="none"/>
+		<path d="m242.65 40.896v45.849" stroke="#333" fill="none"/>
+		<path d="m301.54 68.237v18.596" stroke="#333" fill="none"/>
+		<path d="m179.26 183.53v30.432" stroke="#333" fill="none"/>
+		<path d="m242.65 167.84v16.184" stroke="#333" fill="none"/>
+		<path d="m242.68 87.015v80.664" stroke="#333" stroke-dasharray="3.99999998, 3.99999998" fill="none"/>
+		<use xlink:href="#path22958" transform="translate(2e-7 126.95)" height="100%" width="100%" y="0" x="0"/>
+		<path d="m301.54 86.834v97.416" stroke="#333" stroke-dasharray="3.99999981, 3.99999981" fill="none"/>
+		<path d="m112.5 87.015v64.861" stroke="#333" stroke-dasharray="4.00000001, 4.00000001" fill="none"/>
+		<path d="m57.546 87.015v97.453" stroke="#333" stroke-dasharray="4.00000019, 4.00000019" fill="none"/>
+	</g>
+	<g id="g-pyramid" class="layer">
+		<g transform="matrix(.54133 0 0 .54133 100.76 -62.08)">
+			<g id="g23729" transform="translate(41.273 -317.9)">
+				<use xlink:href="#g23664" transform="translate(-15.259 200.74)" height="100%" width="100%" y="0" x="0"/>
+				<ellipse rx="5.5405" transform="scale(-1)" stroke="#333" ry="2.5584" cy="-973.33" cx="-62.319" stroke-width="1.8473" fill="none"/>
+				<use xlink:href="#g23664" transform="translate(42.033 201.99)" height="100%" width="100%" y="0" x="0"/>
+				<ellipse rx="61.089" ry="53.209" stroke="#333" cy="973.33" cx="62.319" stroke-width="3.6946" fill="none"/>
+			</g>
+			<g transform="translate(111.74 -728.83)">
+				<ellipse rx="5.5405" transform="rotate(90)" stroke="#333" ry="2.5584" cy="-77.656" cx="1172.4" stroke-width="1.8473" fill="none"/>
+				<use xlink:href="#g23729" transform="translate(-25.935 458.22)" height="100%" width="100%" y="0" x="0"/>
+				<use xlink:href="#g23729" transform="translate(-25.935 575.71)" height="100%" width="100%" y="0" x="0"/>
+				<ellipse rx="88.642" ry="127.7" stroke="#333" cy="1172.4" cx="77.656" stroke-width="3.6946" fill="none"/>
+			</g>
+			<g id="g24074">
+				<circle id="circle23654" stroke-width="3.6946" fill-opacity="0" stroke="#333" class="hl" cy="843.14" cx="24.902" r="9.0909"/>
+				<g id="g23664" transform="translate(4.0606 -123.6)">
+					<use xlink:href="#circle23654" transform="matrix(0 1 -1 0 887.96 855.83)" height="100%" width="100%" y="0" x="0"/>
+					<use xlink:href="#circle23654" transform="matrix(0 1 -1 0 887.96 884.35)" height="100%" width="100%" y="0" x="0"/>
+					<ellipse rx="5.5405" transform="rotate(90)" stroke="#333" ry="2.5584" cy="-44.974" cx="894.94" stroke-width="1.8473" fill="none"/>
+					<ellipse rx="23.208" ry="32.327" stroke="#333" cy="894.94" cx="44.974" stroke-width="3.6946" fill="none"/>
 				</g>
+				<use xlink:href="#circle23654" transform="translate(49.245 -.69360)" height="100%" width="100%" y="0" x="0"/>
 			</g>
-			<g>
-				<path id="path13957" d="m129.64 75.907v139.79" stroke-dasharray="4, 4"/>
-				<path id="path13959" d="m280.73 75.907v139.79" stroke-dasharray="4, 4"/>
-				<path id="path13961" d="m310.98 193.35v23.033" stroke-dasharray="4.00000004, 4.00000004"/>
-				<path id="path13963" d="m100.62 193.35v23.033" stroke-dasharray="4.00000004, 4.00000004"/>
-			</g>
+			<use xlink:href="#g24074" transform="translate(95.023)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#g24074" transform="translate(189.35)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#g24074" transform="translate(282.29)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#g23729" transform="translate(174.09 -3.2941e-7)" height="100%" width="100%" y="0" x="0"/>
+			<rect clip-path="url(#clipPath6222)" transform="scale(-1)" height="14.189" width="684.37" y="-818.86" x="-540.47" stroke-width="0" fill="url(#pattern5795)"/>
+			<rect clip-path="url(#clipPath6218)" transform="scale(-1)" height="14.189" width="683.4" y="-833.05" x="-540.29" stroke-width="0" fill="url(#pattern5797)"/>
+			<rect clip-path="url(#clipPath6214)" transform="scale(-1)" height="14.189" width="662.95" y="-738.02" x="-520.34" stroke-width="0" fill="url(#pattern5791)"/>
+			<rect clip-path="url(#clipPath6210)" transform="scale(-1)" height="14.189" width="662.95" y="-723.83" x="-520.34" stroke-width="0" fill="url(#pattern5793)"/>
+			<rect clip-path="url(#clipPath6206)" transform="scale(-1)" height="14.189" width="693.34" y="-867.42" x="-541.77" stroke-width="0" fill="url(#pattern5499)"/>
+			<rect clip-path="url(#clipPath6202)" transform="scale(-1)" height="14.189" width="574" y="-600.65" x="-471" stroke-width="0" fill="url(#pattern5789)"/>
+			<rect clip-path="url(#clipPath6198)" transform="scale(-1)" height="14.189" width="574" y="-586.46" x="-471" stroke-width="0" fill="url(#pattern5777)"/>
+			<rect clip-path="url(#clipPath6194)" transform="scale(-1)" height="156.54" width="337.67" y="-314.32" x="-368.42" stroke-width="0" fill="url(#pattern5787)"/>
+			<path d="m-109.76 156.67h625.08" stroke="#333" stroke-width="1.8473" fill="none"/>
+			<path fill="none" transform="matrix(1.1822 0 0 1.6904 97.589 -1370.1)" stroke="#333" stroke-width="2.6135" d="m318.88 1323.1h-241.22-241.22l120.6-209 120.62-208.85 120.61 208.85z"/>
+			<path d="m-110.61 586.46h473.49" stroke="#333" stroke-width="1.8473" fill="none"/>
+			<path d="m-111.27 723.83h529.44" stroke="#333" stroke-width="1.8473" fill="none"/>
+			<path d="m-112.31 818.86h568.01" stroke="#333" stroke-width="1.8473" fill="none"/>
+			<path d="m-114.98 867.69h625.08" stroke="#333" stroke-width="1.8473" fill="none"/>
+			<path marker-end="url(#Arrow1Mend)" d="m499.57 863.28v-702.18" marker-start="url(#Arrow1Mstart)" stroke="#333" stroke-width="1.8473" fill="none"/>
+			<path marker-end="url(#marker7432)" d="m-92.024 895.83h563.76" marker-start="url(#Arrow1Mstart)" stroke="#333" stroke-width="1.8473" fill="none"/>
+			<path d="m475.5 908.64v-42.2" stroke="#333" stroke-width="1.8473" fill="none"/>
+			<path d="m-95.781 908.64v-42.2" stroke="#333" stroke-width="1.8473" fill="none"/>
 		</g>
+		<use xlink:href="#text8426" transform="translate(95.013 -575.63)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text8430" transform="translate(-80.612 -375.15)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text8410" transform="translate(-278.86 -419.67)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text8414" transform="translate(-298.6 -460.05)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text8418" transform="translate(-322.17 -523.28)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#text8422" transform="translate(-350.59 -682.83)" height="100%" width="100%" y="0" x="0"/>
+		<path stroke-linejoin="round" d="m41.344 255.39c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.03888-4.3772c0.01877-2.1126 0.09026-112.68-0.55979-114.48-0.65005-1.7979-2.4591-2.0541-4.9675-2.556 2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-96.205 0.44781-98.358l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886" stroke="#333" stroke-width="1px" fill="none"/>
+		<path stroke-linejoin="round" d="m40.888 329.75c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.03888-4.3772c0.01876-2.1126 0.09026-26.187-0.55979-27.985-0.65005-1.7979-2.4591-2.0541-4.9675-2.556 2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-24.41 0.44781-26.564l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886" stroke="#333" stroke-width="1px" fill="none"/>
+		<path stroke-linejoin="round" d="m40.531 381.2c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.03888-4.3772c0.01876-2.1126 0.09026-14.787-0.55979-16.584-0.65005-1.7979-2.4591-2.0541-4.9675-2.556 2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-12.89 0.44781-15.043l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886" stroke="#333" stroke-width="1px" fill="none"/>
+		<path stroke-linejoin="round" d="m40.054 407.63c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.03888-4.3772c0.01877-2.1126 0.09026-1.6753-0.55979-3.4732s-2.4591-2.0541-4.9675-2.556c2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-0.98961 0.44781-3.1432l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886" stroke="#333" stroke-width="1px" fill="none"/>
 	</g>
 </svg>

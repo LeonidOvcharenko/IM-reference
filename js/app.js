@@ -145,7 +145,7 @@ function init_reference(){
 		$.each(tags, function(t, tag){
 			reference_tags[tag] = 'ref_'+i;
 		});
-		var definition = $el.find('.reference--definition').text();
+		var definition = $el.find('.reference--definition').text().replace(/ /g, ' '); // nbsp -> space
 		if (definition) { reference_tags[definition] = 'ref_'+i; }
 		
 		// add categories links
