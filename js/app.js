@@ -19,6 +19,7 @@ function show_filtered_articles(request){
 	$('.reference').addClass('reference-hidden');
 	$(articles).removeClass('reference-hidden');
 	$('.content--reference').masonry('reloadItems').masonry();
+	save_state();
 }
 function search_hints(request, response){
 	if (request.term.length < 2) {
@@ -98,9 +99,10 @@ function show_category(cat){
 	$('.content--reference').masonry('reloadItems').masonry();
 	$('.content--reference').on('layoutComplete', function(){
 		setTimeout(function(){
-			scroll_to_article($('.reference:visible:first'));
+			scroll_to_article($('.reference:not(.reference-hidden):first'));
 		}, 10);
 	});
+	save_state();
 }
 var reference_categories = [];
 function scroll_to_article(el, hl_after){
@@ -164,9 +166,10 @@ function init_reference(){
 		$('.content--reference').masonry('reloadItems').masonry();
 		$('.content--reference').on('layoutComplete', function(){
 			setTimeout(function(){
-				scroll_to_article($('.reference:visible:first'));
+				scroll_to_article($('.reference:not(.reference-hidden):first'));
 			}, 10);
 		});
+		save_state();
 	});
 	$('.reference--link').on('click', function(e){
 		e.preventDefault();
@@ -180,6 +183,7 @@ function init_reference(){
 					scroll_to_article(target, true);
 				}, 10);
 			});
+			save_state();
 		}
 		else {
 			scroll_to_article(target, true);
@@ -190,9 +194,28 @@ function init_reference(){
 		show_category($(this).attr('href'));
 	});
 }
+function save_state(){
+	if (!localStorage) return;
+	var state = [];
+	$('.reference:not(.reference-hidden)').each(function(i, el){
+		state.push( $(el).attr('data-title') );
+	});
+	localStorage.setItem('im_reference_blocks', state.join(';'));
+}
+function init_state(){
+	if (!localStorage) return;
+	var saved = localStorage.getItem('im_reference_blocks');
+	if (saved){
+		$('.reference').addClass('reference-hidden');
+		$.each( saved.split(';'), function(i, title){
+			$(".reference[data-title='"+title+"']").removeClass('reference-hidden');
+		});
+	}
+}
 
 $(function(){
 	init_reference();
+	init_state();
 	init_header();
 	
 	$('.content--reference').masonry({
