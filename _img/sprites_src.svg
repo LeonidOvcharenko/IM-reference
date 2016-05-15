@@ -13,7 +13,10 @@
    inkscape:version="0.91 r13725"
    width="400"
    height="1200"
-   sodipodi:docname="sprites_src.svg">
+   sodipodi:docname="sprites_src.svg"
+   preserveAspectRatio="xMidYMin slice">
+  <title
+     id="title3418">Инвариантное моделирование</title>
   <metadata
      id="metadata3007">
     <rdf:RDF>
@@ -22,9 +25,20 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title>Инвариантное моделирование</dc:title>
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Овчаренко Л.О.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:source></dc:source>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Малюта А.Н.</dc:title>
+          </cc:Agent>
+        </dc:contributor>
       </cc:Work>
       <cc:License
          rdf:about="http://creativecommons.org/licenses/by/3.0/">
@@ -56,12 +70,12 @@
      showgrid="true"
      showguides="true"
      inkscape:zoom="1.0685057"
-     inkscape:cx="93.263099"
-     inkscape:cy="964.58036"
+     inkscape:cx="103.08991"
+     inkscape:cy="980.02249"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g4955"
+     inkscape:current-layer="svg2997"
      inkscape:snap-grids="true"
      inkscape:snap-to-guides="true"
      inkscape:snap-page="true"
@@ -593,7 +607,4 @@
        id="ellipse4270"
        class="hl" />
   </g>
-  <view
-     viewBox="0 0 250 250"
-     id="g-graphics2" />
 </svg>
