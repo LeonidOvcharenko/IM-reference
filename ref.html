@@ -143,26 +143,23 @@
 </article>
 <article data-tags="Гиперкомплексный граф;Графоаналитическое описание системы" data-categories="Цикл 1">
 	<h2>Гиперкомплексный граф</h2>
-	<figure style="padding-bottom: 52%;">
+	<figure style="padding-bottom: 88%;">
 		<object type="image/svg+xml" data="img/graphics.svg#g-graph"></object>
-		<!--img src="img/graphics.svg#g-graphics2" /-->
-		<!--svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="600" viewBox="0 0 400 400">
-			<use xlink:href="img/graphics.svg#g-graph"/>
-		</svg-->
-	</figure>
-	<figure style="padding-bottom: 70%;">
-		<object type="image/svg+xml" data="img/graphics.svg#g-sprites"></object>
 	</figure>
 	<p>Элемент обозначается окружностью произвольного радиуса.</p>
 	<p>Взаимодействие между элементами обозначается направленной стрелкой.</p>
 	<p><a href="Эмержентность">Целостность</a> отображается окружностью, либо другой замкнутой кривой, содержащей внутри себя системные элементы.</p>
 	<p><a href="Иерархия">Иерархия</a> проявляет себя после графического отображения целостности: внешняя характеристика системы <span class="formula">A</span> (верхний иерархический уровень) и внутренние элементы <span class="formula">A_1</span> и <span class="formula">A_2</span> (нижние иерархические уровни).</p>
 	<p>Обычный граф может быть получен из гиперкомплексного путем <i>свертки</i> — устранением из системы элементов низшего иерархического уровня (ликвидацией характеристики вложенности):</p>
-	<figure>TODO</figure>
+	<figure style="padding-bottom: 44%;">
+		<object type="image/svg+xml" data="img/graphics.svg#g-graph2"></object>
+	</figure>
 </article>
 <article data-tags="Гиперкомплексная матрица;Матричное описание системы" data-categories="Цикл 1;Матрицы">
 	<h2>Гиперкомплексная матрица</h2>
-	<figure>TODO</figure>
+	<figure style="padding-bottom: 105%;">
+		<object type="image/svg+xml" data="img/graphics.svg#g-matrix"></object>
+	</figure>
 	<p>Для матрицы без иерархии:</p>
 	<ul>
 		<li><i>Порядок</i> матрицы равен числу элементов системы.</li>
@@ -185,15 +182,18 @@
 <article data-tags="Принцип системной реализации;R-принцип" data-categories="Цикл 1">
 	<h2>Принцип системной реализации (R-принцип)</h2>
 	<header>Каждая <a href="ГДС">ГДС</a> находится в состоянии процесса системной реализации.</header>
-	<figure>TODO</figure>
+	<figure style="padding-bottom: 66%;">
+		<object type="image/svg+xml" data="img/graphics.svg#g-r-process"></object>
+	</figure>
 	<p>По вертикали отложен уровень системной реализации <span class="formula">A</span>, по горизонтали — время <span class="formula">t</span>.</p>
-	<p>Фазы системного развития:</p>
+	<p><span class="formula">A_0</span> — стопроцентный (единичный) уровень системной реализации; <span class="formula">A_1</span> и <span class="formula">A_2</span> — соответственно нижний и верхний пороги системной реализации.</p>
+	<p><b>Фазы системного развития:</b></p>
 	<ol>
-		<li>Предсистемное состояние, состояние <a href="S0">системообразующей среды</a></li>
-		<li>Фаза развития</li>
-		<li>Фаза стационарности, состояние <a href="Эмержентность">целостности</a></li>
-		<li>Фаза распада</li>
-		<li>Постсистемное состояние, состояние <a href="S0">системообразующей среды</a></li>
+		<li>Предсистемное состояние, состояние <a href="S0">системообразующей среды</a> <span class="formula">(0 \dots t_1)</span></li>
+		<li>Фаза развития <span class="formula">(t_1 \dots t_2)</span></li>
+		<li>Фаза стационарности, состояние <a href="Эмержентность">целостности</a> <span class="formula">(t_2 \dots t_3)</span></li>
+		<li>Фаза распада <span class="formula">(t_3 \dots t_4)</span></li>
+		<li>Постсистемное состояние, состояние <a href="S0">системообразующей среды</a> <span class="formula">(t_4 \dots)</span></li>
 	</ol>
 </article>
 <article data-tags="Основной закон ГДС" data-categories="Цикл 1">
@@ -226,14 +226,14 @@
 	<p class="text-center"><span class="formula">Г = h \times a</span></p>
 	<p>Для того, чтобы достичь высоты, превышающей собственную максимальную высоту пирамиды, необходимо <i>расширить ее базис:</i> увеличить число исходных элементов нижнего иерархического уровня.</p>
 </article>
-<article data-tags="Иерархический принцип системной реализации;R-принцип с иерархией" data-categories="Цикл 1;Иерархия">
+<article data-tags="Иерархический принцип системной реализации;R-принцип с иерархией;Фазы системного развития" data-categories="Цикл 1;Иерархия">
 	<h2>Иерархический принцип системной реализации</h2>
 	<figure>TODO</figure>
 	<p>По вертикали отложен уровень системной реализации <span class="formula">A</span>, по горизонтали — время <span class="formula">t</span>.</p>
 	<p>Римскими цифрами обозначены зоны иерархического развития (от нижней первой до высшей четвертой).</p>
 	<p>Буквой Z обозначена <a href="Зона Z">зона кризисного развития</a>.</p>
 	<p>Единицы измерения по вертикали изменяются при переходе с одного иерархического уровня на другой.</p>
-	<p>Фазы (состояния) системного развития:</p>
+	<p><b>Фазы (состояния) системного развития:</b></p>
 	<ol>
 		<li>Предсистемное состояние, состояние <a href="S0">системообразующей среды</a></li>
 		<li>Фаза развития</li>
