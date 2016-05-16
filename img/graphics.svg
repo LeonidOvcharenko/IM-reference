@@ -3,6 +3,53 @@
 .layer:target { display: inline; }
 .hl:hover { stroke: red; }</style>
 	<defs>
+		<marker id="marker105235" refY="0" refX="0" overflow="visible" orient="auto">
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.4 0 0 .4 4 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker84257" refY="0" refX="0" orient="auto" overflow="visible">
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.4 0 0 .4 4 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker83623" refY="0" refX="0" orient="auto" overflow="visible">
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.4 0 0 .4 4 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker82177" refY="0.0" refX="0.0" orient="auto" overflow="visible">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.4) translate(10)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker81725" refY="0.0" refX="0.0" overflow="visible" orient="auto">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.4) translate(10)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker77857" refY="0.0" refX="0.0" overflow="visible" orient="auto">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.4) translate(10)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker62701" refY="0.0" refX="0.0" overflow="visible" orient="auto">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.4) translate(10)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker5643" refY="0.0" refX="0.0" orient="auto" overflow="visible">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.2) rotate(180) translate(6)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker12131" refY="0.0" refX="0.0" overflow="visible" orient="auto">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.2) rotate(180) translate(6)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker12039" refY="0.0" refX="0.0" orient="auto" overflow="visible">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.2) rotate(180) translate(6)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker11791" refY="0.0" refX="0.0" orient="auto" overflow="visible">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.2) rotate(180) translate(6)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker11787" refY="0.0" refX="0.0" orient="auto" overflow="visible">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.2) translate(6)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker11769" refY="0.0" refX="0.0" overflow="visible" orient="auto">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.2) translate(6)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker11765" refY="0.0" refX="0.0" overflow="visible" orient="auto">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.2) translate(6)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker11761" refY="0.0" refX="0.0" overflow="visible" orient="auto">
+			<path d="m0 0l5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="scale(.2) translate(6)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<pattern id="pattern11100" xlink:href="#g-hatch" patternTransform="matrix(.70711 .70711 -.70711 .70711 -16.115 -3.7918)"/>
+		<pattern id="pattern11026" xlink:href="#g-hatch" patternTransform="matrix(.70711 .70711 -.70711 .70711 -.0000052 -600)"/>
 		<pattern id="pattern10854" xlink:href="#g-hatch" patternTransform="rotate(45)"/>
 		<marker id="marker10094" refY="0.0" refX="0.0" overflow="visible" orient="auto">
 			<path stroke-linejoin="round" d="m8.7186 4.0337l-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7355 5.6174 0 8.0354z" fill-rule="evenodd" transform="scale(.6) translate(0)" stroke="#666" stroke-width=".625" fill="#666"/>
@@ -124,8 +171,29 @@
 		<marker id="marker9915" refY="0" refX="0" overflow="visible" orient="auto">
 			<path stroke-linejoin="round" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill-rule="evenodd" transform="scale(.6)" stroke="#666" stroke-width=".625" fill="#666"/>
 		</marker>
+		<marker id="marker11765-2" refY="0" refX="0" overflow="visible" orient="auto">
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.2 0 0 .2 1.2 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker11769-3" refY="0" refX="0" overflow="visible" orient="auto">
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.2 0 0 .2 1.2 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker11761-5" refY="0" refX="0" overflow="visible" orient="auto">
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.2 0 0 .2 1.2 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker12039-3" refY="0" refX="0" orient="auto" overflow="visible">
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.2 0 0 -.2 -1.2 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker12131-0" refY="0" refX="0" overflow="visible" orient="auto">
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.2 0 0 -.2 -1.2 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker11791-3" refY="0" refX="0" orient="auto" overflow="visible">
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.2 0 0 -.2 -1.2 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
+		<marker id="marker81725-7" refY="0" refX="0" overflow="visible" orient="auto">
+			<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(.4 0 0 .4 4 0)" stroke="#333" stroke-width="1pt" fill="#333"/>
+		</marker>
 	</defs>
-	<g id="g-sprites" transform="translate(0,-600)" class="layer">
+	<g id="g-sprites" display="none" transform="translate(0,-600)" class="layer">
 		<text font-family="Georgia" font-size="80px" stroke="#333333" line-height="125%" y="1390.7233" x="14.650643" fill="url(#pattern5805)">
 			<tspan font-weight="bold" font-size="45px" fill="url(#pattern5805)">Штриховка</tspan>
 		</text>
@@ -133,226 +201,297 @@
 		<rect fill-opacity="0" height="100" width="390" y="1319" x="560"/>
 		<text id="text3374" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="631.85181" x="350.8504" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="631.85181" x="350.8504" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></tspan></text>
 		<text id="text3380" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="631.85181" x="375.73975" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="631.85181" x="375.73975" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></tspan></text>
-		<circle id="g-element-1" stroke-width="2" fill-opacity="0" stroke="#333" cy="620.18" cx="40" r="9.0909" class="hl"/>
-		<circle id="g-element-0" stroke-width="2" transform="scale(1,-1)" stroke="#333" class="hl" cy="-613" cx="13" r="2.3596" fill="#333"/>
-		<circle id="g-element-2" stroke-width="2" fill-opacity="0" stroke="#333" cy="630.18" cx="80" r="19.048" class="hl"/>
-		<circle id="g-element-3" stroke-width="2" fill-opacity="0" stroke="#333" cy="640.28" cx="140.1" r="28.699" class="hl"/>
-		<circle stroke-width="2" stroke="#333" pointer-events="none" cy="650.18" cx="220" r="39.024" class="hl" fill="none"/>
-		<rect transform="scale(-1)" height="94.717" width="320" y="-1614" x="-380" fill="url(#g-hatch)"/>
-		<text id="text3641" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="654.04346" x="299.83765" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="654.04346" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">mn</tspan></tspan></text>
-		<text id="text3647" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="654.1759" x="334.60883" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="654.1759" x="334.60883" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></tspan></text>
-		<text id="text3653" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="631.85181" x="300.30151" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="631.85181" x="300.30151" font-family="&apos;Times New Roman&apos;" fill="#333333">A</tspan></text>
-		<path id="g-relation-0" d="m97.02 665h-87.168" marker-start="url(#Arrow1Mstart)" class="hl" stroke="#333" stroke-width="2" fill="none"/>
-		<text id="text3647-9" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" font-size="80px" line-height="125%" y="678.95801" x="299.83765" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="678.95801" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.1</tspan></tspan></text>
-		<text id="text3442" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" font-size="80px" line-height="125%" y="678.95801" x="351.55884" fill="#333333"><tspan font-size="17.5px" y="678.95801" x="351.55884" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></tspan></text>
-		<text id="text3448" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="703.95801" x="299.83765" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="703.95801" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">(1.1)(1.2)</tspan></tspan></text>
-		<path id="path3454" d="m97.904 690.29h-58.04" marker-start="url(#marker10094)" stroke="#666" stroke-width="2" class="hl" fill="none"/>
-		<path id="path4565" d="m9.8523 723.51v-48.61" marker-start="url(#Arrow1Mstart)" stroke="#333" stroke-width="2" class="hl" fill="none"/>
-		<text id="text13676" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" font-size="80px" line-height="125%" y="727.87726" x="314.0687" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="314.0687" font-family="&apos;Times New Roman&apos;" fill="#333333">1.1</tspan></text>
-		<text id="text13682" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" font-size="80px" line-height="125%" y="727.87726" x="336.30472" xml:space="preserve" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="336.30472" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></text>
-		<text id="text13686" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" font-size="80px" line-height="125%" y="727.87726" x="358.09601" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="358.09601" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></text>
-		<text id="text13690" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" font-size="80px" line-height="125%" y="727.87726" x="300.72711" xml:space="preserve" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="300.72711" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></text>
+		<g stroke="#333" stroke-width="2">
+			<circle id="g-element-1" stroke-width="2" fill-opacity="0" stroke="#333" cy="620.18" cx="40" r="9.0909" class="hl"/>
+			<circle id="g-element-0" stroke-width="2" transform="scale(1,-1)" stroke="#333" class="hl" cy="-613" cx="13" r="2.3596" fill="#333"/>
+			<circle id="g-element-2" stroke-width="2" fill-opacity="0" stroke="#333" cy="630.18" cx="80" r="19.048" class="hl"/>
+			<circle id="g-element-3" fill-opacity="0" cy="640.28" cx="140.1" r="28.699" class="hl"/>
+			<circle pointer-events="none" cy="650.18" cx="220" r="39.024" class="hl" fill="none"/>
+		</g>
+		<g>
+			<rect transform="scale(-1)" height="94.717" width="320" y="-1614" x="-380" fill="url(#g-hatch)"/>
+			<g>
+				<text id="text3641" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="654.04346" x="299.83765" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="654.04346" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">mn</tspan></tspan></text>
+				<text id="text3647" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="654.1759" x="334.60883" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="654.1759" x="334.60883" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></tspan></text>
+				<text id="text3653" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="631.85181" x="300.30151" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="631.85181" x="300.30151" font-family="&apos;Times New Roman&apos;" fill="#333333">A</tspan></text>
+			</g>
+		</g>
+		<path id="g-relation-0" d="m97.02 665h-87.168" display="inline" marker-start="url(#Arrow1Mstart)" class="hl" stroke="#333" stroke-width="2" fill="none"/>
+		<g>
+			<text id="text3647-9" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" display="inline" font-size="80px" line-height="125%" y="678.95801" x="299.83765" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="678.95801" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.1</tspan></tspan></text>
+			<text id="text3442" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" display="inline" font-size="80px" line-height="125%" y="678.95801" x="351.55884" fill="#333333"><tspan font-size="17.5px" y="678.95801" x="351.55884" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></tspan></text>
+			<text id="text3448" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="703.95801" x="299.83765" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="703.95801" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">(1.1)(1.2)</tspan></tspan></text>
+		</g>
+		<path id="path3454" d="m97.904 690.29h-58.04" display="inline" marker-start="url(#marker10094)" stroke="#666" stroke-width="2" class="hl" fill="none"/>
+		<path id="path4565" d="m9.8523 723.51v-48.61" display="inline" marker-start="url(#Arrow1Mstart)" stroke="#333" stroke-width="2" class="hl" fill="none"/>
+		<g>
+			<text id="text13676" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" display="inline" font-size="80px" line-height="125%" y="727.87726" x="314.0687" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="314.0687" font-family="&apos;Times New Roman&apos;" fill="#333333">1.1</tspan></text>
+			<text id="text13682" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" display="inline" font-size="80px" line-height="125%" y="727.87726" x="336.30472" xml:space="preserve" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="336.30472" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></text>
+			<text id="text13686" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" display="inline" font-size="80px" line-height="125%" y="727.87726" x="358.09601" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="358.09601" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></text>
+			<text id="text13690" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" display="inline" font-size="80px" line-height="125%" y="727.87726" x="300.72711" xml:space="preserve" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="300.72711" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></text>
+		</g>
 		<g id="g13843" transform="translate(0 .000041716)">
-			<rect fill-opacity="0" height="78.302" width="78.302" stroke="#333" y="742.26" x="8.8235" stroke-width="2"/>
-			<path d="m87.974 781.41h-80" stroke="#333" stroke-width="2" fill="none"/>
-			<path d="m47.974 820.3v-78.89" stroke="#333" stroke-width="2" fill="none"/>
+			<rect fill-opacity="0" display="inline" height="79" width="79" stroke="#333" y="741.57" x="8.8235"/>
+			<path d="m87.974 781.41h-78.711" display="inline" stroke="#333" fill="none"/>
+			<path d="m47.974 820.3v-78.89" display="inline" stroke="#333" fill="none"/>
 		</g>
-		<text id="text13887" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="750.56036" x="298.15619" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="750.56036" x="298.15619" font-family="&apos;Times New Roman&apos;" fill="#333333">t</tspan></text>
-		<text id="text13891" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="773.58716" x="297.13345" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="773.58716" x="297.13345" font-family="&apos;Times New Roman&apos;" fill="#333333">0</tspan></text>
-		<text id="text13895" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="750.91791" x="312.83621" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="750.91791" x="312.83621" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></tspan></text>
-		<text id="text13901" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="750.91791" x="329.56039" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="750.91791" x="329.56039" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></tspan></text>
-		<text id="text13907" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="750.91791" x="346.28455" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="750.91791" x="346.28455" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">3</tspan></tspan></text>
-		<text id="text13913" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="750.91791" x="363.00873" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="750.91791" x="363.00873" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">4</tspan></tspan></text>
-		<text id="text13919" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="631.85181" x="325.52795" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="631.85181" x="325.52795" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">0</tspan></tspan></text>
-		<text id="text13834" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="773.6897" x="309.26761" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="773.6897" x="309.26761" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></text>
-		<text id="text13838" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="773.6897" x="323.65591" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="773.6897" x="323.65591" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></text>
-		<text id="text13842" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="773.6897" x="339.05392" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="773.6897" x="339.05392" font-family="&apos;Times New Roman&apos;" fill="#333333">3</tspan></text>
-		<text id="text13846" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="773.6897" x="353.18982" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="773.6897" x="353.18982" font-family="&apos;Times New Roman&apos;" fill="#333333">4</tspan></text>
-		<text id="text21248" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="796.68677" x="350.8504" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="796.68677" x="350.8504" font-family="&apos;Times New Roman&apos;" fill="#333333">S&apos;&apos;</tspan></text>
-		<text id="text21260" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="796.68677" x="300.30151" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="796.68677" x="300.30151" font-family="&apos;Times New Roman&apos;" fill="#333333">S</tspan></text>
-		<text id="text21264" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="796.68677" x="325.52795" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="796.68677" x="325.52795" font-family="&apos;Times New Roman&apos;" fill="#333333">S&apos;<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333"/></tspan></text>
-		<text id="text22913" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="773.6897" x="366.01401" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="773.6897" x="366.01401" font-family="&apos;Times New Roman&apos;" fill="#333333">5</tspan></text>
-		<text id="text22917" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="771.92072" x="284.18311" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" font-style="italic" y="771.92072" x="284.18311" font-family="&apos;Times New Roman&apos;" fill="#333333">i</tspan></text>
-		<text id="text8410" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="819.47443" x="300.30151" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="819.47443" x="300.30151" font-family="&apos;Times New Roman&apos;" fill="#333333">I</tspan></text>
-		<text id="text8414" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="819.47443" x="314.19641" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="819.47443" x="314.19641" font-family="&apos;Times New Roman&apos;" fill="#333333">II</tspan></text>
-		<text id="text8418" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="819.47443" x="333.92719" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="819.47443" x="333.92719" font-family="&apos;Times New Roman&apos;" fill="#333333">III</tspan></text>
-		<text id="text8422" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="819.47443" x="361.16122" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="819.47443" x="361.16122" font-family="&apos;Times New Roman&apos;" fill="#333333">IV</tspan></text>
-		<text id="text8426" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="796.96936" x="282.31598" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="796.96936" x="282.31598" font-family="&apos;Times New Roman&apos;" fill="#333333">h</tspan></text>
-		<text id="text8430" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="817.81171" x="282.31598" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="817.81171" x="282.31598" font-family="&apos;Times New Roman&apos;" fill="#333333">a</tspan></text>
-		<path stroke-linejoin="round" d="m286.71 652.45c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.0389-4.3772c0.0188-2.1126 0.0903-5.9882-0.55979-7.7861-0.65005-1.7979-2.4591-2.0541-4.9675-2.556 2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-5.8643 0.44781-8.0179l0.0154-4.9415c0.005-1.5587 2.1167-2.8527 4.7228-2.5886" stroke="#333" stroke-width="1px" fill="none"/>
+		<text id="text13887" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="747.42517" x="282.72147" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="747.42517" x="282.72147" font-family="&apos;Times New Roman&apos;" fill="#333333">t</tspan></text>
+		<text id="text13891" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="771.17548" x="277.59888" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="771.17548" x="277.59888" font-family="&apos;Times New Roman&apos;" fill="#333333">0</tspan></text>
+		<g>
+			<text id="text13895" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="747.78271" x="297.40149" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="747.78271" x="297.40149" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></tspan></text>
+			<text id="text13901" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="747.78271" x="314.12567" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="747.78271" x="314.12567" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></tspan></text>
+			<text id="text13907" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="747.78271" x="330.84982" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="747.78271" x="330.84982" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">3</tspan></tspan></text>
+			<text id="text13913" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="747.78271" x="347.57401" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="747.78271" x="347.57401" font-family="&apos;Times New Roman&apos;" fill="#333333">t<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">4</tspan></tspan></text>
+			<text id="text13919" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="631.85181" x="325.52795" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="631.85181" x="325.52795" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">0</tspan></tspan></text>
+		</g>
+		<g>
+			<text id="text13834" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="771.27802" x="289.73303" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="771.27802" x="289.73303" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></text>
+			<text id="text13838" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="771.27802" x="304.12134" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="771.27802" x="304.12134" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></text>
+			<text id="text13842" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="771.27802" x="319.51935" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="771.27802" x="319.51935" font-family="&apos;Times New Roman&apos;" fill="#333333">3</tspan></text>
+			<text id="text13846" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="771.27802" x="333.65524" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="771.27802" x="333.65524" font-family="&apos;Times New Roman&apos;" fill="#333333">4</tspan></text>
+		</g>
+		<g>
+			<text id="text21248" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="796.68677" x="350.8504" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="796.68677" x="350.8504" font-family="&apos;Times New Roman&apos;" fill="#333333">S&apos;&apos;</tspan></text>
+			<text id="text21260" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="796.68677" x="300.30151" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="796.68677" x="300.30151" font-family="&apos;Times New Roman&apos;" fill="#333333">S</tspan></text>
+			<text id="text21264" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="796.68677" x="325.52795" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="796.68677" x="325.52795" font-family="&apos;Times New Roman&apos;" fill="#333333">S&apos;<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333"/></tspan></text>
+		</g>
+		<g>
+			<text id="text22913" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="771.27802" x="346.47943" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="771.27802" x="346.47943" font-family="&apos;Times New Roman&apos;" fill="#333333">5</tspan></text>
+			<text id="text22917" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="727.78705" x="283.21844" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" font-style="italic" y="727.78705" x="283.21844" font-family="&apos;Times New Roman&apos;" fill="#333333">i</tspan></text>
+			<text id="text8410" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="819.47443" x="300.30151" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="819.47443" x="300.30151" font-family="&apos;Times New Roman&apos;" fill="#333333">I</tspan></text>
+			<text id="text8414" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="819.47443" x="314.19641" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="819.47443" x="314.19641" font-family="&apos;Times New Roman&apos;" fill="#333333">II</tspan></text>
+			<text id="text8418" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="819.47443" x="333.92719" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="819.47443" x="333.92719" font-family="&apos;Times New Roman&apos;" fill="#333333">III</tspan></text>
+			<text id="text8422" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="819.47443" x="361.16122" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="819.47443" x="361.16122" font-family="&apos;Times New Roman&apos;" fill="#333333">IV</tspan></text>
+			<text id="text8426" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="796.96936" x="282.31598" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="796.96936" x="282.31598" font-family="&apos;Times New Roman&apos;" fill="#333333">h</tspan></text>
+			<text id="text8430" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="817.81171" x="282.31598" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="817.81171" x="282.31598" font-family="&apos;Times New Roman&apos;" fill="#333333">a</tspan></text>
+		</g>
+		<path stroke-linejoin="round" d="m286.71 652.45c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.0389-4.3772c0.0188-2.1126 0.0903-5.9882-0.55979-7.7861-0.65005-1.7979-2.4591-2.0541-4.9675-2.556 2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-5.8643 0.44781-8.0179l0.0154-4.9415c0.005-1.5587 2.1167-2.8527 4.7228-2.5886" display="inline" stroke="#333" stroke-width="1px" fill="none"/>
 		<text id="text5800" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="796.68677" x="378.47827" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="796.68677" x="378.47827" font-family="&apos;Times New Roman&apos;" fill="#333333">Z</tspan></text>
-		<text id="text5523" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="750.56036" x="382.15619" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="750.56036" x="382.15619" font-family="&apos;Times New Roman&apos;" fill="#333333">τ</tspan></text>
-		<text id="text3374-1" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" transform="translate(0,600)" line-height="125%" font-size="80px" y="239.1226" x="280.85458" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="239.1226" x="280.85458" font-family="&apos;Times New Roman&apos;" fill="#333333">R<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></tspan></text>
-		<text id="text3380-9" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" transform="translate(0,600)" line-height="125%" font-size="80px" y="239.1226" x="305.74393" fill="#333333"><tspan font-size="17.5px" y="239.1226" x="305.74393" font-family="&apos;Times New Roman&apos;" fill="#333333">R<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></tspan></text>
-		<text id="text6399" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" transform="translate(0,600)" line-height="125%" font-size="80px" y="239.1226" x="330.14029" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="239.1226" x="330.14029" font-family="&apos;Times New Roman&apos;" fill="#333333">R<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">3</tspan></tspan></text>
-		<text id="text10014-9" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="789.22723" x="98.752213" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="35px" y="789.22723" x="98.752213" font-family="&apos;Times New Roman&apos;" fill="#333333">=</tspan></text>
-		<text id="text10018-1" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="762.83661" x="100.50506" font-family="Georgia" fill="#000000"><tspan font-size="35px" y="762.83661" x="100.50506" font-family="&apos;Times New Roman&apos;" fill="#333333">+</tspan></text>
-		<g id="g9509" transform="translate(4.337 -30.359)">
-			<rect fill-opacity="0" height="57.785" width="58" stroke="#333" y="861.22" x="7.8684" stroke-width="2"/>
-			<path d="m66.509 890.1h-59.27" stroke="#333" stroke-width="2" fill="none"/>
-			<path d="m36.874 918.81v-58.231" stroke="#333" stroke-width="2" fill="none"/>
+		<text id="text5523" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="747.42517" x="366.72147" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="747.42517" x="366.72147" font-family="&apos;Times New Roman&apos;" fill="#333333">τ</tspan></text>
+		<g>
+			<text id="text3374-1" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" display="inline" transform="translate(0,600)" line-height="125%" font-size="80px" y="239.1226" x="280.85458" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="239.1226" x="280.85458" font-family="&apos;Times New Roman&apos;" fill="#333333">R<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></tspan></text>
+			<text id="text3380-9" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" display="inline" transform="translate(0,600)" line-height="125%" font-size="80px" y="239.1226" x="305.74393" fill="#333333"><tspan font-size="17.5px" y="239.1226" x="305.74393" font-family="&apos;Times New Roman&apos;" fill="#333333">R<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></tspan></text>
+			<text id="text6399" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" display="inline" transform="translate(0,600)" line-height="125%" font-size="80px" y="239.1226" x="330.14029" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="239.1226" x="330.14029" font-family="&apos;Times New Roman&apos;" fill="#333333">R<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">3</tspan></tspan></text>
 		</g>
-		<g id="g9526">
-			<rect fill-opacity="0" height="87.989" width="88.302" stroke="#333" y="830.87" x="81.061" stroke-width="2"/>
-			<path d="m110.55 918.96v-88.643" stroke="#333" stroke-width="2" fill="none"/>
-			<path d="m170 860.25h-89.788" stroke="#333" stroke-width="2" fill="none"/>
-			<path d="m170 889.48h-89.788" stroke="#333" stroke-width="2" fill="none"/>
-			<path d="m139.88 918.96v-88.643" stroke="#333" stroke-width="2" fill="none"/>
+		<text id="text10014-9" style="word-spacing:0px;letter-spacing:0px" display="inline" font-size="80px" line-height="125%" y="789.22723" x="98.752213" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="35px" y="789.22723" x="98.752213" font-family="&apos;Times New Roman&apos;" fill="#333333">=</tspan></text>
+		<text id="text10018-1" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="762.83661" x="100.50506" font-family="Georgia" display="inline" fill="#000000"><tspan font-size="35px" y="762.83661" x="100.50506" font-family="&apos;Times New Roman&apos;" fill="#333333">+</tspan></text>
+		<g id="g9509" transform="translate(4.337 -30.359)">
+			<rect fill-opacity="0" display="inline" height="59" width="59" stroke="#333" y="860" x="7.8684"/>
+			<path d="m66.509 890.1h-59.27" display="inline" stroke="#333" fill="none"/>
+			<path d="m36.874 918.81v-58.231" display="inline" stroke="#333" fill="none"/>
+		</g>
+		<g id="g9526" transform="matrix(1.0079 0 0 1 -.63345 0)">
+			<rect fill-opacity="0" display="inline" height="89.004" width="88.302" stroke="#333" y="829.86" x="81.061" stroke-width=".99609"/>
+			<g>
+				<path d="m110.55 918.96v-88.643" display="inline" stroke="#333" stroke-width=".99609" fill="none"/>
+				<path d="m169.35 860.25h-88.793" display="inline" stroke="#333" stroke-width=".99609" fill="none"/>
+				<path d="m169.35 889.48h-88.793" display="inline" stroke="#333" stroke-width=".99609" fill="none"/>
+				<path d="m139.88 918.96v-88.643" display="inline" stroke="#333" stroke-width=".99609" fill="none"/>
+			</g>
 		</g>
 		<text id="text9718" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="653.74768" x="366.51129" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="653.74768" x="366.51129" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">2.1</tspan></tspan></text>
+		<g>
+			<text id="text11140" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="862.68054" x="279.43481" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="862.68054" x="279.43481" font-family="&apos;Times New Roman&apos;" fill="#333333">0,5</tspan></text>
+			<text id="text11144" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="861.99841" x="308.54047" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="861.99841" x="308.54047" font-family="&apos;Times New Roman&apos;" fill="#333333">−0,5</tspan></text>
+			<text id="text11148" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="862.00067" x="344.98517" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="862.00067" x="344.98517" font-family="&apos;Times New Roman&apos;" fill="#333333">−1</tspan></text>
+			<text id="text11152" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="861.99841" x="369.40063" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="861.99841" x="369.40063" font-family="&apos;Times New Roman&apos;" fill="#333333">2,5</tspan></text>
+			<text id="text11828" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="885.79346" x="280.05676" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="885.79346" x="280.05676" font-family="&apos;Times New Roman&apos;" fill="#333333">S(H)</tspan></text>
+			<text id="text11832" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="885.79346" x="317.78198" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="885.79346" x="317.78198" font-family="&apos;Times New Roman&apos;" fill="#333333">S(М)</tspan></text>
+			<text id="text11836" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="885.79346" x="357.78198" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="885.79346" x="357.78198" font-family="&apos;Times New Roman&apos;" fill="#333333">S(Ж)</tspan></text>
+			<text id="text11857" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="909.2041" x="281.32935" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="909.2041" x="281.32935" font-family="&apos;Times New Roman&apos;" fill="#333333">Э</tspan></text>
+			<text id="text11861" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="909.2041" x="329.30054" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="909.2041" x="329.30054" font-family="&apos;Times New Roman&apos;" fill="#333333">Ф</tspan></text>
+			<text id="text11865" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="909.2041" x="304.30054" font-family="Georgia" fill="#000000"><tspan font-size="17.5px" y="909.2041" x="304.30054" font-family="&apos;Times New Roman&apos;" fill="#333333">И</tspan></text>
+		</g>
+		<g>
+			<text id="text4230" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" display="inline" font-size="80px" line-height="125%" y="930.12262" x="281.4342" fill="#333333"><tspan font-size="17.5px" y="930.12262" x="281.4342" font-family="&apos;Times New Roman&apos;" fill="#333333">Э<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">М</tspan></tspan></text>
+			<text id="text4236" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" display="inline" font-size="80px" line-height="125%" y="930.12262" x="310.7049" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="930.12262" x="310.7049" font-family="&apos;Times New Roman&apos;" fill="#333333">И<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">М</tspan></tspan></text>
+			<text id="text4242" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" display="inline" font-size="80px" line-height="125%" y="930.12262" x="342.00427" fill="#333333"><tspan font-size="17.5px" y="930.12262" x="342.00427" font-family="&apos;Times New Roman&apos;" fill="#333333">Ф<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">М</tspan></tspan></text>
+			<text id="text4248" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" display="inline" font-size="80px" line-height="125%" y="951.27869" x="281.4342" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="951.27869" x="281.4342" font-family="&apos;Times New Roman&apos;" fill="#333333">Э<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">Ж</tspan></tspan></text>
+			<text id="text4254" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" display="inline" font-size="80px" line-height="125%" y="950.11945" x="310.7049" fill="#333333"><tspan font-size="17.5px" y="950.11945" x="310.7049" font-family="&apos;Times New Roman&apos;" fill="#333333">И<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">Ж</tspan></tspan></text>
+			<text id="text4260" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" display="inline" font-size="80px" line-height="125%" y="950.11945" x="342.00427" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="950.11945" x="342.00427" font-family="&apos;Times New Roman&apos;" fill="#333333">Ф<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">Ж</tspan></tspan></text>
+		</g>
+		<circle transform="scale(1,-1)" stroke="#333" class="hl" cy="-632.02" cx="13" r="2.3596" fill="none"/>
 	</g>
-	<g id="g-graph" transform="translate(0,-600)" class="layer">
+	<g id="g-graph" display="none" transform="translate(0,-600)" class="layer">
 		<use xlink:href="#g-element-2" transform="translate(153.84 16.035)" height="100%" width="100%" y="0" x="0"/>
 		<use xlink:href="#g-element-0" transform="translate(118.84 31.22)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3653" transform="translate(-71.941 206.41)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3641" transform="translate(-116.55 56.22)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3374" transform="translate(-205.76 -1.456)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3380" transform="translate(-116.16 -1.456)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#g-relation-0" transform="translate(142.66 56.22)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3653" transform="translate(-71.941 206.41)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3641" transform="translate(-116.55 56.22)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3374" transform="translate(-205.76 -1.456)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3380" transform="translate(-116.16 -1.456)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#g-relation-0" transform="translate(142.66 56.22)" height="100%" width="100%" y="0" x="0"/>
 		<g id="g4955" transform="translate(127.66 -163.78)">
-			<use xlink:href="#g-element-0" transform="translate(8.8523 333.86)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#g-element-0" transform="translate(105.84 333.86)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#g-relation-0" transform="translate(15 281.86)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text3374" transform="translate(-337.75 303.88)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text3380" transform="translate(-262.68 303.88)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text3647" transform="translate(-281.55 313.24)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#g-element-0" transform="translate(8.8523 333.86)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#g-element-0" transform="translate(105.84 333.86)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#g-relation-0" transform="translate(15 281.86)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text3374" transform="translate(-337.75 303.88)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text3380" transform="translate(-262.68 303.88)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text3647" transform="translate(-281.55 313.24)" height="100%" width="100%" y="0" x="0"/>
 		</g>
 		<use xlink:href="#g4955" transform="translate(-.0000039688 104.48)" height="100%" width="100%" y="0" x="0"/>
-		<ellipse rx="73.948" ry="40.093" stroke="#333" pointer-events="none" cy="885.35" cx="196.96" stroke-width="2" class="hl" fill="none"/>
+		<ellipse display="inline" rx="73.948" ry="40.093" stroke="#333" pointer-events="none" cy="885.35" cx="196.96" stroke-width="2" class="hl" fill="none"/>
 	</g>
-	<g id="g-graph2" class="layer">
-		<use xlink:href="#g-relation-0" transform="translate(73.873 -609.5)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#g-element-0" transform="translate(67.725 -557.5)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#g-element-0" transform="translate(164.71 -557.5)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3647-9" transform="translate(-228.79 -636.14)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3442" transform="translate(-194.34 -636.14)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3374" transform="translate(-180.09 -527.32)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3374" transform="translate(-31.952 -595.53)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3380" transform="translate(-57.345 -536)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3380" transform="translate(-235.35 -476.27)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#path4565" transform="translate(300.23 -638.18)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#path4565" transform="translate(119.37 -578.31)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#g-element-0" transform="translate(116.22 -460.98)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#g-element-0" transform="translate(297.09 -579.28)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#g-element-0" transform="translate(297.09 -520.85)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3448" transform="translate(-205.01 -628.4)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#path3454" transform="translate(185.53 -634.72)" height="100%" width="100%" y="0" x="0"/>
-		<ellipse rx="73.948" ry="40.093" stroke="#333" class="hl" pointer-events="none" cy="55.5" cx="129.22" stroke-width="2" fill="none"/>
+	<g id="g-graph2" display="none" class="layer">
+		<use display="inline" xlink:href="#g-relation-0" transform="translate(73.873 -609.5)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#g-element-0" transform="translate(67.725 -557.5)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#g-element-0" transform="translate(164.71 -557.5)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3647-9" transform="translate(-228.79 -636.14)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3442" transform="translate(-194.34 -636.14)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3374" transform="translate(-180.09 -527.32)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3374" transform="translate(-31.952 -595.53)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3380" transform="translate(-57.345 -536)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3380" transform="translate(-235.35 -476.27)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#path4565" transform="translate(300.23 -638.18)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#path4565" transform="translate(119.37 -578.31)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#g-element-0" transform="translate(116.22 -460.98)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#g-element-0" transform="translate(297.09 -579.28)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#g-element-0" transform="translate(297.09 -520.85)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3448" transform="translate(-205.01 -628.4)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#path3454" transform="translate(185.53 -634.72)" height="100%" width="100%" y="0" x="0"/>
+		<ellipse display="inline" rx="73.948" ry="40.093" stroke="#333" class="hl" pointer-events="none" cy="55.5" cx="129.22" stroke-width="2" fill="none"/>
 	</g>
-	<g id="g-matrix" class="layer">
-		<use xlink:href="#text3374" transform="translate(-177.87 -573.4)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3647" transform="translate(-129.1 -595.19)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3380" transform="translate(-165.44 -534.27)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13690" transform="translate(-123.27 -700.02)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13690" transform="translate(-152.62 -671.12)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13686" transform="translate(-142.74 -699.58)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13686" transform="translate(-210.34 -631.09)" height="100%" width="100%" y="0" x="0"/>
-		<path d="m319 278.88h-240" stroke="#333" stroke-width="2" fill="none"/>
-		<path d="m198 399.88v-240" stroke="#333" stroke-width="2" fill="none"/>
-		<rect fill-opacity="0" height="238" width="238" stroke="#333" y="160.88" x="80.002" stroke-width="2"/>
-		<path d="m199 218.77h-120" stroke="#333" stroke-width="2" fill="none"/>
-		<path d="m138.95 279.67v-119.79" stroke="#333" stroke-width="2" fill="none"/>
-		<use xlink:href="#text3442" transform="translate(-197.25 -426.49)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3448" transform="matrix(.83623 0 0 .83623 -106.92 -395.35)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3647-9" transform="translate(-204 -485.25)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3647" transform="matrix(1.6839 0 0 1.6839 -331.14 -873.57)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3380" transform="matrix(1.7374 0 0 1.7374 -410.95 -751.83)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13686" transform="translate(-104.91 -574)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13682" transform="translate(-175.09 -574.17)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13676" transform="translate(-213.58 -574.17)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13686" transform="translate(-290.83 -385.38)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13682" transform="translate(-278.41 -476.18)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13676" transform="translate(-255.17 -532.2)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#g13843" transform="translate(152.11 -708.23)" height="100%" width="100%" y="0" x="0"/>
+	<g id="g-matrix" display="none" class="layer">
+		<use display="inline" xlink:href="#text3374" transform="translate(-177.87 -573.4)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3647" transform="translate(-129.1 -595.19)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3380" transform="translate(-165.44 -534.27)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13690" transform="translate(-123.27 -700.02)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13690" transform="translate(-152.62 -671.12)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13686" transform="translate(-142.74 -699.58)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13686" transform="translate(-210.34 -631.09)" height="100%" width="100%" y="0" x="0"/>
+		<g stroke="#333">
+			<path d="m319.5 278.88h-240" display="inline" fill="none"/>
+			<path d="m198 399.38v-239.5" display="inline" fill="none"/>
+			<g>
+				<rect fill-opacity="0" display="inline" height="239" width="239" y="159.88" x="80.002"/>
+				<path d="m197.5 218.77h-118" display="inline" fill="none"/>
+				<path d="m138.95 279.67v-119.79" display="inline" fill="none"/>
+			</g>
+		</g>
+		<use display="inline" xlink:href="#text3442" transform="translate(-197.25 -426.49)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3448" transform="matrix(.83623 0 0 .83623 -106.92 -395.35)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3647-9" transform="translate(-204 -485.25)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3647" transform="matrix(1.6839 0 0 1.6839 -331.14 -873.57)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3380" transform="matrix(1.7374 0 0 1.7374 -410.95 -751.83)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13686" transform="translate(-104.91 -574)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13682" transform="translate(-175.09 -574.17)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13676" transform="translate(-213.58 -574.17)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13686" transform="translate(-290.83 -385.38)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13682" transform="translate(-278.41 -476.18)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13676" transform="translate(-255.17 -532.2)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#g13843" transform="translate(152.11 -708.23)" height="100%" width="100%" y="0" x="0"/>
 	</g>
-	<g id="g-r-process" class="layer">
-		<path d="m361.72 215.7h-293.31" marker-start="url(#Arrow1Mstart-4)" stroke="#333" fill="none"/>
-		<path d="m68.41 23.379v192.32" marker-start="url(#Arrow1Mstart-4)" stroke="#333" fill="none"/>
-		<rect transform="scale(-1)" height="22.715" width="275.15" y="-215.69" x="-343.56" stroke-width="0" fill="url(#g-hatch)"/>
-		<use xlink:href="#text3653" transform="translate(-252.34 -601.68)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13887" transform="translate(60.147 -514.2)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13895" transform="translate(-215.88 -514.76)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13901" transform="translate(-203.18 -514.76)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13907" transform="translate(-69.762 -514.84)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13913" transform="translate(-55.06 -514.76)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13919" transform="translate(-284.58 -575.5)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3374" transform="translate(-308.82 -435.25)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13891" transform="translate(-242.98 -536.7)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3380" transform="translate(-334.72 -552.01)" height="100%" width="100%" y="0" x="0"/>
-		<rect transform="scale(-1)" height="22.715" width="275.15" y="-76.907" x="-343.56" stroke-width="0" fill="url(#g-hatch)"/>
-		<path d="m68.614 214.77s13.166 4.4398 24.805-10.453c31.107-39.802 21.272-118.96 42.545-139.09 13.503-12.776 19.783-10.95 29.262-11.105 27.996-0.45923 84.153 0.35087 84.153 0.35087s16.692-0.15368 28.506 15.821c11.814 15.974 19.563 112.03 39.063 131.53 13.213 13.213 24.879 12.847 24.879 12.847" stroke="#333" stroke-width="2" fill="none"/>
-		<path d="m68.454 53.981h275.11" stroke="#333" fill="none"/>
-		<path d="m68.454 76.407h275.11" stroke="#333" fill="none"/>
-		<path d="m68.454 192.85h275.11" stroke="#333" fill="none"/>
-		<path d="m129.64 75.907v139.79" stroke="#333" stroke-dasharray="4, 4" fill="none"/>
-		<path d="m280.73 75.907v139.79" stroke="#333" stroke-dasharray="4, 4" fill="none"/>
-		<path d="m310.98 193.35v23.033" stroke="#333" stroke-dasharray="4.00000004, 4.00000004" fill="none"/>
-		<path d="m100.62 193.35v23.033" stroke="#333" stroke-dasharray="4.00000004, 4.00000004" fill="none"/>
+	<g id="g-r-process" display="none" class="layer">
+		<g>
+			<path d="m361.72 215.7h-293.31" display="inline" marker-start="url(#Arrow1Mstart-4)" stroke="#333" fill="none"/>
+			<path d="m68.41 23.379v192.32" display="inline" marker-start="url(#Arrow1Mstart-4)" stroke="#333" fill="none"/>
+			<rect transform="scale(-1)" height="22.715" width="275.15" display="inline" y="-215.69" x="-343.56" stroke-width="0" fill="url(#g-hatch)"/>
+		</g>
+		<use display="inline" xlink:href="#text3653" transform="translate(-252.34 -601.68)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13887" transform="translate(75.582 -511.07)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13895" transform="translate(-200.44 -511.63)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13901" transform="translate(-187.75 -511.63)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13907" transform="translate(-54.327 -511.7)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13913" transform="translate(-39.625 -511.63)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13919" transform="translate(-284.58 -575.5)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3374" transform="translate(-308.82 -435.25)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13891" transform="translate(-223.45 -534.28)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3380" transform="translate(-334.72 -552.01)" height="100%" width="100%" y="0" x="0"/>
+		<rect transform="scale(-1)" height="22.715" width="275.15" display="inline" y="-76.907" x="-343.56" stroke-width="0" fill="url(#g-hatch)"/>
+		<g stroke="#333" fill="none">
+			<g>
+				<path d="m68.614 214.77s13.166 4.4398 24.805-10.453c31.107-39.802 21.272-118.96 42.545-139.09 13.503-12.776 19.783-10.95 29.262-11.105 27.996-0.45923 84.153 0.35087 84.153 0.35087s16.692-0.15368 28.506 15.821c11.814 15.974 19.563 112.03 39.063 131.53 13.213 13.213 24.879 12.847 24.879 12.847" display="inline" stroke-width="2"/>
+				<g>
+					<path d="m68.454 53.981h275.11" display="inline"/>
+					<path d="m68.454 76.407h275.11" display="inline"/>
+					<path d="m68.454 192.85h275.11" display="inline"/>
+				</g>
+			</g>
+			<g>
+				<path d="m129.64 75.907v139.79" display="inline" stroke-dasharray="4, 4"/>
+				<path d="m280.73 75.907v139.79" display="inline" stroke-dasharray="4, 4"/>
+				<path d="m310.98 193.35v23.033" display="inline" stroke-dasharray="4.00000004, 4.00000004"/>
+				<path d="m100.62 193.35v23.033" display="inline" stroke-dasharray="4.00000004, 4.00000004"/>
+			</g>
+		</g>
 	</g>
-	<g id="g-oz-gds" class="layer">
+	<g id="g-oz-gds" display="none" class="layer">
 		<use xlink:href="#g12744" transform="translate(264.16)" height="100%" width="100%" y="0" x="0"/>
 		<use xlink:href="#g12738" transform="translate(133.57)" height="100%" width="100%" y="0" x="0"/>
 		<g id="g12744" transform="translate(-3.3865 -843.87)">
-			<path fill="none" marker-start="url(#marker7481)" transform="scale(1,-1)" stroke="#333" d="m66.502-876.46a47.093 47.093 0 0 1 -34.635 -23.804 47.093 47.093 0 0 1 -1.8331 -41.986"/>
-			<path d="m756.34 571.45a47.093 47.093 0 0 1 -34.635 -23.804 47.093 47.093 0 0 1 -1.8331 -41.986" marker-start="url(#marker14355-0)" transform="matrix(-.5 .86603 .86603 .5 0 0)" stroke="#333" fill="none"/>
-			<path fill="none" marker-start="url(#marker14843-4)" transform="matrix(-.5 -.86603 -.86603 .5 0 0)" stroke="#333" d="m-842.5 444.92a47.093 47.093 0 0 1 -34.635 -23.804 47.093 47.093 0 0 1 -1.8331 -41.986"/>
-			<use xlink:href="#g-element-0" transform="translate(60.056 263.13)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#g-element-0" transform="translate(19.323 333.52)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#g-element-0" transform="translate(100.84 333.69)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13834" transform="translate(-240.74 93.627)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13838" transform="translate(-208.71 192.24)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13842" transform="translate(-317.49 193.06)" height="100%" width="100%" y="0" x="0"/>
+			<g>
+				<path fill="none" marker-start="url(#marker7481)" transform="scale(1,-1)" stroke="#333" d="m66.502-876.46a47.093 47.093 0 0 1 -34.635 -23.804 47.093 47.093 0 0 1 -1.8331 -41.986"/>
+				<path d="m756.34 571.45a47.093 47.093 0 0 1 -34.635 -23.804 47.093 47.093 0 0 1 -1.8331 -41.986" marker-start="url(#marker14355-0)" transform="matrix(-.5 .86603 .86603 .5 0 0)" stroke="#333" fill="none"/>
+				<path fill="none" marker-start="url(#marker14843-4)" transform="matrix(-.5 -.86603 -.86603 .5 0 0)" stroke="#333" d="m-842.5 444.92a47.093 47.093 0 0 1 -34.635 -23.804 47.093 47.093 0 0 1 -1.8331 -41.986"/>
+			</g>
+			<use display="inline" xlink:href="#g-element-0" transform="translate(60.056 263.13)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#g-element-0" transform="translate(19.323 333.52)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#g-element-0" transform="translate(100.84 333.69)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-221.21 96.039)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13838" transform="translate(-189.17 194.65)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13842" transform="translate(-297.96 195.47)" height="100%" width="100%" y="0" x="0"/>
 		</g>
 		<g id="g12738" transform="translate(-3.3865 -843.87)">
-			<use xlink:href="#g-element-0" transform="translate(60.056 310.09)" height="100%" width="100%" y="0" x="0"/>
-			<path d="m73.075 882.3v35.81-35.81z" marker-start="url(#marker16644-5)" stroke="#333" stroke-width=".98056" fill="none"/>
-			<path d="m108.29 943.65-31.137-17.807 31.137 17.807z" marker-start="url(#marker12500-3)" stroke="#333" stroke-width=".96081" fill="none"/>
-			<path d="m37.752 943.36 31.276-18.186-31.276 18.186z" marker-start="url(#marker8942)" stroke="#333" stroke-width=".97312" fill="none"/>
-			<use xlink:href="#text13846" transform="translate(-285.46 168.76)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#g-element-0" transform="translate(60.056 310.09)" height="100%" width="100%" y="0" x="0"/>
+			<g>
+				<path d="m73.075 882.3v35.81-35.81z" display="inline" marker-start="url(#marker16644-5)" stroke="#333" stroke-width=".98056" fill="none"/>
+				<path d="m108.29 943.65-31.137-17.807 31.137 17.807z" display="inline" marker-start="url(#marker12500-3)" stroke="#333" stroke-width=".96081" fill="none"/>
+				<path d="m37.752 943.36 31.276-18.186-31.276 18.186z" display="inline" marker-start="url(#marker8942)" stroke="#333" stroke-width=".97312" fill="none"/>
+			</g>
+			<use xlink:href="#text13846" display="inline" transform="translate(-265.93 171.17)" height="100%" width="100%" y="0" x="0"/>
 		</g>
-		<use xlink:href="#text21260" transform="translate(-238.15 -639.47)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text21264" transform="translate(-124.98 -639.47)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text21248" transform="translate(-24.121 -639.47)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text10018-1" transform="translate(149.86 -670.45)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text10014-9" transform="translate(36.491 -696.84)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text21260" transform="translate(-238.15 -639.47)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text21264" transform="translate(-124.98 -639.47)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text21248" transform="translate(-24.121 -639.47)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text10018-1" transform="translate(149.86 -670.45)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text10014-9" transform="translate(36.491 -696.84)" height="100%" width="100%" y="0" x="0"/>
 	</g>
-	<g id="g-spectrum" class="layer">
+	<g id="g-spectrum" display="none" class="layer">
 		<g id="g23614" transform="translate(13.881 -20.418)">
-			<path d="m336.01 107.43h-292.68" marker-start="url(#Arrow1Mstart-4-8)" stroke="#333" fill="none"/>
-			<use xlink:href="#text22917" transform="translate(46.798 -646.86)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text22913" transform="translate(-73.802 -650.16)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13846" transform="translate(-120.87 -649.92)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13842" transform="translate(-170.23 -649.92)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13838" transform="translate(-220.47 -649.92)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13834" transform="translate(-262.62 -649.92)" height="100%" width="100%" y="0" x="0"/>
+			<path d="m336.01 107.43h-292.68" display="inline" marker-start="url(#Arrow1Mstart-4-8)" stroke="#333" fill="none"/>
+			<use display="inline" xlink:href="#text22917" transform="translate(47.763 -602.72)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text22913" transform="translate(-54.268 -647.75)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13846" transform="translate(-101.33 -647.51)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13842" transform="translate(-150.69 -647.51)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13838" transform="translate(-200.94 -647.51)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-243.08 -647.51)" height="100%" width="100%" y="0" x="0"/>
 		</g>
-		<path d="m179.26 87.015v96.516" stroke="#333" stroke-dasharray="3.99999999, 3.99999999" fill="none"/>
-		<path id="path22958" d="m57.716 56.807 54.785-32.087 66.763 62.295 63.388-46.12 58.887 27.341" stroke="#000" stroke-width="2" fill="none"/>
-		<path d="m57.546 56.187v31.182" stroke="#333" fill="none"/>
-		<path d="m301.54 184.25v10.936" stroke="#333" fill="none"/>
+		<g stroke="#333" fill="none">
+			<path d="m179.26 87.015v96.516" display="inline" stroke-dasharray="3.99999999, 3.99999999"/>
+			<g>
+				<path id="path22958" d="m57.716 56.807 54.785-32.087 66.763 62.295 63.388-46.12 58.887 27.341" stroke="#000" stroke-width="2" fill="none"/>
+				<path d="m57.546 56.187v31.182" display="inline"/>
+				<path d="m301.54 184.25v10.936" display="inline"/>
+			</g>
+		</g>
 		<use xlink:href="#g23614" transform="translate(2e-7,97)" height="100%" width="100%" y="0" x="0"/>
-		<path d="m112.15 151.88v32.103" stroke="#333" fill="none"/>
-		<path d="m112.5 24.721v62.037" stroke="#333" fill="none"/>
-		<path d="m242.65 40.896v45.849" stroke="#333" fill="none"/>
-		<path d="m301.54 68.237v18.596" stroke="#333" fill="none"/>
-		<path d="m179.26 183.53v30.432" stroke="#333" fill="none"/>
-		<path d="m242.65 167.84v16.184" stroke="#333" fill="none"/>
-		<path d="m242.68 87.015v80.664" stroke="#333" stroke-dasharray="3.99999998, 3.99999998" fill="none"/>
+		<g stroke="#333" fill="none">
+			<g>
+				<path d="m112.15 151.88v32.103" display="inline"/>
+				<path d="m112.5 24.721v62.037" display="inline"/>
+				<path d="m242.65 40.896v45.849" display="inline"/>
+				<path d="m301.54 68.237v18.596" display="inline"/>
+				<path d="m179.26 183.53v30.432" display="inline"/>
+				<path d="m242.65 167.84v16.184" display="inline"/>
+			</g>
+			<path d="m242.68 87.015v80.664" display="inline" stroke-dasharray="3.99999998, 3.99999998"/>
+		</g>
 		<use xlink:href="#path22958" transform="translate(2e-7 126.95)" height="100%" width="100%" y="0" x="0"/>
-		<path d="m301.54 86.834v97.416" stroke="#333" stroke-dasharray="3.99999981, 3.99999981" fill="none"/>
-		<path d="m112.5 87.015v64.861" stroke="#333" stroke-dasharray="4.00000001, 4.00000001" fill="none"/>
-		<path d="m57.546 87.015v97.453" stroke="#333" stroke-dasharray="4.00000019, 4.00000019" fill="none"/>
+		<g stroke="#333" fill="none">
+			<path d="m301.54 86.834v97.416" display="inline" stroke-dasharray="3.99999981, 3.99999981"/>
+			<path d="m112.5 87.015v64.861" display="inline" stroke-dasharray="4.00000001, 4.00000001"/>
+			<path d="m57.546 87.015v97.453" display="inline" stroke-dasharray="4.00000019, 4.00000019"/>
+		</g>
 	</g>
-	<g id="g-pyramid" class="layer">
-		<g transform="matrix(.54133 0 0 .54133 100.76 -62.08)">
+	<g id="g-pyramid" display="none" class="layer">
+		<g display="inline" transform="matrix(.54133 0 0 .54133 100.76 -62.08)">
 			<g id="g23729" transform="translate(41.273 -317.9)">
 				<use xlink:href="#g23664" transform="translate(-15.259 200.74)" height="100%" width="100%" y="0" x="0"/>
-				<ellipse rx="5.5405" transform="scale(-1)" stroke="#333" ry="2.5584" cy="-973.33" cx="-62.319" stroke-width="1.8473" fill="none"/>
+				<ellipse display="inline" rx="5.5405" transform="scale(-1)" stroke="#333" ry="2.5584" cy="-973.33" cx="-62.319" stroke-width="1.8473" fill="none"/>
 				<use xlink:href="#g23664" transform="translate(42.033 201.99)" height="100%" width="100%" y="0" x="0"/>
 				<ellipse rx="61.089" ry="53.209" stroke="#333" cy="973.33" cx="62.319" stroke-width="3.6946" fill="none"/>
 			</g>
 			<g transform="translate(111.74 -728.83)">
-				<ellipse rx="5.5405" transform="rotate(90)" stroke="#333" ry="2.5584" cy="-77.656" cx="1172.4" stroke-width="1.8473" fill="none"/>
+				<ellipse display="inline" rx="5.5405" transform="rotate(90)" stroke="#333" ry="2.5584" cy="-77.656" cx="1172.4" stroke-width="1.8473" fill="none"/>
 				<use xlink:href="#g23729" transform="translate(-25.935 458.22)" height="100%" width="100%" y="0" x="0"/>
 				<use xlink:href="#g23729" transform="translate(-25.935 575.71)" height="100%" width="100%" y="0" x="0"/>
 				<ellipse rx="88.642" ry="127.7" stroke="#333" cy="1172.4" cx="77.656" stroke-width="3.6946" fill="none"/>
@@ -371,236 +510,484 @@
 			<use xlink:href="#g24074" transform="translate(189.35)" height="100%" width="100%" y="0" x="0"/>
 			<use xlink:href="#g24074" transform="translate(282.29)" height="100%" width="100%" y="0" x="0"/>
 			<use xlink:href="#g23729" transform="translate(174.09 -3.2941e-7)" height="100%" width="100%" y="0" x="0"/>
-			<rect clip-path="url(#clipPath6222)" transform="scale(-1)" height="14.189" width="684.37" y="-818.86" x="-540.47" stroke-width="0" fill="url(#pattern5795)"/>
-			<rect clip-path="url(#clipPath6218)" transform="scale(-1)" height="14.189" width="683.4" y="-833.05" x="-540.29" stroke-width="0" fill="url(#pattern5797)"/>
-			<rect clip-path="url(#clipPath6214)" transform="scale(-1)" height="14.189" width="662.95" y="-738.02" x="-520.34" stroke-width="0" fill="url(#pattern5791)"/>
-			<rect clip-path="url(#clipPath6210)" transform="scale(-1)" height="14.189" width="662.95" y="-723.83" x="-520.34" stroke-width="0" fill="url(#pattern5793)"/>
-			<rect clip-path="url(#clipPath6206)" transform="scale(-1)" height="14.189" width="693.34" y="-867.42" x="-541.77" stroke-width="0" fill="url(#pattern5499)"/>
-			<rect clip-path="url(#clipPath6202)" transform="scale(-1)" height="14.189" width="574" y="-600.65" x="-471" stroke-width="0" fill="url(#pattern5789)"/>
-			<rect clip-path="url(#clipPath6198)" transform="scale(-1)" height="14.189" width="574" y="-586.46" x="-471" stroke-width="0" fill="url(#pattern5777)"/>
-			<rect clip-path="url(#clipPath6194)" transform="scale(-1)" height="156.54" width="337.67" y="-314.32" x="-368.42" stroke-width="0" fill="url(#pattern5787)"/>
-			<path d="m-109.76 156.67h625.08" stroke="#333" stroke-width="1.8473" fill="none"/>
-			<path fill="none" transform="matrix(1.1822 0 0 1.6904 97.589 -1370.1)" stroke="#333" stroke-width="2.6135" d="m318.88 1323.1h-241.22-241.22l120.6-209 120.62-208.85 120.61 208.85z"/>
-			<path d="m-110.61 586.46h473.49" stroke="#333" stroke-width="1.8473" fill="none"/>
-			<path d="m-111.27 723.83h529.44" stroke="#333" stroke-width="1.8473" fill="none"/>
-			<path d="m-112.31 818.86h568.01" stroke="#333" stroke-width="1.8473" fill="none"/>
-			<path d="m-114.98 867.69h625.08" stroke="#333" stroke-width="1.8473" fill="none"/>
-			<path marker-end="url(#Arrow1Mend)" d="m499.57 863.28v-702.18" marker-start="url(#Arrow1Mstart)" stroke="#333" stroke-width="1.8473" fill="none"/>
-			<path marker-end="url(#marker7432)" d="m-92.024 895.83h563.76" marker-start="url(#Arrow1Mstart)" stroke="#333" stroke-width="1.8473" fill="none"/>
-			<path d="m475.5 908.64v-42.2" stroke="#333" stroke-width="1.8473" fill="none"/>
-			<path d="m-95.781 908.64v-42.2" stroke="#333" stroke-width="1.8473" fill="none"/>
+			<g stroke-width="0">
+				<rect clip-path="url(#clipPath6222)" transform="scale(-1)" height="14.189" width="684.37" display="inline" y="-818.86" x="-540.47" fill="url(#pattern5795)"/>
+				<rect clip-path="url(#clipPath6218)" transform="scale(-1)" height="14.189" width="683.4" display="inline" y="-833.05" x="-540.29" fill="url(#pattern5797)"/>
+				<rect clip-path="url(#clipPath6214)" transform="scale(-1)" height="14.189" width="662.95" display="inline" y="-738.02" x="-520.34" fill="url(#pattern5791)"/>
+				<rect clip-path="url(#clipPath6210)" transform="scale(-1)" height="14.189" width="662.95" display="inline" y="-723.83" x="-520.34" fill="url(#pattern5793)"/>
+				<rect clip-path="url(#clipPath6206)" transform="scale(-1)" height="14.189" width="693.34" display="inline" y="-867.42" x="-541.77" fill="url(#pattern5499)"/>
+				<rect clip-path="url(#clipPath6202)" transform="scale(-1)" height="14.189" width="574" display="inline" y="-600.65" x="-471" fill="url(#pattern5789)"/>
+				<rect clip-path="url(#clipPath6198)" transform="scale(-1)" height="14.189" width="574" display="inline" y="-586.46" x="-471" fill="url(#pattern5777)"/>
+				<rect clip-path="url(#clipPath6194)" transform="scale(-1)" height="156.54" width="337.67" display="inline" y="-314.32" x="-368.42" fill="url(#pattern5787)"/>
+			</g>
+			<g stroke="#333" fill="none">
+				<path d="m-109.76 156.67h625.08" stroke-width="1.8473"/>
+				<path display="inline" transform="matrix(1.1822 0 0 1.6904 97.589 -1370.1)" stroke-width="2.6135" d="m318.88 1323.1h-241.22-241.22l120.6-209 120.62-208.85 120.61 208.85z"/>
+				<g>
+					<path d="m-110.61 586.46h473.49" stroke-width="1.8473"/>
+					<path d="m-111.27 723.83h529.44" stroke-width="1.8473"/>
+					<path d="m-112.31 818.86h568.01" stroke-width="1.8473"/>
+					<path d="m-114.98 867.69h625.08" stroke-width="1.8473"/>
+					<path marker-end="url(#Arrow1Mend)" d="m499.57 863.28v-702.18" marker-start="url(#Arrow1Mstart)" stroke-width="1.8473"/>
+					<path marker-end="url(#marker7432)" d="m-92.024 895.83h563.76" marker-start="url(#Arrow1Mstart)" stroke-width="1.8473"/>
+					<path d="m475.5 908.64v-42.2" stroke-width="1.8473"/>
+					<path d="m-95.781 908.64v-42.2" stroke-width="1.8473"/>
+				</g>
+			</g>
 		</g>
-		<use xlink:href="#text8426" transform="translate(95.013 -575.63)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text8430" transform="translate(-80.612 -375.15)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text8410" transform="translate(-278.86 -419.67)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text8414" transform="translate(-298.6 -460.05)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text8418" transform="translate(-322.17 -523.28)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text8422" transform="translate(-350.59 -682.83)" height="100%" width="100%" y="0" x="0"/>
-		<path stroke-linejoin="round" d="m41.344 255.39c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.03888-4.3772c0.01877-2.1126 0.09026-112.68-0.55979-114.48-0.65005-1.7979-2.4591-2.0541-4.9675-2.556 2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-96.205 0.44781-98.358l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886" stroke="#333" stroke-width="1px" fill="none"/>
-		<path stroke-linejoin="round" d="m40.888 329.75c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.03888-4.3772c0.01876-2.1126 0.09026-26.187-0.55979-27.985-0.65005-1.7979-2.4591-2.0541-4.9675-2.556 2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-24.41 0.44781-26.564l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886" stroke="#333" stroke-width="1px" fill="none"/>
-		<path stroke-linejoin="round" d="m40.531 381.2c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.03888-4.3772c0.01876-2.1126 0.09026-14.787-0.55979-16.584-0.65005-1.7979-2.4591-2.0541-4.9675-2.556 2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-12.89 0.44781-15.043l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886" stroke="#333" stroke-width="1px" fill="none"/>
-		<path stroke-linejoin="round" d="m40.054 407.63c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.03888-4.3772c0.01877-2.1126 0.09026-1.6753-0.55979-3.4732s-2.4591-2.0541-4.9675-2.556c2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-0.98961 0.44781-3.1432l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886" stroke="#333" stroke-width="1px" fill="none"/>
+		<use display="inline" xlink:href="#text8426" transform="translate(95.013 -575.63)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text8430" transform="translate(-80.612 -375.15)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text8410" transform="translate(-278.86 -419.67)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text8414" transform="translate(-298.6 -460.05)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text8418" transform="translate(-322.17 -523.28)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text8422" transform="translate(-350.59 -682.83)" height="100%" width="100%" y="0" x="0"/>
+		<g stroke-linejoin="round" stroke="#333" stroke-width="1px" fill="none">
+			<path d="m41.344 255.39c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.03888-4.3772c0.01877-2.1126 0.09026-112.68-0.55979-114.48-0.65005-1.7979-2.4591-2.0541-4.9675-2.556 2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-96.205 0.44781-98.358l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886"/>
+			<path d="m40.888 329.75c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.03888-4.3772c0.01876-2.1126 0.09026-26.187-0.55979-27.985-0.65005-1.7979-2.4591-2.0541-4.9675-2.556 2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-24.41 0.44781-26.564l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886"/>
+			<path d="m40.531 381.2c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.03888-4.3772c0.01876-2.1126 0.09026-14.787-0.55979-16.584-0.65005-1.7979-2.4591-2.0541-4.9675-2.556 2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-12.89 0.44781-15.043l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886"/>
+			<path d="m40.054 407.63c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.03888-4.3772c0.01877-2.1126 0.09026-1.6753-0.55979-3.4732s-2.4591-2.0541-4.9675-2.556c2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.60259-1.9146 0.4411-0.98961 0.44781-3.1432l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886"/>
+		</g>
 	</g>
-	<g id="g-r-process-z" class="layer">
+	<g id="g-r-process-z" display="none" class="layer">
 		<g transform="translate(30.866 71.378)">
-			<path d="m321.21 219.51h-278.39" marker-start="url(#Arrow1Mstart-4-5)" stroke="#333" fill="none"/>
-			<path d="m42.823-44.804v264.31" marker-start="url(#Arrow1Mstart-4-5)" stroke="#333" fill="none"/>
-			<use xlink:href="#text3653" transform="translate(-277.92 -671.27)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13887" transform="translate(24.471 -510.39)" height="100%" width="100%" y="0" x="0"/>
+			<path d="m321.21 219.51h-278.39" display="inline" marker-start="url(#Arrow1Mstart-4-5)" stroke="#333" fill="none"/>
+			<path d="m42.823-44.804v264.31" display="inline" marker-start="url(#Arrow1Mstart-4-5)" stroke="#333" fill="none"/>
+			<use display="inline" xlink:href="#text3653" transform="translate(-277.92 -671.27)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13887" transform="translate(39.906 -507.26)" height="100%" width="100%" y="0" x="0"/>
 			<g id="g5583" transform="translate(-5.0805 3.8104)">
-				<rect transform="scale(-1)" height="13.054" width="254.78" y="-215.7" x="-302.68" stroke-width="0" fill="url(#pattern6043)"/>
-				<path d="m47.904 202.14h254.67" stroke="#333" fill="none"/>
-				<rect transform="scale(-1)" height="13.054" width="254.62" y="-147.42" x="-302.52" stroke-width="0" fill="url(#pattern6045)"/>
-				<path d="m47.904 146.92h254.62" stroke="#333" fill="none"/>
-				<path d="m47.904 134.37h254.62" stroke="#333" fill="none"/>
+				<rect transform="scale(-1)" height="13.054" width="254.78" display="inline" y="-215.7" x="-302.68" stroke-width="0" fill="url(#pattern6043)"/>
+				<path d="m47.904 202.14h254.67" display="inline" stroke="#333" fill="none"/>
+				<rect transform="scale(-1)" height="13.054" width="254.62" display="inline" y="-147.42" x="-302.52" stroke-width="0" fill="url(#pattern6045)"/>
+				<path d="m47.904 146.92h254.62" display="inline" stroke="#333" fill="none"/>
+				<path d="m47.904 134.37h254.62" display="inline" stroke="#333" fill="none"/>
 			</g>
 			<use xlink:href="#g5583" transform="translate(-1.0497e-8 -81.825)" height="100%" width="100%" y="0" x="0"/>
 			<use xlink:href="#g5583" transform="translate(-1.0497e-8 -163.15)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text8410" transform="translate(-277.38 -635.12)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text8414" transform="translate(-297.12 -717.46)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text8418" transform="translate(-322.69 -798.26)" height="100%" width="100%" y="0" x="0"/>
-			<path id="path8502-2" stroke-linejoin="round" d="m42.823 218.99c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.0389-4.3772c0.0188-2.1126 0.0903-29.218-0.55978-31.016-0.65005-1.7979-2.4591-2.0541-4.9675-2.556 2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.6026-1.9146 0.44111-27.821 0.44782-29.974l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886" stroke="#333" stroke-width="1px" fill="none"/>
+			<use display="inline" xlink:href="#text8410" transform="translate(-277.38 -635.12)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text8414" transform="translate(-297.12 -717.46)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text8418" transform="translate(-322.69 -798.26)" height="100%" width="100%" y="0" x="0"/>
+			<path id="path8502-2" stroke-linejoin="round" d="m42.823 218.99c-2.4249 0.20187-4.5242-1.3572-4.5116-2.7816l0.0389-4.3772c0.0188-2.1126 0.0903-29.218-0.55978-31.016-0.65005-1.7979-2.4591-2.0541-4.9675-2.556 2.5573-0.71107 4.2114-0.65706 4.814-2.5716 0.6026-1.9146 0.44111-27.821 0.44782-29.974l0.0154-4.9415c0.0049-1.5587 2.1167-2.8527 4.7228-2.5886" display="inline" stroke="#333" stroke-width="1px" fill="none"/>
 			<use xlink:href="#path8502-2" transform="translate(-1.0497e-8 -81.86)" height="100%" width="100%" y="0" x="0"/>
 			<use xlink:href="#path8502-2" transform="translate(-1.0497e-8 -163.15)" height="100%" width="100%" y="0" x="0"/>
 			<g id="g5895" transform="translate(-5.0805 3.8104)">
 				<circle stroke-linejoin="round" cx="123.2" stroke="#333" cy="127.3" r="37.989" stroke-width="2" fill="#fff"/>
-				<use xlink:href="#text5800" transform="translate(-213.8 -684.63)" height="100%" width="100%" y="0" x="0"/>
-				<use xlink:href="#text13834" transform="translate(-185.86 -660.37)" height="100%" width="100%" y="0" x="0"/>
-				<use xlink:href="#text13838" transform="translate(-177.31 -642.82)" height="100%" width="100%" y="0" x="0"/>
-				<use xlink:href="#text13842" transform="translate(-209.21 -618.46)" height="100%" width="100%" y="0" x="0"/>
+				<use display="inline" xlink:href="#text5800" transform="translate(-213.8 -684.63)" height="100%" width="100%" y="0" x="0"/>
+				<use display="inline" xlink:href="#text13834" transform="translate(-166.33 -657.96)" height="100%" width="100%" y="0" x="0"/>
+				<use display="inline" xlink:href="#text13838" transform="translate(-157.78 -640.4)" height="100%" width="100%" y="0" x="0"/>
+				<use display="inline" xlink:href="#text13842" transform="translate(-189.67 -616.04)" height="100%" width="100%" y="0" x="0"/>
 			</g>
-			<path d="m42.823 218.99s6.8572 1.4149 12.637-5.965c15.447-19.724 10.563-58.95 21.127-68.924 6.7054-6.3309 9.824-5.426 14.531-5.5031 2.549-0.0417 19.287-0.0623 22.518-0.0681" stroke="#333" stroke-width="2" fill="none"/>
-			<path d="m126.7 138.53h170.74" stroke="#333" stroke-dasharray="3.99999996, 3.99999996" stroke-width="2" fill="none"/>
-			<path id="path5573" d="m113.63 138.53c6.0851 0 7.6934-0.14207 12.569 1.8407 4.8753 1.9828 7.8513 4.9296 13.718 12.845 5.8669 7.9159 7.9647 50.076 17.648 59.739 6.5614 6.5476 12.646 6.5534 12.646 6.5534" stroke="#333" stroke-dasharray="3.99999976, 3.99999976" stroke-width="2" fill="none"/>
+			<g stroke="#333" stroke-width="2" fill="none">
+				<path d="m42.823 218.99s6.8572 1.4149 12.637-5.965c15.447-19.724 10.563-58.95 21.127-68.924 6.7054-6.3309 9.824-5.426 14.531-5.5031 2.549-0.0417 19.287-0.0623 22.518-0.0681" display="inline"/>
+				<path d="m126.7 138.53h170.74" stroke-dasharray="3.99999996, 3.99999996"/>
+				<path id="path5573" d="m113.63 138.53c6.0851 0 7.6934-0.14207 12.569 1.8407 4.8753 1.9828 7.8513 4.9296 13.718 12.845 5.8669 7.9159 7.9647 50.076 17.648 59.739 6.5614 6.5476 12.646 6.5534 12.646 6.5534" display="inline" stroke="#333" stroke-dasharray="3.99999976, 3.99999976" stroke-width="2" fill="none"/>
+			</g>
 			<use xlink:href="#g5895" transform="translate(65.154 -81.282)" height="100%" width="100%" y="0" x="0"/>
-			<path id="path5908" d="m110.76 138.53s6.8572 1.4149 12.637-5.965c15.447-19.724 9.366-60.666 19.93-70.64 6.7054-6.3309 9.824-5.426 14.531-5.5031 2.549-0.0417 19.287-0.0623 22.518-0.0681" stroke="#333" stroke-width="2" fill="none"/>
+			<path id="path5908" d="m110.76 138.53s6.8572 1.4149 12.637-5.965c15.447-19.724 9.366-60.666 19.93-70.64 6.7054-6.3309 9.824-5.426 14.531-5.5031 2.549-0.0417 19.287-0.0623 22.518-0.0681" display="inline" stroke="#333" stroke-width="2" fill="none"/>
 			<use xlink:href="#path5573" transform="translate(66.745 -82.172)" height="100%" width="100%" y="0" x="0"/>
 			<path d="m186.89 56.355h110.71" stroke="#333" stroke-dasharray="4.00000008, 4.00000008" stroke-width="2" fill="none"/>
 			<use xlink:href="#path5908" transform="translate(64.486 -82.168)" height="100%" width="100%" y="0" x="0"/>
 			<path d="m244.86-25.813h56.595" stroke="#333" stroke-dasharray="4.00000001, 4.00000001" stroke-width="2" fill="none"/>
 		</g>
 	</g>
-	<g id="g-r-process-polar" class="layer">
-		<path d="m251.24 160.68h-212.3" marker-start="url(#Arrow1Mstart-4-1)" stroke="#333" fill="none"/>
-		<path d="m38.94 21.864v138.82" marker-start="url(#Arrow1Mstart-4-1)" stroke="#333" fill="none"/>
-		<rect transform="scale(-1)" height="16.396" width="199.16" y="-160.68" x="-238.1" stroke-width="0" fill="url(#pattern9201)"/>
-		<rect transform="scale(-1)" height="16.396" width="199.16" y="-60.502" x="-238.1" stroke-width="0" fill="url(#pattern9199)"/>
-		<path d="m169.97 44.309c0.74624 0.0051 12.322 0.26506 20.595 11.42 8.5513 11.531 14.16 80.864 28.274 94.94 9.5636 9.5376 18.008 9.2736 18.008 9.2736" stroke="#333" stroke-dasharray="4, 2" stroke-width="2" fill="none"/>
-		<path d="m39.088 160.02s9.5299 3.2048 17.954-7.5451c22.515-28.731 15.397-85.87 30.795-100.4 9.7735-9.2219 14.319-7.9039 21.18-8.0161 20.264-0.33149 60.91 0.25327 60.91 0.25327s0.0128-0.000118 0.038 0.000054" stroke="#333" stroke-width="2" fill="none"/>
-		<path d="m38.972 43.954h199.12" stroke="#333" fill="none"/>
-		<path d="m38.972 60.141h199.12" stroke="#333" fill="none"/>
-		<path d="m38.972 144.19h199.12" stroke="#333" fill="none"/>
-		<path d="m83.259 59.78v100.9" stroke="#333" stroke-dasharray="4.00000001, 4.00000001" fill="none"/>
-		<path d="m62.253 144.56v16.626" stroke="#333" stroke-dasharray="4.00000005, 4.00000005" fill="none"/>
-		<path d="m104.26 44.454v116.23" stroke="#333" stroke-dasharray="4.00000005, 4.00000005" fill="none"/>
-		<path d="m125.26 44.454v116.23" stroke="#333" stroke-dasharray="4.00000005, 4.00000005" fill="none"/>
-		<path d="m146.26 44.454v116.23" stroke="#333" stroke-dasharray="4.00000005, 4.00000005" fill="none"/>
-		<path d="m167.26 44.454v116.23" stroke="#333" stroke-dasharray="4.00000005, 4.00000005" fill="none"/>
-		<use xlink:href="#text3653" transform="translate(-282.85 -602.3)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13887" transform="translate(-55.052 -571.6)" height="100%" width="100%" y="0" x="0"/>
+	<g id="g-r-process-polar" display="none" class="layer">
+		<g>
+			<path d="m251.24 160.68h-212.3" display="inline" marker-start="url(#Arrow1Mstart-4-1)" stroke="#333" fill="none"/>
+			<path d="m38.94 21.864v138.82" display="inline" marker-start="url(#Arrow1Mstart-4-1)" stroke="#333" fill="none"/>
+			<rect transform="scale(-1)" height="16.396" width="199.16" display="inline" y="-160.68" x="-238.1" stroke-width="0" fill="url(#pattern9201)"/>
+			<rect transform="scale(-1)" height="16.396" width="199.16" display="inline" y="-60.502" x="-238.1" stroke-width="0" fill="url(#pattern9199)"/>
+		</g>
+		<g stroke="#333" fill="none">
+			<path d="m169.97 44.309c0.74624 0.0051 12.322 0.26506 20.595 11.42 8.5513 11.531 14.16 80.864 28.274 94.94 9.5636 9.5376 18.008 9.2736 18.008 9.2736" display="inline" stroke-dasharray="4, 2" stroke-width="2"/>
+			<g>
+				<path d="m39.088 160.02s9.5299 3.2048 17.954-7.5451c22.515-28.731 15.397-85.87 30.795-100.4 9.7735-9.2219 14.319-7.9039 21.18-8.0161 20.264-0.33149 60.91 0.25327 60.91 0.25327s0.0128-0.000118 0.038 0.000054" display="inline" stroke-width="2"/>
+				<g>
+					<path d="m38.972 43.954h199.12" display="inline"/>
+					<path d="m38.972 60.141h199.12" display="inline"/>
+					<path d="m38.972 144.19h199.12" display="inline"/>
+				</g>
+			</g>
+			<path d="m83.259 59.78v100.9" display="inline" stroke-dasharray="4.00000001, 4.00000001"/>
+			<g stroke-dasharray="4.00000005, 4.00000005">
+				<path d="m62.253 144.56v16.626" display="inline"/>
+				<path d="m104.26 44.454v116.23" display="inline"/>
+				<path d="m125.26 44.454v116.23" display="inline"/>
+				<path d="m146.26 44.454v116.23" display="inline"/>
+				<path d="m167.26 44.454v116.23" display="inline"/>
+			</g>
+		</g>
+		<use display="inline" xlink:href="#text3653" transform="translate(-282.85 -602.3)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13887" transform="translate(-39.617 -568.46)" height="100%" width="100%" y="0" x="0"/>
 		<g id="g5553" transform="translate(30,-24)">
-			<use xlink:href="#text5523" transform="translate(-343.09 -547.51)" height="100%" width="100%" y="0" x="0"/>
-			<path stroke-linejoin="round" d="m52.305 184.83c0.11404 1.313-0.76673 2.4497-1.5713 2.4429l-2.4728-0.0211c-1.1934-0.0102-3.3828-0.0489-4.3985 0.30311-1.0157 0.35198-1.1604 1.3315-1.4439 2.6898-0.40169-1.3847-0.37118-2.2803-1.4527-2.6066-1.0816-0.32629-3.3128-0.23884-4.5294-0.24248l-2.7915-0.008c-0.88051-0.003-1.6115-1.1461-1.4623-2.5572" stroke="#333" stroke-width="1px" fill="none"/>
+			<use display="inline" xlink:href="#text5523" transform="translate(-327.66 -544.38)" height="100%" width="100%" y="0" x="0"/>
+			<path stroke-linejoin="round" d="m52.305 184.83c0.11404 1.313-0.76673 2.4497-1.5713 2.4429l-2.4728-0.0211c-1.1934-0.0102-3.3828-0.0489-4.3985 0.30311-1.0157 0.35198-1.1604 1.3315-1.4439 2.6898-0.40169-1.3847-0.37118-2.2803-1.4527-2.6066-1.0816-0.32629-3.3128-0.23884-4.5294-0.24248l-2.7915-0.008c-0.88051-0.003-1.6115-1.1461-1.4623-2.5572" display="inline" stroke="#333" stroke-width="1px" fill="none"/>
 		</g>
 		<use xlink:href="#g5553" transform="translate(21.152)" height="100%" width="100%" y="0" x="0"/>
 		<use xlink:href="#g5553" transform="translate(42.305)" height="100%" width="100%" y="0" x="0"/>
 		<use xlink:href="#g5553" transform="translate(63.457)" height="100%" width="100%" y="0" x="0"/>
 		<use xlink:href="#g5553" transform="translate(84.61)" height="100%" width="100%" y="0" x="0"/>
 		<g transform="matrix(1.1847 0 0 1.1847 -48.68 -48.464)" stroke="#333" fill="none">
-			<path d="m364.02 123.7h-117.59" marker-start="url(#Arrow1Mstart-4-1)" stroke-width=".84407"/>
-			<path d="m302.47 65.551v117.63" marker-start="url(#Arrow1Mstart-4-1)" stroke-width=".84407"/>
-			<path d="m302.47 123.7c-0.00001-13.137 14.915-8.5437 18.277-0.00002 5.0602 12.862-5.9993 25.635-18.277 28.05-17.787 3.499-33.784-10.864-36.038-28.05-2.8649-21.846 14.744-40.956 36.038-43.05" transform="scale(1)" stroke-width="1.6881"/>
+			<g>
+				<path d="m364.02 123.7h-117.59" display="inline" marker-start="url(#Arrow1Mstart-4-1)" stroke-width=".84407"/>
+				<path d="m302.47 65.551v117.63" display="inline" marker-start="url(#Arrow1Mstart-4-1)" stroke-width=".84407"/>
+				<path d="m302.47 123.7c-0.00001-13.137 14.915-8.5437 18.277-0.00002 5.0602 12.862-5.9993 25.635-18.277 28.05-17.787 3.499-33.784-10.864-36.038-28.05-2.8649-21.846 14.744-40.956 36.038-43.05" transform="scale(1)" stroke-width="1.6881"/>
+			</g>
 			<ellipse stroke-linejoin="round" rx="43.048" ry="43.048" cy="123.7" cx="302.47" stroke-width="1.6881"/>
 		</g>
 		<g transform="translate(0,-16)">
-			<path d="m220.12 454.56h-181.18" marker-start="url(#Arrow1Mstart-4-1)" stroke="#333" fill="none"/>
-			<path d="m38.94 237.78v216.79" marker-start="url(#Arrow1Mstart-4-1)" stroke="#333" fill="none"/>
-			<path id="path5585" d="m39.088 454.1s6.0202 1.733 11.342-4.0801c14.223-15.536 9.7264-46.435 19.453-54.292 6.1741-4.9869 9.0451-4.3268 13.38-4.3348 12.451-0.0232 19.894-0.0551 19.894-0.0551" stroke="#333" stroke-width="2" fill="none"/>
-			<path d="m38.972 265.97h82.792 79.572" stroke="#333" fill="none"/>
-			<path d="m38.94 391.39h96.825" stroke="#333" fill="none"/>
+			<g stroke="#333" fill="none">
+				<path d="m220.12 454.56h-181.18" display="inline" marker-start="url(#Arrow1Mstart-4-1)"/>
+				<path d="m38.94 237.78v216.79" display="inline" marker-start="url(#Arrow1Mstart-4-1)"/>
+				<path id="path5585" d="m39.088 454.1s6.0202 1.733 11.342-4.0801c14.223-15.536 9.7264-46.435 19.453-54.292 6.1741-4.9869 9.0451-4.3268 13.38-4.3348 12.451-0.0232 19.894-0.0551 19.894-0.0551" display="inline" stroke="#333" stroke-width="2" fill="none"/>
+				<path d="m38.972 265.97h82.792 79.572" display="inline"/>
+				<path d="m38.94 391.39h96.825" display="inline"/>
+			</g>
 			<use xlink:href="#path5585" transform="translate(43.324 -62.712)" height="100%" width="100%" y="0" x="0"/>
 			<use xlink:href="#path5585" transform="translate(87.499 -125.42)" height="100%" width="100%" y="0" x="0"/>
-			<path d="m38.94 328.65h129.76" stroke="#333" fill="none"/>
-			<use xlink:href="#text3653" transform="translate(-283.18 -388.1)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13887" transform="translate(-83.049 -276.29)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text6399" transform="translate(-197.12 -412.09)" height="100%" width="100%" y="0" x="0"/>
-			<text style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" font-size="80px" line-height="125%" y="367.81274" x="197.60286" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="367.81274" x="197.60286" font-family="&apos;Times New Roman&apos;" fill="#333333">R<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></tspan></text>
-			<use xlink:href="#text3380-9" transform="translate(-139.84 -442.26)" height="100%" width="100%" y="0" x="0"/>
-			<path marker-end="url(#Arrow1Mend-0)" d="m193.4 452.13v-184.73" marker-start="url(#Arrow1Mstart-5-2)" stroke="#333" fill="none"/>
-			<path marker-end="url(#marker7290)" d="m161.7 452.79v-121.64" marker-start="url(#Arrow1Mstart-5-2)" stroke="#333" fill="none"/>
-			<path marker-end="url(#marker7516)" d="m128.82 453.44v-59.659" marker-start="url(#Arrow1Mstart-5-2)" stroke="#333" fill="none"/>
+			<path d="m38.94 328.65h129.76" display="inline" stroke="#333" fill="none"/>
+			<use display="inline" xlink:href="#text3653" transform="translate(-283.18 -388.1)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13887" transform="translate(-67.614 -273.16)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text6399" transform="translate(-197.12 -412.09)" height="100%" width="100%" y="0" x="0"/>
+			<text style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" display="inline" font-size="80px" line-height="125%" y="367.81274" x="197.60286" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="367.81274" x="197.60286" font-family="&apos;Times New Roman&apos;" fill="#333333">R<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></tspan></text>
+			<use display="inline" xlink:href="#text3380-9" transform="translate(-139.84 -442.26)" height="100%" width="100%" y="0" x="0"/>
+			<g stroke="#333" fill="none">
+				<path marker-end="url(#Arrow1Mend-0)" d="m193.4 452.13v-184.73" marker-start="url(#Arrow1Mstart-5-2)" display="inline"/>
+				<path marker-end="url(#marker7290)" d="m161.7 452.79v-121.64" marker-start="url(#Arrow1Mstart-5-2)" display="inline"/>
+				<path marker-end="url(#marker7516)" d="m128.82 453.44v-59.659" marker-start="url(#Arrow1Mstart-5-2)" display="inline"/>
+			</g>
 		</g>
 		<g transform="translate(1.1432 -3.4246)">
-			<path d="m384.76 319.16h-164.02" marker-start="url(#Arrow1Mstart-4-1)" stroke="#333" fill="none"/>
-			<path d="m305.13 237.62v164.02" marker-start="url(#Arrow1Mstart-4-1)" stroke="#333" fill="none"/>
-			<ellipse stroke-linejoin="round" rx="69" ry="69" stroke="#333" cy="319.63" cx="304.66" stroke-width="2" fill="none"/>
-			<ellipse stroke-linejoin="round" rx="49" ry="49" stroke="#333" cy="319.16" cx="305.13" stroke-width="2" fill="none"/>
-			<ellipse stroke-linejoin="round" rx="29" ry="29" stroke="#333" cy="319.16" cx="305.13" stroke-width="2" fill="none"/>
-			<path d="m322.61 382.71-16.99-63.42" marker-start="url(#Arrow1Mstart-5-2)" stroke="#333" fill="none"/>
-			<path stroke-linejoin="round" d="m350.77 421.14h-17.864l0.008 0.0314-14.73-54.972" stroke="#333" fill="none"/>
-			<path d="m329.9 361.35-24.28-42.06" marker-start="url(#Arrow1Mstart-5-2)" stroke="#333" fill="none"/>
-			<path stroke-linejoin="round" d="m370.76 401.2h-17.848c-7.6693-13.284-15.339-26.567-23.008-39.851" stroke="#333" fill="none"/>
-			<path stroke-linejoin="round" d="m382.67 381.65-14.907 0.0001-42.111-42.026" stroke="#333" fill="none"/>
-			<path d="m323.92 337.95-18.17-18.18" marker-start="url(#Arrow1Mstart-5-2)" stroke="#333" fill="none"/>
-			<use xlink:href="#text3374-1" transform="translate(85.449 -464.8)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text3380-9" transform="translate(47.591 -444.93)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text6399" transform="translate(3.798 -425.1)" height="100%" width="100%" y="0" x="0"/>
+			<g stroke="#333" fill="none">
+				<path d="m384.76 319.16h-164.02" display="inline" marker-start="url(#Arrow1Mstart-4-1)"/>
+				<path d="m305.13 237.62v164.02" display="inline" marker-start="url(#Arrow1Mstart-4-1)"/>
+				<g stroke-linejoin="round" stroke-width="2">
+					<ellipse rx="69" ry="69" cy="319.63" cx="304.66"/>
+					<ellipse rx="49" ry="49" cy="319.16" cx="305.13"/>
+					<ellipse rx="29" ry="29" cy="319.16" cx="305.13"/>
+				</g>
+				<g>
+					<path d="m322.61 382.71-16.99-63.42" marker-start="url(#Arrow1Mstart-5-2)" display="inline"/>
+					<path stroke-linejoin="round" d="m350.77 421.14h-17.864l0.008 0.0314-14.73-54.972" display="inline"/>
+					<path d="m329.9 361.35-24.28-42.06" marker-start="url(#Arrow1Mstart-5-2)" display="inline"/>
+					<g>
+						<path stroke-linejoin="round" d="m370.76 401.2h-17.848c-7.6693-13.284-15.339-26.567-23.008-39.851" display="inline"/>
+						<path stroke-linejoin="round" d="m382.67 381.65-14.907 0.0001-42.111-42.026" display="inline"/>
+						<path d="m323.92 337.95-18.17-18.18" marker-start="url(#Arrow1Mstart-5-2)" display="inline"/>
+					</g>
+				</g>
+			</g>
+			<use display="inline" xlink:href="#text3374-1" transform="translate(85.449 -464.8)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text3380-9" transform="translate(47.591 -444.93)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text6399" transform="translate(3.798 -425.1)" height="100%" width="100%" y="0" x="0"/>
 		</g>
 	</g>
-	<g id="g-spiral" class="layer" stroke="#333" fill="none">
-		<path d="m205.61 161.06c0-0.60654 1.0437-0.18003 1.2291 0 1.2494 1.213-0.0162 3.1481-1.2291 3.7728-2.9991 1.5446-6.3002-0.94613-7.2707-3.7728-1.7863-5.2026 2.3478-10.313 7.2707-11.58 7.8-2.0086 15.083 4.1406 16.616 11.58 2.2177 10.765-6.2781 20.543-16.616 22.317-14.074 2.4161-26.64-8.7293-28.639-22.317-2.6056-17.707 11.471-33.336 28.639-35.546 21.648-2.7874 40.599 14.487 43.009 35.546 2.9624 25.884-17.76 48.402-43.009 51.003" stroke-width="2"/>
-		<path d="m340.99 161.06h-278.84" marker-start="url(#Arrow1Mstart-4-1-4)"/>
-		<path d="m205.61 22.432v278.84" marker-start="url(#Arrow1Mstart-4-1-4)"/>
-		<ellipse stroke-linejoin="round" rx="117.31" ry="117.31" cy="161.87" cx="204.81"/>
-		<ellipse stroke-linejoin="round" rx="83.304" ry="83.305" cy="161.06" cx="205.61"/>
-		<ellipse stroke-linejoin="round" rx="50.998" ry="50.998" cy="161.06" cx="205.61"/>
-		<path d="m177.15 203.15c-32.07-11.87-42.29-51.36-28.41-80.55 17.83-37.535 65.08-49.945 101.29-32.345" stroke-width="2"/>
-		<path d="m205.61-161.06c0-0.60654 1.0437-0.18003 1.2291 0 1.2495 1.213-0.0162 3.1481-1.2291 3.7728-2.9991 1.5446-6.3002-0.94612-7.2707-3.7728-1.7863-5.2026 2.3478-10.313 7.2707-11.58 7.8-2.0086 15.083 4.1406 16.616 11.58 2.2177 10.765-6.2781 20.543-16.616 22.317-14.074 2.4161-26.64-8.7293-28.639-22.317-2.6056-17.707 11.471-33.336 28.639-35.546 21.648-2.7874 40.599 14.487 43.009 35.546 2.9624 25.884-17.76 48.402-43.009 51.003" transform="scale(1,-1)" stroke-dasharray="3.99999785, 1.99999893" stroke-width="2"/>
-		<path d="m177.15-118.74c-32.076-11.871-42.289-51.364-28.416-80.556 17.836-37.531 65.078-49.941 101.29-32.341" transform="scale(1,-1)"/>
-		<path d="m286.84 179.74c-2.2466 53.435-53.447 90.085-104.55 86.47-24.253-1.7154-47.496-11.735-65.86-27.589" stroke-width="2"/>
-		<path d="m286.84-143.01c-2.2466 53.435-53.447 90.085-104.55 86.47-24.253-1.7154-47.496-11.735-65.86-27.589" transform="scale(1,-1)" stroke-dasharray="4, 2" stroke-width="2"/>
+	<g id="g-spiral" display="none" class="layer" stroke="#333" fill="none">
+		<g>
+			<g>
+				<path d="m205.61 161.06c0-0.60654 1.0437-0.18003 1.2291 0 1.2494 1.213-0.0162 3.1481-1.2291 3.7728-2.9991 1.5446-6.3002-0.94613-7.2707-3.7728-1.7863-5.2026 2.3478-10.313 7.2707-11.58 7.8-2.0086 15.083 4.1406 16.616 11.58 2.2177 10.765-6.2781 20.543-16.616 22.317-14.074 2.4161-26.64-8.7293-28.639-22.317-2.6056-17.707 11.471-33.336 28.639-35.546 21.648-2.7874 40.599 14.487 43.009 35.546 2.9624 25.884-17.76 48.402-43.009 51.003" stroke-width="2"/>
+				<path d="m340.99 161.06h-278.84" display="inline" marker-start="url(#Arrow1Mstart-4-1-4)"/>
+				<path d="m205.61 22.432v278.84" display="inline" marker-start="url(#Arrow1Mstart-4-1-4)"/>
+			</g>
+			<g stroke-linejoin="round">
+				<ellipse rx="117.31" ry="117.31" cy="161.87" cx="204.81"/>
+				<ellipse rx="83.304" ry="83.305" cy="161.06" cx="205.61"/>
+				<ellipse rx="50.998" ry="50.998" cy="161.06" cx="205.61"/>
+			</g>
+			<path d="m177.15 203.15c-32.07-11.87-42.29-51.36-28.41-80.55 17.83-37.535 65.08-49.945 101.29-32.345" stroke-width="2"/>
+		</g>
+		<g>
+			<path d="m205.61-161.06c0-0.60654 1.0437-0.18003 1.2291 0 1.2495 1.213-0.0162 3.1481-1.2291 3.7728-2.9991 1.5446-6.3002-0.94612-7.2707-3.7728-1.7863-5.2026 2.3478-10.313 7.2707-11.58 7.8-2.0086 15.083 4.1406 16.616 11.58 2.2177 10.765-6.2781 20.543-16.616 22.317-14.074 2.4161-26.64-8.7293-28.639-22.317-2.6056-17.707 11.471-33.336 28.639-35.546 21.648-2.7874 40.599 14.487 43.009 35.546 2.9624 25.884-17.76 48.402-43.009 51.003" transform="scale(1,-1)" stroke-dasharray="3.99999785, 1.99999893" stroke-width="2"/>
+			<path d="m177.15-118.74c-32.076-11.871-42.289-51.364-28.416-80.556 17.836-37.531 65.078-49.941 101.29-32.341" transform="scale(1,-1)"/>
+			<path d="m286.84 179.74c-2.2466 53.435-53.447 90.085-104.55 86.47-24.253-1.7154-47.496-11.735-65.86-27.589" stroke-width="2"/>
+			<path d="m286.84-143.01c-2.2466 53.435-53.447 90.085-104.55 86.47-24.253-1.7154-47.496-11.735-65.86-27.589" transform="scale(1,-1)" stroke-dasharray="4, 2" stroke-width="2"/>
+		</g>
 	</g>
-	<g id="g-compliance" class="layer">
-		<use xlink:href="#g13843" transform="translate(26.204 -722.71)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text10018-1" transform="translate(28.969 -691.7)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#g13843" transform="translate(155.75 -722.71)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text10014-9" transform="translate(160.49 -718.1)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#g13843" transform="translate(285.29 -722.71)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13834" transform="translate(-259.07 -728.01)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13838" transform="translate(-233.72 -728.01)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13842" transform="translate(-248.93 -689.72)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13846" transform="translate(-302.86 -689.51)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13842" transform="translate(-27.977 -728.22)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13842" transform="translate(9.6891 -728.22)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text22913" transform="translate(-55.151 -689.72)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text22913" transform="translate(-17.485 -689.72)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13838" transform="translate(-143.12 -728.01)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13834" transform="translate(-89.734 -728.01)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13834" transform="translate(-128.87 -689.51)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13838" transform="translate(-103.99 -689.51)" height="100%" width="100%" y="0" x="0"/>
+	<g id="g-compliance" display="none" class="layer">
+		<use display="inline" xlink:href="#g13843" transform="translate(26.204 -722.71)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text10018-1" transform="translate(28.969 -691.7)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#g13843" transform="translate(155.75 -722.71)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text10014-9" transform="translate(160.49 -718.1)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#g13843" transform="translate(285.29 -722.71)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13834" transform="translate(-239.53 -725.6)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13838" transform="translate(-214.19 -725.6)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13842" transform="translate(-229.39 -687.31)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13846" transform="translate(-283.33 -687.1)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13842" transform="translate(-8.4423 -725.81)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13842" transform="translate(29.224 -725.81)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text22913" transform="translate(-35.616 -687.31)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text22913" transform="translate(2.05 -687.31)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13838" transform="translate(-123.59 -725.6)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13834" transform="translate(-70.199 -725.6)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13834" transform="translate(-109.33 -687.1)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13838" transform="translate(-84.455 -687.1)" height="100%" width="100%" y="0" x="0"/>
 	</g>
-	<g id="g-complementarity" class="layer">
-		<g transform="translate(217.66 -921.73)">
+	<g id="g-complementarity" display="none" class="layer">
+		<g display="inline" transform="translate(217.66 -921.73)">
 			<use xlink:href="#g9526" transform="translate(-1.2391 164.19)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#g9509" transform="translate(9.6169 106.42)" height="100%" width="100%" y="0" x="0"/>
-			<rect height="145.77" width="146.3" stroke="#333" y="937.27" x="21.822" stroke-width="2" fill="none"/>
+			<use xlink:href="#g9509" transform="translate(8.6208 105.4)" height="100%" width="100%" y="0" x="0"/>
+			<rect height="148" width="148.13" stroke="#333" y="935.04" x="20.697" fill="none"/>
 		</g>
-		<use xlink:href="#g9509" transform="translate(2.8586 -815.32)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text10018-1" transform="translate(-17.516 -677.25)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text10014-9" transform="translate(113.06 -704.35)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#g9509" transform="translate(2.8586 -815.32)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text10018-1" transform="translate(-17.516 -677.25)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text10014-9" transform="translate(113.06 -704.35)" height="100%" width="100%" y="0" x="0"/>
 		<g id="g9636" transform="translate(0,-4)">
-			<use xlink:href="#text13834" transform="translate(-284.21 -733.67)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13834" transform="translate(-254.38 -733.67)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13834" transform="translate(-254.38 -704.24)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-264.68 -731.25)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-234.85 -731.25)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-234.85 -701.83)" height="100%" width="100%" y="0" x="0"/>
 		</g>
-		<use xlink:href="#g9526" transform="translate(31.062 -757.54)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#g9526" transform="translate(31.062 -757.54)" height="100%" width="100%" y="0" x="0"/>
 		<g id="g9628" transform="translate(0 53.785)">
-			<use xlink:href="#text13834" transform="translate(-157.58 -733.67)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13834" transform="translate(-186.61 -733.67)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13834" transform="translate(-157.58 -704.24)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13834" transform="translate(-128.56 -704.24)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13834" transform="translate(-128.56 -674.32)" height="100%" width="100%" y="0" x="0"/>
-			<use xlink:href="#text13834" transform="translate(-186.61 -674.32)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-138.05 -731.25)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-167.07 -731.25)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-138.05 -701.83)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-109.03 -701.83)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-109.03 -671.9)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-167.07 -671.9)" height="100%" width="100%" y="0" x="0"/>
 		</g>
 		<use xlink:href="#g9628" transform="translate(185.51)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#g9636" transform="translate(224.19 -.80470)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text3647" transform="translate(-6.0615 -606.99)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text9718" transform="translate(-109.62 -532.13)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g9636" transform="translate(224.19 -2.8047)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text3647" transform="translate(-6.0615 -606.99)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text9718" transform="translate(-109.62 -532.13)" height="100%" width="100%" y="0" x="0"/>
 	</g>
-	<g id="g-0-transport" class="layer">
-		<path d="m338.99 159.06h-278.84" marker-start="url(#Arrow1Mstart-4-1-4-9)" stroke="#333" fill="none"/>
-		<path d="m203.61 20.432v278.84" marker-start="url(#Arrow1Mstart-4-1-4-9)" stroke="#333" fill="none"/>
-		<use xlink:href="#text3653" transform="translate(-115.64 -603.4)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13887" transform="translate(34.86 -573.6)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13891" transform="translate(-106.74 -619.24)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text21264" transform="translate(-24.981 -723.4)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text21248" transform="translate(-260.2 -541.23)" height="100%" width="100%" y="0" x="0"/>
+	<g id="g-0-transport" display="none" class="layer">
+		<path d="m338.99 159.06h-278.84" display="inline" marker-start="url(#Arrow1Mstart-4-1-4-9)" stroke="#333" fill="none"/>
+		<path d="m203.61 20.432v278.84" display="inline" marker-start="url(#Arrow1Mstart-4-1-4-9)" stroke="#333" fill="none"/>
+		<use display="inline" xlink:href="#text3653" transform="translate(-115.64 -603.4)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13887" transform="translate(50.295 -570.46)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13891" transform="translate(-87.204 -616.83)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text21264" transform="translate(-24.981 -723.4)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text21248" transform="translate(-260.2 -541.23)" height="100%" width="100%" y="0" x="0"/>
 		<g id="g9813" transform="translate(.14994 -1.0524)">
-			<path d="m203.46 159.95s8.9204 0.51777 16.46-7.7212c20.15-22.02 13.779-65.813 27.559-76.948 8.7465-7.0679 12.814-6.1323 18.954-6.1437 17.639-0.03288 28.182-0.07809 28.182-0.07809" stroke="#333" stroke-width="2" fill="none"/>
-			<path d="m203.64 69.129h84.838" stroke="#333" fill="none"/>
+			<path d="m203.46 159.95s8.9204 0.51777 16.46-7.7212c20.15-22.02 13.779-65.813 27.559-76.948 8.7465-7.0679 12.814-6.1323 18.954-6.1437 17.639-0.03288 28.182-0.07809 28.182-0.07809" display="inline" stroke="#333" stroke-width="2" fill="none"/>
+			<path d="m203.64 69.129h84.838" display="inline" stroke="#333" fill="none"/>
 		</g>
 		<use xlink:href="#g9813" transform="matrix(-1 0 0 -1 407.22 317.96)" height="100%" width="100%" y="0" x="0"/>
-		<path d="m216.18 133.43c8.8278-18.355 8.862-27.532 11.467-45.824" marker-start="url(#marker9915)" stroke="#666" fill="none"/>
+		<path d="m216.18 133.43c8.8278-18.355 8.862-27.532 11.467-45.824" marker-start="url(#marker9915)" display="inline" stroke="#666" fill="none"/>
 	</g>
-	<g id="g-struct-matrix" class="layer">
-		<path d="m292 110.13h-180" stroke="#333" stroke-width="2" fill="none"/>
-		<path d="m201.25 200.88v-180" stroke="#333" stroke-width="2" fill="none"/>
-		<rect fill-opacity="0" height="178.5" width="178.5" stroke="#333" y="21.628" x="112.75" stroke-width="2"/>
-		<path d="m202 65.05h-90" stroke="#333" stroke-width="2" fill="none"/>
-		<path d="m156.96 110.72v-89.844" stroke="#333" stroke-width="2" fill="none"/>
-		<use xlink:href="#text13834" transform="translate(-179.08 -725.21)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13834" transform="translate(-135.72 -725.21)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13834" transform="translate(-135.72 -681.39)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13834" transform="translate(-67.34 -703.77)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13834" transform="translate(-67.34 -613.25)" height="100%" width="100%" y="0" x="0"/>
+	<g id="g-struct-matrix" display="none" class="layer">
+		<g stroke="#333">
+			<path d="m292 110.13h-179.56" display="inline" fill="none"/>
+			<path d="m201.25 200.07v-179.19" display="inline" fill="none"/>
+			<rect fill-opacity="0" display="inline" height="179" width="179" y="21.128" x="112.75"/>
+			<path d="m200.75 65.05h-88.311" display="inline" fill="none"/>
+			<path d="m156.96 110.72v-89.844" display="inline" fill="none"/>
+		</g>
+		<use display="inline" xlink:href="#text13834" transform="translate(-159.54 -722.79)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13834" transform="translate(-116.18 -722.79)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13834" transform="translate(-116.18 -678.97)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13834" transform="translate(-47.806 -701.36)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13834" transform="translate(-47.806 -610.84)" height="100%" width="100%" y="0" x="0"/>
 	</g>
-	<g id="g-criteria" class="layer">
-		<use xlink:href="#text13834" transform="translate(-70.761 -746.44)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13838" transform="translate(-23.109 -704.35)" height="100%" width="100%" y="0" x="0"/>
-		<use xlink:href="#text13842" transform="translate(-26.256 -596.1)" height="100%" width="100%" y="0" x="0"/>
-		<ellipse rx="125.82" ry="67.616" stroke="#333" transform="matrix(.81667 -.57710 .57710 .81667 0 0)" cy="229.19" cx="69.658" stroke-width="2" fill="none"/>
-		<ellipse rx="125.82" transform="matrix(-.89487 -.44632 .44632 -.89487 0 0)" stroke="#333" ry="67.616" cy="-47.099" cx="-234.86" stroke-width="2" fill="none"/>
-		<ellipse rx="125.82" ry="67.616" stroke="#333" transform="rotate(-80.641)" cy="210.53" cx="-114.26" stroke-width="2" fill="none"/>
+	<g id="g-phantom" display="none" class="layer">
+		<g transform="translate(16.115 3.7918)">
+			<rect height="39.246" width="39.342" y="56.488" x="54.545" fill="url(#pattern11100)"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-258.43 -688.79)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-180.99 -650.5)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-179.03 -708.74)" height="100%" width="100%" y="0" x="0"/>
+			<g stroke="#333">
+				<rect fill-opacity="0" display="inline" height="119" width="119" y="16.242" x="15.229"/>
+				<g fill="none">
+					<path d="m134.23 95.734h-119.06" display="inline"/>
+					<path d="m54.545 95.734v-79.492" display="inline"/>
+					<path d="m93.887 56.488h-78.418" display="inline"/>
+					<path d="m93.887 134.98v-118.74" display="inline"/>
+				</g>
+			</g>
+			<use display="inline" xlink:href="#text13834" transform="translate(-219.08 -728.4)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text13834" transform="translate(-258.43 -728.4)" height="100%" width="100%" y="0" x="0"/>
+		</g>
+		<g>
+			<use display="inline" xlink:href="#g-element-1" transform="translate(192 -542.5)" height="100%" width="100%" y="0" x="0"/>
+			<circle stroke-width="2" stroke="#333" display="inline" cy="77.68" cx="326.87" r="9.0909" fill="url(#pattern11026)"/>
+			<use display="inline" xlink:href="#text3374" transform="translate(-5.9664 -510.84)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text3380" transform="translate(-79.367 -458.35)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text3647-9" transform="translate(-81.279 -621.04)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text3442" transform="translate(-38.638 -621.04)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#g-element-1" transform="translate(239.43 -450.53)" height="100%" width="100%" y="0" x="0"/>
+			<g stroke="#333" stroke-width="2" fill="none">
+				<path d="m312.95 72.669h-70.864" display="inline" marker-start="url(#Arrow1Mstart)"/>
+				<path d="m245.91 80.717h70.864" display="inline" marker-start="url(#Arrow1Mstart)"/>
+				<ellipse rx="79.205" ry="51.809" cy="69.706" cx="279.43"/>
+				<path d="m279.43 155.75v-33.232" display="inline" marker-start="url(#Arrow1Mstart)"/>
+			</g>
+		</g>
+	</g>
+	<g id="g-decomposition" display="none" class="layer">
+		<g transform="translate(4 -294.51)">
+			<g id="g11210" display="inline" transform="matrix(1.2012 0 0 1.2029 -89.495 -692.14)">
+				<rect fill-opacity="0" display="inline" height="88.952" width="89.082" stroke="#333" y="829.91" x="81.061" stroke-width=".83193"/>
+				<g>
+					<path d="m110.55 918.96v-88.643" display="inline" stroke="#333" stroke-width=".83193" fill="none"/>
+					<path d="m170 860.25h-88.658" display="inline" stroke="#333" stroke-width=".83193" fill="none"/>
+					<path d="m170 889.48h-88.658" display="inline" stroke="#333" stroke-width=".83193" fill="none"/>
+					<path d="m139.88 918.96v-88.643" display="inline" stroke="#333" stroke-width=".83193" fill="none"/>
+				</g>
+			</g>
+			<use display="inline" xlink:href="#text10018-1" transform="translate(154.16 -390.99)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#text10014-9" transform="translate(20.165 -417.4)" height="100%" width="100%" y="0" x="0"/>
+			<use id="use11311" xlink:href="#g11210" transform="translate(135.75)" height="100%" width="100%" y="0" x="0"/>
+			<use xlink:href="#use11311" transform="translate(135.73)" height="100%" width="100%" y="0" x="0"/>
+		</g>
+		<use display="inline" xlink:href="#text13891" transform="translate(20.056 -734.11)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text11144" transform="translate(12.589 -824.93)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13834" transform="translate(76.919 -734.21)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13834" transform="translate(-263.7 -734.21)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13838" transform="translate(-243.42 -734.21)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13842" transform="translate(-224.12 -734.21)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13834" transform="translate(-129.15 -734.21)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text11152" transform="translate(-179.42 -824.93)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13838" transform="translate(-71.692 -734.21)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text11148" transform="translate(17.595 -790.27)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text11140" transform="translate(11.923 -790.95)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13891" transform="translate(54.609 -699.44)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13842" transform="translate(-293.15 -699.54)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13838" transform="translate(-243.42 -699.54)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13834" transform="translate(-194.66 -699.54)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text11152" transform="translate(-215.03 -790.27)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13838" transform="translate(-107.79 -699.54)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13838" transform="translate(-71.692 -699.54)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text11148" transform="translate(-51.355 -755.6)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13834" transform="translate(42.522 -664.88)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13891" transform="translate(89.006 -664.78)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13834" transform="translate(-263.7 -664.88)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13842" transform="translate(-258.62 -664.88)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13838" transform="translate(-208.91 -664.88)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13838" transform="translate(-143.4 -664.88)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13838" transform="translate(-107.79 -664.88)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13838" transform="translate(-71.692 -664.88)" height="100%" width="100%" y="0" x="0"/>
+	</g>
+	<g id="g-human-1" display="none" class="layer">
+		<use display="inline" xlink:href="#text11828" transform="translate(-34.275 -859.59)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text11857" transform="translate(-131.97 -799.42)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text11865" transform="translate(-131.33 -838.36)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text11861" transform="translate(-130.46 -800.12)" height="100%" width="100%" y="0" x="0"/>
+		<g transform="translate(-.0000021924 .000019043)">
+			<use display="inline" xlink:href="#g-element-1" transform="translate(140.66 -576.3)" height="100%" width="100%" y="0" x="0"/>
+			<g stroke="#333" fill="none">
+				<g stroke-width="2">
+					<path d="m195.08 41.779a52.916 52.918 0 0 1 39.925 51.298 52.916 52.918 0 0 1 -2.0021 14.419" marker-start="url(#marker11765-2)" display="inline"/>
+					<path d="m131.19 107.53a52.916 52.918 0 0 1 -2.01 -14.453 52.916 52.918 0 0 1 39.94 -51.302" marker-start="url(#marker11769-3)" display="inline"/>
+					<path d="m220 130a52.916 52.918 0 0 1 -37.907 15.995 52.916 52.918 0 0 1 -37.942 -16.032" marker-start="url(#marker11761-5)" display="inline"/>
+				</g>
+				<g stroke-width="2">
+					<path marker-end="url(#marker12039-3)" d="m190.28 51.05a43.006 43.009 86.9 0 1 34.657 39.874 43.006 43.009 86.9 0 1 -0.99132 11.789" display="inline"/>
+					<path marker-end="url(#marker12131-0)" d="m141.31 107.21a43.006 43.009 86.9 0 1 -2.2675 -11.639 43.006 43.009 86.9 0 1 30.163 -43.388" display="inline"/>
+					<path marker-end="url(#marker11791-3)" d="m214.38 121.55a43.006 43.009 86.9 0 1 -30.062 14.646 43.006 43.009 86.9 0 1 -31.498 -11.342" display="inline"/>
+				</g>
+			</g>
+			<use display="inline" xlink:href="#g-element-1" transform="translate(184.53 -503.66)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#g-element-1" transform="translate(99.975 -501.09)" height="100%" width="100%" y="0" x="0"/>
+			<circle stroke-width="2" stroke="#333" cy="93.118" cx="182.07" r="80" fill="none"/>
+		</g>
+	</g>
+	<g id="g-human-2" display="none" class="layer">
+		<g transform="translate(-76.066 62.882)">
+			<use display="inline" xlink:href="#g-element-1" transform="translate(140.66 -576.3)" height="100%" width="100%" y="0" x="0"/>
+			<g stroke="#333" fill="none">
+				<g stroke-width="2">
+					<path d="m195.08 41.779a52.916 52.918 0 0 1 39.925 51.298 52.916 52.918 0 0 1 -2.0021 14.419" marker-start="url(#marker11765)" display="inline"/>
+					<path d="m131.19 107.53a52.916 52.918 0 0 1 -2.01 -14.453 52.916 52.918 0 0 1 39.94 -51.302" marker-start="url(#marker11769)" display="inline"/>
+					<path d="m220 130a52.916 52.918 0 0 1 -37.907 15.995 52.916 52.918 0 0 1 -37.942 -16.032" marker-start="url(#marker11761)" display="inline"/>
+				</g>
+				<g stroke-width="2">
+					<path marker-end="url(#marker12039)" d="m190.28 51.05a43.006 43.009 86.9 0 1 34.657 39.874 43.006 43.009 86.9 0 1 -0.99132 11.789" display="inline"/>
+					<path marker-end="url(#marker12131)" d="m141.31 107.21a43.006 43.009 86.9 0 1 -2.2675 -11.639 43.006 43.009 86.9 0 1 30.163 -43.388" display="inline"/>
+					<path marker-end="url(#marker11791)" d="m214.38 121.55a43.006 43.009 86.9 0 1 -30.062 14.646 43.006 43.009 86.9 0 1 -31.498 -11.342" display="inline"/>
+				</g>
+			</g>
+			<use display="inline" xlink:href="#g-element-1" transform="translate(184.53 -503.66)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#g-element-1" transform="translate(99.975 -501.09)" height="100%" width="100%" y="0" x="0"/>
+			<circle cx="182.07" stroke="#333" cy="93.118" r="80" stroke-width="2" fill="none"/>
+		</g>
+		<g transform="translate(107.93 62.882)">
+			<use display="inline" xlink:href="#g-element-1" transform="translate(140.66 -576.3)" height="100%" width="100%" y="0" x="0"/>
+			<g stroke="#333" fill="none">
+				<g stroke-width="2">
+					<path d="m195.08 41.779a52.916 52.918 0 0 1 39.925 51.298 52.916 52.918 0 0 1 -2.0021 14.419" marker-start="url(#marker11765)" display="inline"/>
+					<path d="m131.19 107.53a52.916 52.918 0 0 1 -2.01 -14.453 52.916 52.918 0 0 1 39.94 -51.302" marker-start="url(#marker11769)" display="inline"/>
+					<path d="m220 130a52.916 52.918 0 0 1 -37.907 15.995 52.916 52.918 0 0 1 -37.942 -16.032" marker-start="url(#marker11761)" display="inline"/>
+				</g>
+				<g stroke-width="2">
+					<path marker-end="url(#marker12039)" d="m190.28 51.05a43.006 43.009 86.9 0 1 34.657 39.874 43.006 43.009 86.9 0 1 -0.99132 11.789" display="inline"/>
+					<path marker-end="url(#marker12131)" d="m141.31 107.21a43.006 43.009 86.9 0 1 -2.2675 -11.639 43.006 43.009 86.9 0 1 30.163 -43.388" display="inline"/>
+					<path marker-end="url(#marker11791)" d="m214.38 121.55a43.006 43.009 86.9 0 1 -30.062 14.646 43.006 43.009 86.9 0 1 -31.498 -11.342" display="inline"/>
+				</g>
+			</g>
+			<use display="inline" xlink:href="#g-element-1" transform="translate(184.53 -503.66)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#g-element-1" transform="translate(99.975 -501.09)" height="100%" width="100%" y="0" x="0"/>
+			<circle cx="182.07" stroke="#333" cy="93.118" r="80" stroke-width="2" fill="none"/>
+		</g>
+		<use display="inline" xlink:href="#text11832" transform="translate(-229.52 -821.27)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text11836" transform="translate(-85.691 -821.27)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text11828" transform="translate(53.212 -843.08)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text4230" transform="translate(-208.66 -757.08)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text4236" transform="translate(-213.59 -796.78)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text4242" transform="translate(-231.01 -757.34)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text4260" transform="translate(-47.529 -777.34)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text4254" transform="translate(-27.908 -816.78)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text4248" transform="translate(-22.605 -778.23)" height="100%" width="100%" y="0" x="0"/>
+		<g stroke="#333" stroke-width="2" fill="none">
+			<path d="m208.45 138.99h-24.282" marker-start="url(#marker11787)"/>
+			<path marker-end="url(#marker5643)" d="m211.01 168.66h-22.137"/>
+			<ellipse rx="191.92" ry="139.08" cy="156" cx="200"/>
+		</g>
+	</g>
+	<g id="g-human-3" display="none" class="layer">
+		<ellipse display="inline" rx="179.92" ry="139.08" stroke="#333" cy="156" cx="200" stroke-width="2" fill="none"/>
+		<use display="inline" xlink:href="#text11828" transform="translate(36.935 -851.8)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text4230" transform="translate(-124.68 -794.45)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text4236" transform="translate(-222.45 -864.56)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text4242" transform="translate(-268.45 -682.89)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text4248" transform="translate(-65.916 -815.6)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text4254" transform="translate(-21.56 -884.56)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text4260" transform="translate(-46.338 -702.88)" height="100%" width="100%" y="0" x="0"/>
+		<g id="g80218" transform="translate(12.002)">
+			<path d="m305.62 98.744v110.16" marker-start="url(#marker81725)" display="inline" stroke="#333" stroke-width="2" fill="none"/>
+			<use display="inline" xlink:href="#g-element-1" transform="translate(261,-534)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#g-element-1" transform="translate(190.07 -468.73)" height="100%" width="100%" y="0" x="0"/>
+			<use display="inline" xlink:href="#g-element-1" transform="translate(261 -403.45)" height="100%" width="100%" y="0" x="0"/>
+			<path d="m296.87 204.44v-110.16" marker-start="url(#marker82177)" display="inline" stroke="#333" stroke-width="2" fill="none"/>
+			<g id="g13157">
+				<path d="m293.8 95.683-5.7539 5.3105-39.726 36.665-10.271 9.4791" marker-start="url(#marker62701)" display="inline" stroke="#333" stroke-width="2" fill="none"/>
+				<path d="m233.57 140.08 58.379-53.891" marker-start="url(#marker77857)" display="inline" stroke="#333" stroke-width="2" fill="none"/>
+			</g>
+			<use xlink:href="#g13157" transform="matrix(-.080993 -.99671 .99671 -.080993 168.27 458.52)" height="100%" width="100%" y="0" x="0"/>
+		</g>
+		<use xlink:href="#g80218" transform="matrix(-1 0 0 1 397.34 1.7146)" height="100%" width="100%" y="0" x="0"/>
+		<g id="g83611">
+			<path d="m300.89 218.68h-206.51" marker-start="url(#marker81725-7)" display="inline" stroke="#333" stroke-width="2" fill="none"/>
+			<path d="m90.176 226.25 218.87-1.33" marker-start="url(#marker105235)" display="inline" stroke="#333" stroke-width="2" fill="none"/>
+		</g>
+		<use xlink:href="#g83611" transform="matrix(1 0 0 -1 -1.1988 304.49)" height="100%" width="100%" y="0" x="0"/>
+		<g transform="translate(-75.923 -68.35)" stroke="#333" fill="none">
+			<path d="m304.72 217.73h-65.457" marker-start="url(#marker83623)" display="inline" stroke-width="2"/>
+			<path d="m243.52 225.6h67.468" marker-start="url(#marker84257)" display="inline" stroke-width="2"/>
+		</g>
+	</g>
+	<g id="g-criterion" class="layer">
+		<use xlink:href="#g-element-0" transform="translate(90.912 -552.51)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(184.28 -577.63)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(262.39 -548.59)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(288.42 -446.45)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(233.34 -509.53)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(160.24 -485.5)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(199.3 -495.52)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(189.28 -380.35)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(95.151 -374.35)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(93.149 -444.44)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(60.102 -479.49)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(197.29 -458.46)" height="100%" width="100%" y="0" x="0"/>
+		<use xlink:href="#g-element-0" transform="translate(175.26 -527.56)" height="100%" width="100%" y="0" x="0"/>
+		<ellipse rx="125.82" ry="67.616" stroke="#333" transform="matrix(.81667 -.57710 .57710 .81667 0 0)" cy="218.37" cx="90.791" stroke-width="2" fill="none"/>
+	</g>
+	<g id="g-criteria" display="none" class="layer">
+		<use display="inline" xlink:href="#text13834" transform="translate(-51.227 -744.03)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13838" transform="translate(-3.5746 -701.94)" height="100%" width="100%" y="0" x="0"/>
+		<use display="inline" xlink:href="#text13842" transform="translate(-6.7218 -593.69)" height="100%" width="100%" y="0" x="0"/>
+		<g stroke="#333" stroke-width="2" fill="none">
+			<ellipse rx="125.82" ry="67.616" transform="matrix(.81667 -.57710 .57710 .81667 0 0)" cy="229.19" cx="69.658"/>
+			<ellipse rx="125.82" transform="matrix(-.89487 -.44632 .44632 -.89487 0 0)" ry="67.616" cy="-47.099" cx="-234.86"/>
+			<ellipse rx="125.82" ry="67.616" transform="rotate(-80.641)" cy="210.53" cx="-114.26"/>
+		</g>
 		<path fill="url(#pattern10854)" d="m183.37 72.254a67.616 125.82 54.753 0 0 -33.24 19.498 67.616 125.82 54.753 0 0 -21.551 17.354 67.616 125.82 9.3574 0 0 -6.1426 26.873 67.616 125.82 9.3574 0 0 -2.8242 46.477 125.82 67.616 26.508 0 0 39.361 25.025 125.82 67.616 26.508 0 0 35.961 14.209 67.616 125.82 54.753 0 0 33.238 -19.498 67.616 125.82 54.753 0 0 21.551 -17.354 67.616 125.82 9.3574 0 0 6.1426 -26.871 67.616 125.82 9.3574 0 0 2.8242 -46.477 125.82 67.616 26.508 0 0 -39.361 -25.025 125.82 67.616 26.508 0 0 -35.959 -14.211z"/>
 	</g>
 </svg>
