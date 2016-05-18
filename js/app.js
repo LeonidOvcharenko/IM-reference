@@ -224,6 +224,4 @@ $(function(){
 		fitWidth: true,
 		transitionDuration: '0.8s'
 	});
-
-	// new Vivus('svg123', {duration: 300});
 });
