@@ -960,6 +960,7 @@ html, body {
 	}
 		.reference-hidden {
 			/* display: block; */
+			display: none!important;
 		}
 		.reference-selected {
 			border: none;
@@ -968,15 +969,13 @@ html, body {
 				font-weight: bold;
 			}
 		.reference--illustration {
-			display: inline-block;
+			display: block;
 			padding-bottom: 100%;
-			vertical-align: middle;
-			height: 20px;
 		}
 		.reference--illustration object {
-			display: block;
-			top: 0;
-			left: 0;
+			page-break-inside: avoid;
+			display: block; 
+			min-width: 100%;
 		}
 		.reference--categories {
 			font-size: 11px;
