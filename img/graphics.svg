@@ -2,8 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" viewBox="0 0 400 1200" enable-background="new" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMin slice" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<style type="text/css">.layer { display: none; }
-.layer:target { display: inline; }
-.hl:hover { stroke: red; }</style>
+.layer:target { display: inline; }</style>
 	<defs>
 		<marker id="marker46976" refY="0.0" refX="0.0" overflow="visible" orient="auto">
 			<path d="m0 5.65v-11.3" transform="scale(.8)" stroke="#333" stroke-width="1pt" fill="none"/>
@@ -283,25 +282,25 @@
 		<text id="text3374" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="631.85181" x="350.8504" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="631.85181" x="350.8504" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></tspan></text>
 		<text id="text3380" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="631.85181" x="375.73975" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="631.85181" x="375.73975" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></tspan></text>
 		<g stroke="#333" stroke-width="2">
-			<circle id="g-element-1" stroke-width="2" fill-opacity="0" stroke="#333" class="hl" cy="620.18" cx="40" r="9.0909"/>
-			<circle id="g-element-0" stroke-width="2" transform="scale(1,-1)" stroke="#333" class="hl" cy="-613" cx="13" r="2.3596" fill="#333"/>
-			<circle id="g-element-2" stroke-width="2" fill-opacity="0" stroke="#333" class="hl" cy="630.18" cx="80" r="19.048"/>
-			<circle id="g-element-3" fill-opacity="0" cx="140.1" class="hl" cy="640.28" r="28.699"/>
-			<circle class="hl" pointer-events="none" cy="650.18" cx="220" r="39.024" fill="none"/>
+			<circle id="g-element-1" stroke-width="2" fill-opacity="0" stroke="#333" cy="620.18" cx="40" r="9.0909"/>
+			<circle id="g-element-0" stroke-width="2" transform="scale(1,-1)" stroke="#333" cy="-613" cx="13" r="2.3596" fill="#333"/>
+			<circle id="g-element-2" stroke-width="2" fill-opacity="0" stroke="#333" cy="630.18" cx="80" r="19.048"/>
+			<circle id="g-element-3" fill-opacity="0" cx="140.1" cy="640.28" r="28.699"/>
+			<circle pointer-events="none" cy="650.18" cx="220" r="39.024" fill="none"/>
 		</g>
 		<g>
 			<text id="text3641" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="654.04346" x="299.83765" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="654.04346" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">mn</tspan></tspan></text>
 			<text id="text3647" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="654.1759" x="334.60883" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="654.1759" x="334.60883" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></tspan></text>
 			<text id="text3653" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="631.85181" x="300.30151" font-family="Georgia" xml:space="preserve" fill="#000000"><tspan font-size="17.5px" y="631.85181" x="300.30151" font-family="&apos;Times New Roman&apos;" fill="#333333">A</tspan></text>
 		</g>
-		<path id="g-relation-0" d="m97.02 665h-87.168" marker-start="url(#Arrow1Mstart)" stroke="#333" stroke-width="2" class="hl" fill="none"/>
+		<path id="g-relation-0" d="m97.02 665h-87.168" marker-start="url(#Arrow1Mstart)" stroke="#333" stroke-width="2" fill="none"/>
 		<g>
 			<text id="text3647-9" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" font-size="80px" line-height="125%" y="678.95801" x="299.83765" fill="#333333"><tspan font-size="17.5px" y="678.95801" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.1</tspan></tspan></text>
 			<text id="text3442" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" font-size="80px" line-height="125%" y="678.95801" x="351.55884" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="678.95801" x="351.55884" font-family="&apos;Times New Roman&apos;" fill="#333333">A<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></tspan></text>
 			<text id="text3448" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="703.95801" x="299.83765" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="703.95801" x="299.83765" font-family="&apos;Times New Roman&apos;" fill="#333333">Y<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">(1.1)(1.2)</tspan></tspan></text>
 		</g>
-		<path id="path3454" d="m97.904 690.29h-58.04" marker-start="url(#marker10094)" class="hl" stroke="#666" stroke-width="2" fill="none"/>
-		<path id="path4565" d="m9.8523 723.51v-48.61" marker-start="url(#Arrow1Mstart)" class="hl" stroke="#333" stroke-width="2" fill="none"/>
+		<path id="path3454" d="m97.904 690.29h-58.04" marker-start="url(#marker10094)" stroke="#666" stroke-width="2" fill="none"/>
+		<path id="path4565" d="m9.8523 723.51v-48.61" marker-start="url(#Arrow1Mstart)" stroke="#333" stroke-width="2" fill="none"/>
 		<g>
 			<text id="text13676" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" font-size="80px" line-height="125%" y="727.87726" x="314.0687" xml:space="preserve" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="314.0687" font-family="&apos;Times New Roman&apos;" fill="#333333">1.1</tspan></text>
 			<text id="text13682" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" font-size="80px" line-height="125%" y="727.87726" x="336.30472" fill="#333333"><tspan font-size="12.5px" y="727.87726" x="336.30472" font-family="&apos;Times New Roman&apos;" fill="#333333">1.2</tspan></text>
@@ -388,7 +387,7 @@
 			<text id="text4254" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" font-size="80px" line-height="125%" y="950.11945" x="310.7049" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="950.11945" x="310.7049" font-family="&apos;Times New Roman&apos;" fill="#333333">И<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">Ж</tspan></tspan></text>
 			<text id="text4260" style="word-spacing:0px;letter-spacing:0px" font-family="Georgia" xml:space="preserve" font-size="80px" line-height="125%" y="950.11945" x="342.00427" fill="#333333"><tspan font-size="17.5px" y="950.11945" x="342.00427" font-family="&apos;Times New Roman&apos;" fill="#333333">Ф<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">Ж</tspan></tspan></text>
 		</g>
-		<circle transform="scale(1,-1)" stroke="#333" class="hl" cy="-632.02" cx="13" r="2.3596" fill="none"/>
+		<circle transform="scale(1,-1)" stroke="#333" cy="-632.02" cx="13" r="2.3596" fill="none"/>
 		<g>
 			<text id="text5404" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="80px" line-height="125%" y="749.05164" x="363.70718" font-family="Georgia" fill="#333333"><tspan font-size="17.5px" y="749.05164" x="363.70718" font-family="&apos;Times New Roman&apos;" fill="#333333">Δ<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">1</tspan></tspan></text>
 			<text id="text5414" style="word-spacing:0px;letter-spacing:0px" font-size="80px" line-height="125%" y="749.05164" x="381.65308" font-family="Georgia" xml:space="preserve" fill="#333333"><tspan font-size="17.5px" y="749.05164" x="381.65308" font-family="&apos;Times New Roman&apos;" fill="#333333">Δ<tspan style="baseline-shift:sub" font-size="12.5px" font-family="&apos;Times New Roman&apos;" fill="#333333">2</tspan></tspan></text>
@@ -430,7 +429,7 @@
 			<use xlink:href="#text3647" transform="translate(-281.55 313.24)" height="100%" width="100%" y="0" x="0"/>
 		</g>
 		<use xlink:href="#g4955" transform="translate(-.0000039688 104.48)" height="100%" width="100%" y="0" x="0"/>
-		<ellipse rx="73.948" ry="40.093" stroke="#333" class="hl" pointer-events="none" cy="885.35" cx="196.96" stroke-width="2" fill="none"/>
+		<ellipse rx="73.948" ry="40.093" stroke="#333" pointer-events="none" cy="885.35" cx="196.96" stroke-width="2" fill="none"/>
 	</g>
 	<g id="g-graph2" class="layer">
 		<use xlink:href="#g-relation-0" transform="translate(73.873 -609.5)" height="100%" width="100%" y="0" x="0"/>
@@ -449,7 +448,7 @@
 		<use xlink:href="#g-element-0" transform="translate(297.09 -520.85)" height="100%" width="100%" y="0" x="0"/>
 		<use xlink:href="#text3448" transform="translate(-205.01 -628.4)" height="100%" width="100%" y="0" x="0"/>
 		<use xlink:href="#path3454" transform="translate(185.53 -634.72)" height="100%" width="100%" y="0" x="0"/>
-		<ellipse rx="73.948" ry="40.093" stroke="#333" pointer-events="none" cy="55.5" cx="129.22" stroke-width="2" class="hl" fill="none"/>
+		<ellipse rx="73.948" ry="40.093" stroke="#333" pointer-events="none" cy="55.5" cx="129.22" stroke-width="2" fill="none"/>
 	</g>
 	<g id="g-matrix" class="layer">
 		<use xlink:href="#text3374" transform="translate(-177.87 -573.4)" height="100%" width="100%" y="0" x="0"/>
@@ -598,7 +597,7 @@
 				<ellipse rx="88.642" ry="127.7" stroke="#333" cy="1172.4" cx="77.656" stroke-width="3.6946" fill="none"/>
 			</g>
 			<g id="g24074">
-				<circle id="circle23654" stroke-width="3.6946" fill-opacity="0" stroke="#333" cy="843.14" cx="24.902" r="9.0909" class="hl"/>
+				<circle id="circle23654" stroke-width="3.6946" fill-opacity="0" stroke="#333" cy="843.14" cx="24.902" r="9.0909"/>
 				<g id="g23664" transform="translate(4.0606 -123.6)">
 					<use xlink:href="#circle23654" transform="matrix(0 1 -1 0 887.96 855.83)" height="100%" width="100%" y="0" x="0"/>
 					<use xlink:href="#circle23654" transform="matrix(0 1 -1 0 887.96 884.35)" height="100%" width="100%" y="0" x="0"/>
