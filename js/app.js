@@ -97,11 +97,6 @@ function show_category(cat){
 		$(el).closest('.reference').removeClass('reference-hidden');
 	});
 	$('.content--reference').masonry('reloadItems').masonry();
-	$('.content--reference').on('layoutComplete', function(){
-		setTimeout(function(){
-			scroll_to_article($('.reference:not(.reference-hidden):first'));
-		}, 10);
-	});
 	save_state();
 }
 var reference_categories = [];
@@ -164,11 +159,6 @@ function init_reference(){
 	$('.reference--reset').on('click', function(e){
 		$('.reference').removeClass('reference-hidden');
 		$('.content--reference').masonry('reloadItems').masonry();
-		$('.content--reference').on('layoutComplete', function(){
-			setTimeout(function(){
-				scroll_to_article($('.reference:not(.reference-hidden):first'));
-			}, 10);
-		});
 		save_state();
 	});
 	$('.reference--link').on('click', function(e){
@@ -178,7 +168,7 @@ function init_reference(){
 		if (target.hasClass('reference-hidden')) {
 			target.removeClass('reference-hidden');
 			$('.content--reference').masonry('reloadItems').masonry();
-			$('.content--reference').on('layoutComplete', function(){
+			$('.content--reference').one('layoutComplete', function(){
 				setTimeout(function(){
 					scroll_to_article(target, true);
 				}, 10);
@@ -223,5 +213,10 @@ $(function(){
 		columnWidth: '.reference',
 		fitWidth: true,
 		transitionDuration: '0.8s'
+	});
+	$('.content--reference').on('layoutComplete', function(){
+		setTimeout(function(){
+			scroll_to_article($('.reference:not(.reference-hidden):first'));
+		}, 10);
 	});
 });
