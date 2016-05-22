@@ -148,7 +148,7 @@ function init_reference(){
 		if (categories) {
 			categories = categories.split(';');
 			var cat_links = $.map(categories, function(cat, i){
-				return '<a href="'+cat+'" class="reference--category">'+cat+'</a>';
+				return '<a href="#'+cat+'" class="reference--category">'+cat+'</a>';
 			}).join(', ');
 			$('<footer>').addClass('reference--categories').append(cat_links).appendTo($el);
 			$.each(categories, function(j, cat){
@@ -163,7 +163,7 @@ function init_reference(){
 	});
 	$('.reference--link').on('click', function(e){
 		e.preventDefault();
-		var link = $(this).attr('href');
+		var link = $(this).attr('href').substring(1);
 		var target = $('#'+reference_tags[link])
 		if (target.hasClass('reference-hidden')) {
 			target.removeClass('reference-hidden');
@@ -181,7 +181,7 @@ function init_reference(){
 	});
 	$('.reference--category').on('click', function(e){
 		e.preventDefault();
-		show_category($(this).attr('href'));
+		show_category($(this).attr('href').substring(1));
 	});
 }
 function save_state(){
