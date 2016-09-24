@@ -947,6 +947,8 @@ html, body {
 		float:left;
 		width: 25em !important;
 		margin: 0;
+		border: 0.1em solid #eaeaea!important;
+		border-radius: 0;
 		
 		/*
 		-webkit-column-break-inside: avoid;
