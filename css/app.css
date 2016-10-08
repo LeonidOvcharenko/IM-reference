@@ -921,7 +921,7 @@ html, body {
 	table,
 	th,
 	td {
-		border-color: #eaeaea !important; /* Make sure color schemes don't affect to print */
+		border-color: #A0A0A0 !important; /* Make sure color schemes don't affect to print */
 	}
 	
 	.header {
@@ -957,7 +957,7 @@ html, body {
 		float:left;
 		width: 25em !important;
 		margin: 0;
-		border: 0.1em solid #eaeaea!important;
+		border: 0.1em solid #A0A0A0!important;
 		border-radius: 0;
 		
 		/*
