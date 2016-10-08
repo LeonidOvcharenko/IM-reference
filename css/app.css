@@ -828,6 +828,16 @@ html, body {
 	}
 	.reference--category {
 	}
+	.reference--number {
+		margin-left: 1em;
+		float: right;
+		display: none;
+	}
+	.reference--number:before {
+		content: '#';
+		margin-right: 0.2em;
+		color: #a0a0a0;
+	}
 	
 .text-center {
 	text-align: center;
@@ -985,6 +995,9 @@ html, body {
 			margin-bottom: 0;
 			border-top: none;
 			padding-top: 0;
+		}
+		.reference--number {
+			display: block;
 		}
 
 }

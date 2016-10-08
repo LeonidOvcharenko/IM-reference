@@ -150,7 +150,11 @@ function init_reference(){
 			var cat_links = $.map(categories, function(cat, i){
 				return '<a href="#'+cat+'" class="reference--category">'+cat+'</a>';
 			}).join(', ');
-			$('<footer>').addClass('reference--categories').append(cat_links).appendTo($el);
+			$('<footer>')
+				.addClass('reference--categories')
+				.append('<span class="reference--number">'+i+'</span>')
+				.append(cat_links)
+				.appendTo($el);
 			$.each(categories, function(j, cat){
 				if (reference_categories.indexOf(cat) == -1) reference_categories.push(cat);
 			});
