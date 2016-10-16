@@ -955,10 +955,14 @@ html, body {
 		left:0 !important;
 		top:auto !important;
 		float:left;
-		width: 25em !important;
+		width: 50em !important;
 		margin: 0;
 		border: 0.1em solid #A0A0A0!important;
 		border-radius: 0;
+		
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
 		
 		/*
 		-webkit-column-break-inside: avoid;
@@ -970,6 +974,11 @@ html, body {
 		width: 100%!important;
 		*/
 	}
+		.reference--title,
+		.reference--categories {
+			-webkit-column-span: all;
+			column-span: all;
+		}
 		.reference-hidden {
 			/* display: block; */
 			display: none!important;
@@ -981,11 +990,22 @@ html, body {
 				font-weight: bold;
 			}
 		.reference--illustration {
+			-webkit-column-break-inside: avoid;
+			-moz-column-break-inside:avoid;
+			-moz-page-break-inside:avoid;
+			page-break-inside: avoid;
+			break-inside: avoid-column;
+			
 			display: block;
 			padding-bottom: 100%;
 		}
 		.reference--illustration object {
+			-webkit-column-break-inside: avoid;
+			-moz-column-break-inside:avoid;
+			-moz-page-break-inside:avoid;
 			page-break-inside: avoid;
+			break-inside: avoid-column;
+			
 			display: block; 
 			min-width: 100%;
 		}
@@ -993,13 +1013,13 @@ html, body {
 			font-size: 11px;
 			line-height: 16px;
 			margin-bottom: 0;
-			border-top: none;
-			padding-top: 0;
+			border-top: 1px dotted #888;
+			padding-top: 1em;
 		}
 		.reference--number {
 			display: block;
 		}
-
+		
 }
 
 /* -------------------- */
